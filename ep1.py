@@ -9,39 +9,24 @@
 '''
 
 
-import json
+import cenarios
 import supreme_weapons as sw
 
-def carregar_cenarios():
-    with open("cenarios.json","r") as arquivo_cenarios:
-        cenarios = json.load(arquivo_cenarios)
-    nome_cenario_atual = "inicio"
-    return cenarios, nome_cenario_atual
 
-def inicio(cenario_atual):
-    print(cenario_atual["titulo"])
-    print(cenario_atual["descricao"])
 
 print(sw.TP())
 
 def main():
-    print("Na hora do sufoco!")
-    print("------------------")
-    print()
-    print("Parecia uma boa idéia: vou só jogar um pouquinho/assistir Netflix/"
-        "embaçar em geral. Amanhã eu começo o EP. Mas isso não deu certo...")
-    print()
-    print("É o dia de entregar o EP e você está muuuuito atrasado! Você está "
-        "na entrada do Insper, e quer procurar o professor para pedir um "
-        "adiamento do EP (boa sorte...)")
-    print()
+    cenarios.situacao()
 
-    cenarios, nome_cenario_atual = carregar_cenarios()
+    cenario, nome_cenario_atual = cenarios.carregar_cenarios()
 
     game_over = False
     while not game_over:
-        cenario_atual = cenarios[nome_cenario_atual]
-        inicio(cenario_atual)
+        
+        cenario_atual = cenario[nome_cenario_atual]
+        
+        cenarios.inicio(cenario_atual)
         print()
         print("=======================")
         opcoes = cenario_atual['opcoes']
