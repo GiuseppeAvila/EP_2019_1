@@ -1,8 +1,12 @@
-# EP 2019-1: Escape Insper
-#
-# Alunos: 
-# - aluno A: Fulano da Silva, fulanos@insper.edu.br
-# - aluno B: Sicrano de Almeida, sicranoa1@insper.edu.br
+'''
+            EP 2019-1: Escape Insper
+
+ Alunos: 3
+ - aluno A: Daniel Terra danielgt1@al.insper.edu.br
+ - aluno B: Fernando Giuseppe, fernandogab@al.insper.edu.br
+ - aluno C: Erick Finger, erickf1@al.insper.edu.br
+
+'''
 
 import supreme_weapons as sw
 
