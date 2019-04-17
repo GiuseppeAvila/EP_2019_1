@@ -42,7 +42,11 @@ def carregar_cenarios():
     nome_cenario_atual = "inicio"
     return cenarios, nome_cenario_atual
 
-print(sw.teleporte())
+def inicio(cenario_atual):
+    print(cenario_atual["titulo"])
+    print(cenario_atual["descricao"])
+
+print(sw.TP())
 
 def main():
     print("Na hora do sufoco!")
@@ -61,10 +65,8 @@ def main():
     game_over = False
     while not game_over:
         cenario_atual = cenarios[nome_cenario_atual]
-
-        # Aluno A: substitua este comentário pelo código para imprimir 
-        # o cenário atual.
-
+        inicio(cenario_atual)
+        
         opcoes = cenario_atual['opcoes']
         if len(opcoes) == 0:
             print("Acabaram-se suas opções! Mwo mwo mwooooo...")
@@ -82,7 +84,6 @@ def main():
                 game_over = True
 
     print("Você morreu!")
-
 
 # Programa principal.
 if __name__ == "__main__":
