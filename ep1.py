@@ -4,6 +4,8 @@
 # - aluno A: Fulano da Silva, fulanos@insper.edu.br
 # - aluno B: Sicrano de Almeida, sicranoa1@insper.edu.br
 
+import supreme_weapons as sw
+
 def carregar_cenarios():
     cenarios = {
         "inicio": {
@@ -40,6 +42,7 @@ def carregar_cenarios():
     nome_cenario_atual = "inicio"
     return cenarios, nome_cenario_atual
 
+print(sw.teleporte())
 
 def main():
     print("Na hora do sufoco!")
