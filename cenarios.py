@@ -28,8 +28,17 @@
             "descricao": "Voce esta na biblioteca",
             "opcoes": {
                 "inicio": "Voltar para o saguao de entrada"
+                "fundo": "Avançar para os fundos da biblioteca"
+            },
+        "garagem": {
+        "titulo": "Abismo, o vazio e a escuridão",
+        "descricao": "Voce esta na garagem",
+        "opcoes": {
+                "inicio": "Voltar para o saguao de entrada"
+                }
             }
         }
+        
     }
     nome_cenario_atual = "inicio"
     return cenarios, nome_cenario_atual
