@@ -14,20 +14,18 @@ import cenarios
 
 
 def main():
+    
     cenarios.situacao()
-    
     status.cria_personagem_inicial()
-    
     cenario, nome_cenario_atual = cenarios.carregar_cenarios()
-
     game_over = False
     while not game_over:
-        
         cenario_atual = cenario[nome_cenario_atual]
         cenarios.inicio(cenario_atual)
-        
         print()
         print("=======================")
+       
+        
         opcoes = cenario_atual['opcoes']
         for i,j in opcoes.items():
             print()

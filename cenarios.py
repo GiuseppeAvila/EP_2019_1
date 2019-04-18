@@ -57,8 +57,9 @@ def inicio(cenario_atual):
     print(cenario_atual["descricao"])
 
 def situacao():
-    print("Na hora do sufoco!")
-    print("------------------")
+    print()
+    print("                       NA HORA DO SUFOCO!")
+    print()
     print()
     print("Parecia uma boa idéia: vou só jogar um pouquinho/assistir Netflix/"
         "embaçar em geral. Amanhã eu começo o EP. Mas isso não deu certo...")
@@ -67,4 +68,7 @@ def situacao():
         "na entrada do Insper, e quer procurar o professor para pedir um "
         "adiamento do EP (boa sorte...)")
     print()
+    print("=======================")
+    print()
+    
             

@@ -12,14 +12,17 @@ def cria_personagem():
 '''
 def cria_personagem_inicial():
     print("Mas antes de iniciar... quem você é?","\n","Eu, narrador, não me lembro de conhecer alguém tão preguiçoso!")
-    print("----------------")
-    nome = input("...seu Nome é?")
     print()
     print("----------------")
-    print("Ótimo! Agora {0} vamos descobrir o que temos dentro de você!".format(nome))
+    nome = input("...seu Nome é?  ")
+    print()
+    print("----------------")
+    print()
+    print("Ótimo! Agora {0}, vamos descobrir o que temos dentro de você!".format(nome))
+    print()
     print("Vamos fazer o seguinte, distribua 25 pontos em quais quiser e eu faço isso ser verdade, eu sou incrível não é mesmo?")
     print()
-    print("As habilidades são...inteligencia, carisma, agilidade, destreza e sorte")
+    print("As habilidades são...inteligencia, carisma, agilidade, destreza e sorte:")
     print()
     pontos_corretos = False
     while not pontos_corretos:
@@ -64,7 +67,9 @@ def cria_personagem_inicial():
         if maior < lista[i]:
             maior = lista[i]
             maior_habilidade = lista_hab[i]
-    print("Beleza, bastante {}, hein? Tudo pronto para começarmos".format(maior_habilidade))
+    print("Beleza, bastante {}, hein? Tudo pronto para começarmos...".format(maior_habilidade))
+    print()
     print("Opa, parece que chegamos!....")
-    print("-----------------")
-    
+    print()
+    print("=======================")
+    print()    
