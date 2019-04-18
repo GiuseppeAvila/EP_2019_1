@@ -26,7 +26,7 @@ def cria_personagem_inicial():
     print()
     pontos_corretos = False
     while not pontos_corretos:
-        pontos = 37
+        pontos = 25
         print("Seus pontos atuais são: {}".format(pontos))
         
         inteligencia = int(input("Inteligencia: "))
@@ -54,10 +54,10 @@ def cria_personagem_inicial():
         print()
         soma = inteligencia + carisma + agilidade + destreza + sorte
         
-        if soma > 37:
-            print("Aaaaaa não sabe contar? São 37 pontos de habilidade!")
+        if soma > 25:
+            print("Aaaaaa não sabe contar? São 25 pontos de habilidade!")
         elif soma < 37:
-            print("Aaaaaa não sabe contar? São 37 pontos de habilidade!")
+            print("Aaaaaa não sabe contar? São 25 pontos de habilidade!")
         else:
             pontos_corretos = True
     maior = 0
