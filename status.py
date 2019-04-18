@@ -61,7 +61,7 @@ def cria_personagem_inicial():
         else:
             pontos_corretos = True
     maior = 0
-    lista = [inteligencia,carisma,agilidade,destreza,sorte]
+    lista = [inteligencia,carisma,agilidade,destreza,sorte] 
     lista_hab = ["inteligencia","carisma","agilidade","destreza","sorte"]
     for i in range(len(lista)):
         if maior < lista[i]:
