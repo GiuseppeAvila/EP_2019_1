@@ -48,7 +48,8 @@
                 'descrição': 'Você está no restaurante da esquina', 
                 'opcoes': {'comer': 'Gastar R$19.9999999999999999... e recuperar X de HP!', 
                            'beber agua': 'Retornar sua adrenalina em X%! Apenas R$3!', 
-                           'conversar com Daniel Guzzo': 'Daniel?'}
+                           'conversar com Daniel Guzzo': 'Daniel?',
+                           'rua em frente ao Insper': 'sair do Saboroso'}
         }
     }
 
