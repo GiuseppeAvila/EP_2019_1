@@ -58,6 +58,21 @@
                        'beber agua': 'Retornar sua adrenalina em X%! Apenas R$3!', 
                        'conversar com Daniel Guzzo': 'Daniel?',
                        'rua em frente ao Insper': 'sair do Saboroso'}
+        },
+        'predio novo': {'título': 'Fortaleza da Engenharia',
+                'descrição': 'O prédio novo do Insper, majoritariamente ocupado por alunos e laboratórios exclusivos da Engenharia',
+                'opcoes': {'elevador': 'Escolher andar',
+                           'rua na frente do Insper': 'sair do prédio novo'}
+        },
+        'elevador': {'título': 'O elevador do prédio novo',
+             'descrição': 'É auto explicativo!',
+             'opcoes': {'andar 1-0': 'Andar 0 do prédio novo; nem precisa do elevador',
+                        'andar 1-1': 'Andar 1 do prédio novo',
+                        'andar 1-2': 'Andar 2 do prédio novo',
+                        'andar 1-3': 'Andar 3 do prédio novo',
+                        'andar 1-4': 'Andar 4 do prédio novo',
+                        'andar 1-5': 'Andar 5 do prédio novo',
+                        'andar 1-6': 'Andar 6 do prédio novo'}
         }
     }
 
