@@ -68,17 +68,3 @@ def situacao():
         "adiamento do EP (boa sorte...)")
     print()
             
-
-
-
-
-
-'''
-        "garagem": {
-                'título': 'Abismo, o vazio e a escuridão', 
-                'descrição': 'Você está na garagem...', 
-                'opcoes': {'subir elevador': 'Voltar para a superfície', 
-                           'explorar': 'Ir mais ao fundo', 
-                           'corredor': 'Seguir em direção aos laboratórios e ao baja'
-                           }}
-'''
