@@ -5,7 +5,9 @@
             "descricao": "Voce esta no saguao de entrada do insper",
             "opcoes": {
                 "andar professor": "Tomar o elevador para o andar do professor",
-                "biblioteca": "Ir para a biblioteca"}
+                "biblioteca": "Ir para a biblioteca",
+                "rua em frente ao Insper": "Sair do saguão"
+                }
         },
         "andar professor": {
             "titulo": "Andar do desespero",
@@ -24,7 +26,8 @@
         "biblioteca": {
             "titulo": "Caverna da tranquilidade",
             "descricao": "Voce esta na biblioteca",
-            "opcoes": {"inicio": "Voltar para o saguao de entrada", "fundo": "Avançar para os fundos da biblioteca"}
+            "opcoes": {"inicio": "Voltar para o saguao de entrada",
+                       "fundo": "Avançar para os fundos da biblioteca"}
         },
         "garagem": {
                 'título': 'Abismo, o vazio e a escuridão', 
