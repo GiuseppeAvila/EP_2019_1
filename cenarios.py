@@ -61,8 +61,7 @@ def situacao():
     print("                       NA HORA DO SUFOCO!")
     print()
     print()
-    print("Parecia uma boa idéia: vou só jogar um pouquinho/assistir Netflix/"
-        "embaçar em geral. Amanhã eu começo o EP. Mas isso não deu certo...")
+    print("Parecia uma boa idéia: saiu One Punch Man e Game of Thrones! EU PRECISO ASSISTIR! Amanhã eu começo o EP. Mas isso não deu certo...")
     print()
     print("É o dia de entregar o EP e você está muuuuito atrasado! Você está "
         "na entrada do Insper, e quer procurar o professor para pedir um "
