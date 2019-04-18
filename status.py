@@ -56,7 +56,7 @@ def cria_personagem_inicial():
         
         if soma > 25:
             print("Aaaaaa não sabe contar? São 25 pontos de habilidade!")
-        elif soma < 37:
+        elif soma < 25:
             print("Aaaaaa não sabe contar? São 25 pontos de habilidade!")
         else:
             pontos_corretos = True
