@@ -6,8 +6,7 @@
             "opcoes": {
                 "andar professor": "Tomar o elevador para o andar do professor",
                 "biblioteca": "Ir para a biblioteca",
-                "rua em frente ao Insper": "Sair do saguão"
-                }
+                "rua em frente ao Insper": "Sair do saguão"}
         },
         "andar professor": {
             "titulo": "Andar do desespero",
@@ -41,7 +40,8 @@
                 'descrição': 'Você saiu do Insper, está na rua', 
                 'opcoes': {'predio novo': 'Entrar no prédio novo', 
                            'predio velho': 'Entrar no prédio velho', 
-                           'direita': 'Seguir a rua para a direita'}
+                           'direita': 'Seguir a rua para a direita',
+                           'saboroso': 'Ir para o Saboroso'}
         },
         'saboroso': {
                 'título': 'El flavors', 
