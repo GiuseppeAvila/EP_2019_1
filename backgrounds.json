@@ -1,0 +1,16 @@
+{"Aristocrata" :
+    {"Sorte" : 10,
+     "Dinheiro" : 30,
+     "Habilidades" : []
+     },
+ "Esportista" : 
+    {"Sorte" : 10,
+     "Dinheiro" : 10,
+     "Habilidades" : []
+     },
+  "Gamer" :
+    {"Sorte" : 0,
+     "Dinheiro" : 0,
+     "Habilidades" : []
+     }
+}
