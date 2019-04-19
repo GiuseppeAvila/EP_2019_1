@@ -65,7 +65,7 @@
         'predio novo': {
             'título': 'Fortaleza da Engenharia',
             'descrição': 'O prédio novo do Insper, majoritariamente ocupado por alunos e laboratórios exclusivos da Engenharia',
-            'opcoes': {'elevador': 'Escolher andar',
+            'opcoes': {'andar 1-0': 'entrar no prédio novo',
                        'rua na frente do Insper': 'sair do prédio novo'}
         },
         'elevador': {
@@ -91,9 +91,7 @@
                        'andar 0-3': 'Terceiro andar',
                        'andar 0-4': 'Quarto andar',
                        'andar 0-5': 'Quinto andar',
-                       'andar 0-6': 'Sexto andar',
-                       'andar 0-7': 'Sétimo andar',
-                       'andar 0-8': 'Oitavo andar'}
+                       'andar 0-6': 'Sexto andar'}
         },
         'andar 0-S2': {
             'título': 'As profundezas',
@@ -250,6 +248,32 @@
             'título': 'Gente séria',
             'descrição': 'O Insper Jr. e o Endeavor são empresas de verdade no Insper, e, como eles são muito sérios sobre o trabalho deles, você pode apenas vê-los trabalhando',
             'opcoes': {'andar 0-6': 'voltar'}
+        },
+        'andar 1-0': {
+            'título': 'Novo térreo',
+            'descrição': 'Espaço amplo, tem alguns alunos estudando',
+            'opcoes': {'elevador': 'Escolher andar',
+                       'andar 1-1': 'Subir as escadas',
+                       'area de estudo': 'sentar e estudar um pouco, como os outros alunos',
+                       'rua em frente ao Insper': 'sair do prédio novo',
+                       'banheiro': 'Ir ao banheiro',
+                       'novo subsolo': 'Descer um andar',
+                       'cemp': 'Centro de Empreendedorismo do prédio novo'}
+        },
+        'novo subsolo': {
+            'título': 'Acesso restrito',
+            'descrição': 'Não é permitido acessar o subsolo do prédio novo',
+            'opcoes': {'andar 1-0': 'desistir e explorar o resto'}
+        },
+        'cemp': {
+            'título': 'Centro de Empreendedorismo do prédio novo',
+            'descrição': 'Pessoas sérias fazendo trabalho sério',
+            'opcoes': {'andar 1-0': 'continuar explorando'}
+        },
+        'area de estudo': {
+            'título': 'Área de estudo',
+            'descrição': 'Ao seu redor, os alunos estão estudando, compenetrados',
+            'opcoes': {'andar 1-0': 'Levantar e continuar'}
         }
     }
 
