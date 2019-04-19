@@ -1,0 +1,25 @@
+{"Elemental Eletromagnético" :
+    {"HP_Max" : 30,
+     "PP_Max" : 30,
+     "F_ATK" : 10,
+     "P_ATK" : 20,
+     "F_DEF" : 10,
+     "P_DEF" : 15
+     },
+ "Veterano Selvagem" : 
+     {"HP_Max" : 10,
+     "PP_Max" : 5,
+     "F_ATK" : 10,
+     "P_ATK" : 5,
+     "F_DEF" : 10,
+     "P_DEF" : 3
+     },
+  "Alan-Tron 3000" :
+      {"HP_Max" : 1000,
+     "PP_Max" : 300,
+     "F_ATK" : 100,
+     "P_ATK" : 200,
+     "F_DEF" : 100,
+     "P_DEF" : 150
+     }
+}

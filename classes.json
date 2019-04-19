@@ -2,24 +2,24 @@
     {"HP_Max" : 10,
      "PP_Max" : 30,
      "F_ATK" : 10,
-     "M_ATK" : 20,
+     "P_ATK" : 20,
      "F_DEF" : 10,
-     "M_DEF" : 15
+     "P_DEF" : 15
      },
  "Ladino" : 
      {"HP_Max" : 10,
      "PP_Max" : 30,
      "F_ATK" : 10,
-     "M_ATK" : 20,
+     "P_ATK" : 20,
      "F_DEF" : 10,
-     "M_DEF" : 15
+     "P_DEF" : 15
      },
   "Lutador" :
       {"HP_Max" : 10,
      "PP_Max" : 30,
      "F_ATK" : 10,
-     "M_ATK" : 20,
+     "P_ATK" : 20,
      "F_DEF" : 10,
-     "M_DEF" : 15
+     "P_DEF" : 15
      }
 }
