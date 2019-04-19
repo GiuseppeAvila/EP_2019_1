@@ -2,9 +2,9 @@
 #              Sistema de combate! Que a batalha comece!
 
 def cria_personagem_inicial():
-    print("Mas antes de iniciar... quem você é?","\n","Eu, narrador, não me lembro de conhecer alguém tão preguiçoso!")
-    print()
-    print("----------------")
+    with open("Dialogo inicial narrador.txt","r",encoding = "utf8") as dialogo:
+        texto = dialogo.read()
+    print (texto)
     nome = input("...seu Nome é?  ")
     print()
     print("----------------")
