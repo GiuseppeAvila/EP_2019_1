@@ -51,8 +51,10 @@ def main():
             if escolha in opcoes:
                 nome_cenario_atual = escolha
             else:
-                print("Sua indecisão foi sua ruína!")
-                game_over = True
+                print("<suspiro> Eu preciso te explicar tudo? O que você escolheu não é uma opção válida, atenha-se às opções apresentadas! Ou o quê, você acha que consegue atravessar paredes?")
+                print()
+                print("====================")
+                continue
 
     print("Você morreu!")
 

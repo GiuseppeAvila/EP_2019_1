@@ -183,6 +183,12 @@
                        'tech lab': 'O Tech Lab do Insper, o laboratório mais bem aparelhado dos dois prédios',
                        'pneumatica': 'Laboratório de Pneumática e Hidráulica',
                        'automacao': 'Laboratório de Automação e Controle'}
+        },
+        'tech lab': {
+            'título': 'O ninho do Paradigma',
+            'descrição': 'No meio do estacionamento, o Tech Lab brilha com sua tecnologia de ponta e seus aparelhos exclusivos, oferecendo segurança e esperança',
+            'opcoes': {'laboratorios subsolo': 'Sair do Tech Lab',
+                       'guru tech': 'Falar com um guru do Tech Lab'}
         }
     }
 
@@ -194,17 +200,6 @@ def inicio(cenario_atual):
     print(cenario_atual["descrição"])
 
 def situacao():
-    print()
-    print("                       NA HORA DO SUFOCO!")
-    print()
-    print()
-    print("Parecia uma boa idéia: saiu One Punch Man e Game of Thrones! EU PRECISO ASSISTIR! Amanhã eu começo o EP. Mas isso não deu certo...")
-    print()
-    print("É o dia de entregar o EP e você está muuuuito atrasado! Você está "
-        "na entrada do Insper, e quer procurar o professor para pedir um "
-        "adiamento do EP (boa sorte...)")
-    print()
-    print("=======================")
-    print()
-    
-            
+    with open("NA HORA DO SUFOCO.txt", "r",encoding="utf8") as arquivo:
+        conteudo = arquivo.read()
+    print(conteudo)
