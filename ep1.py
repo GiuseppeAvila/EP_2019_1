@@ -50,6 +50,8 @@ def main():
 
             if escolha in opcoes:
                 nome_cenario_atual = escolha
+                print()
+                print("====================")
             else:
                 print("<suspiro> Eu preciso te explicar tudo? O que você escolheu não é uma opção válida, atenha-se às opções apresentadas! Ou o quê, você acha que consegue atravessar paredes?")
                 print()

@@ -58,6 +58,8 @@ def cria_personagem_inicial():
         if maior < lista[i]:
             maior = lista[i]
             maior_habilidade = lista_hab[i]
+    if maior == lista[0] and maior == lista[1] and maior == lista[2] and maior == lista[3] and maior == lista[4]:
+        maior_habilidade = "de tudo"
     print("Beleza, bastante {}, hein? Tudo pronto para começarmos...".format(maior_habilidade))
     print()
     print("Opa, parece que chegamos!....")
