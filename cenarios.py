@@ -19,9 +19,8 @@
             "descrição": "Voce chegou ao andar da sala do seu professor",
             "opcoes": {"elevador A": "Tomar o elevador para o saguao de entrada",
                        "professor": "Falar com o professor",
-                       "Insper Jr.": "Visitar o Insper Jr. ou o Endeavor",
-                       "Banheiro": "Ir ao banheiro",
-                       "Bebedouro": "Beber água"}
+                       "insper jr.": "Visitar o Insper Jr. ou o Endeavor",
+                       "banheiro": "Ir ao banheiro"}
         },
         "professor": {
             "título": "O monstro do Python",
@@ -44,7 +43,8 @@
                        'laboratorios subsolo': 'Seguir em direção aos laboratórios e ao baja',
                        'predio velho': 'voltar para o terreo',
                        'Uberabinha': 'Seguir a rua para a rua Uberabinha',
-                       'Bicicletario': 'Entrar no bicicletário'}
+                       'bicicletario': 'Entrar no bicicletário',
+                       'banheiro': 'Ir ao banheiro'}
         },
         "rua em frente ao Insper": {
             "título": 'Os portões', 
@@ -100,13 +100,15 @@
             'descrição': 'Segundo subsolo, escuro e vazio',
             'opcoes': {'andar 0-S1': 'subir um andar',
                        'andar 0-S3': 'descer um andar',
-                       'elevador A': 'pegar o elevador'}
+                       'elevador A': 'pegar o elevador',
+                       'banheiro': 'Ir ao banheiro'}
         },
         'andar 0-S3': {
             'título': 'O fundo',
             'descrição': 'O ponto mais profundo do Insper, vazio e imerso em breu',
             'opcoes': {'andar 0-S2': 'subir um andar',
-                       'elevador A': 'Pegar o elevador e sair dali'}
+                       'elevador A': 'Pegar o elevador e sair dali',
+                       'banheiro': 'Ir ao banheiro'}
         },
         'andar 0-0': {
             'título': 'O paraíso das possibilidades',
@@ -115,7 +117,7 @@
                        'andar 0-1': 'subir um andar',
                        'andar 0-S1': 'descer um andar',
                        'lanchonete': 'Casa do Pão de Queijo, com cookies, suco e café!',
-                       'banheiro 0': 'Ir ao banheiro',
+                       'banheiro': 'Ir ao banheiro',
                        'salas de reunião': 'Salas para fazer reuniões',
                        'antessala': 'Antessala do auditório',
                        'biblioteca': 'Biblioteca Telles',
@@ -189,6 +191,65 @@
             'descrição': 'No meio do estacionamento, o Tech Lab brilha com sua tecnologia de ponta e seus aparelhos exclusivos, oferecendo segurança e esperança',
             'opcoes': {'laboratorios subsolo': 'Sair do Tech Lab',
                        'guru tech': 'Falar com um guru do Tech Lab'}
+        },
+        'baja': {
+            'título': 'Oficina do Baja',
+            'descrição': 'O maior centro de desenvolvimento de tecnologia de transportes do Insper',
+            'opcoes': {'laboratorios subsolo': 'voltar',
+                       'veterano do baja': 'Falar com o veterano que está na oficina'}
+        },
+        'pneumatica': {
+            'título': 'Laboratório de Pneumática e Hidráulica',
+            'descrição': 'Algumas mesas e cadeiras, anotações na lousa, mas não tem ninguém',
+            'opcoes': {'laboratorios subsolo': 'voltar'}
+        },
+        'automacao': {
+            'título': 'Laboratório de Automação e Controle',
+            'descrição': 'Algumas mesas e cadeiras, anotações na lousa, mas não tem ninguém',
+            'opcoes': {'laboratorios subsolo': 'voltar'}
+        },
+        'antessala': {
+            'título': 'O santuário da música',
+            'descrição': 'Sala ampla que fica no meio do caminho entre a entrada e o auditório',
+            'opcoes': {'andar 0-0': 'sair da antessala',
+                       'piano': 'Ouvir o piano e relaxar',
+                       'auditorio': 'Entrar no Auditório'}
+        },
+        'piano': {
+            'título': 'O piano',
+            'descrição': 'Piano localizado na antessala, seu som é muito bonito. Alguém está tocando o piano',
+            'opcoes': {'antessala': 'Continuar explorando'}
+        },
+        'auditorio': {
+            'título': 'Auditório',
+            'descrição': 'É o auditório do Insper, com suas poltronas confortáveis',
+            'opcoes': {'antessala': 'voltar'}
+        },
+        'banheiro': {
+            'título': 'Castelo do alívio',
+            'descrição': 'É um banheiro comum. Você faz suas necessidades, dá a descarga, lava as mãos e sai',
+            'opcoes': {'andar 0-0': 'térreo do prédio antigo',
+                       'andar 0-1': 'primeiro andar do prédio antigo',
+                       'andar 0-2': 'segundo andar do prédio antigo',
+                       'andar 0-3': 'terceiro andar do prédio antigo',
+                       'andar 0-4': 'quarto andar do prédio antigo',
+                       'andar 0-5': 'quinto andar do prédio antigo',
+                       'andar 0-6': 'sexto andar do prédio antigo',
+                       'andar 1-0': 'térreo do prédio novo',
+                       'andar 1-1': 'primeiro andar do prédio novo',
+                       'andar 1-2': 'segundo andar do prédio novo',
+                       'andar 1-3': 'terceiro andar do prédio novo',
+                       'andar 1-4': 'quarto andar do prédio novo',
+                       'andar 1-5': 'quinto andar do prédio novo',
+                       'andar 1-6': 'sexto andar do prédio novo',
+                       'andar 0-S1': 'primeiro subsolo do prédio antigo',
+                       'andar 0-S2': 'segundo subsolo do prédio antigo',
+                       'andar 0-S3': 'terceiro subsolo do prédio antigo'}
+        },
+        'insper jr.': {
+            'título': 'Gente séria',
+            'descrição': 'O Insper Jr. e o Endeavor são empresas de verdade no Insper, e, como eles são muito sérios sobre o trabalho deles, você pode apenas vê-los trabalhando',
+            'opcoes': {'andar 0-6': 'voltar'}
         }
     }
 
