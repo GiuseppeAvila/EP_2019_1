@@ -3,25 +3,25 @@
         "inicio": {
             "título": "Saguao do perigo",
             "descrição": "Voce esta no saguao de entrada do insper",
-            "opcoes": {
-                "andar professor": "Tomar o elevador para o andar do professor",
-                "biblioteca": "Ir para a biblioteca",
-                "rua em frente ao Insper": "Sair do saguão"}
+            "opcoes": {"rua em frente ao Insper": "Sair do saguão",
+                       "andar 0-S1": "Ir ao subsolo 1",
+                       "andar 0-0": "Entrar no Insper"}
         },
         "predio velho": {
             "título": "Saguao do perigo",
             "descrição": "Voce esta no saguao de entrada do insper",
-            "opcoes": {
-                "andar professor": "Tomar o elevador para o andar do professor",
-                "biblioteca": "Ir para a biblioteca",
-                "rua em frente ao Insper": "Sair do saguão"}
+            "opcoes": {"rua em frente ao Insper": "Sair do saguão",
+                       "andar 0-S1": "Ir ao subsolo 1",
+                       "andar 0-0": "Entrar no Insper"}
         },
-        "andar professor": {
+        "andar 0-6": {
             "título": "Andar do desespero",
             "descrição": "Voce chegou ao andar da sala do seu professor",
-            "opcoes": {
-                "inicio": "Tomar o elevador para o saguao de entrada",
-                "professor": "Falar com o professor"}
+            "opcoes": {"elevador A": "Tomar o elevador para o saguao de entrada",
+                       "professor": "Falar com o professor",
+                       "Insper Jr.": "Visitar o Insper Jr. ou o Endeavor",
+                       "Banheiro": "Ir ao banheiro",
+                       "Bebedouro": "Beber água"}
         },
         "professor": {
             "título": "O monstro do Python",
@@ -33,22 +33,25 @@
         "biblioteca": {
             "título": "Caverna da tranquilidade",
             "descrição": "Voce esta na biblioteca",
-            "opcoes": {"inicio": "Voltar para o saguao de entrada",
+            "opcoes": {"andar 0-0": "Voltar para o saguao de entrada",
                        "fundo": "Avançar para os fundos da biblioteca"}
         },
-        "garagem": {
+        "andar 0-S1": {
             'título': 'Abismo, o vazio e a escuridão', 
             'descrição': 'Você está na garagem...', 
-            'opcoes': {'subir elevador': 'Voltar para a superfície', 
-                       'explorar': 'Ir mais ao fundo', 
-                       'corredor': 'Seguir em direção aos laboratórios e ao baja'}
+            'opcoes': {'elevador A': 'Escolher andar', 
+                       'andar 0-S2': 'Ir mais ao fundo', 
+                       'laboratorios subsolo': 'Seguir em direção aos laboratórios e ao baja',
+                       'predio velho': 'voltar para o terreo',
+                       'Uberabinha': 'Seguir a rua para a rua Uberabinha',
+                       'Bicicletario': 'Entrar no bicicletário'}
         },
         "rua em frente ao Insper": {
             "título": 'Os portões', 
             "descrição": 'Você saiu do Insper, está na rua', 
             'opcoes': {'predio novo': 'Entrar no prédio novo', 
                        'predio velho': 'Entrar no prédio velho', 
-                       'direita': 'Seguir a rua para a direita',
+                       'Uberabinha': 'Seguir a rua para a rua Uberabinha',
                        'saboroso': 'Ir para o Saboroso'}
         },
         'saboroso': {
@@ -59,20 +62,112 @@
                        'conversar com Daniel Guzzo': 'Daniel?',
                        'rua em frente ao Insper': 'sair do Saboroso'}
         },
-        'predio novo': {'título': 'Fortaleza da Engenharia',
-                'descrição': 'O prédio novo do Insper, majoritariamente ocupado por alunos e laboratórios exclusivos da Engenharia',
-                'opcoes': {'elevador': 'Escolher andar',
-                           'rua na frente do Insper': 'sair do prédio novo'}
+        'predio novo': {
+            'título': 'Fortaleza da Engenharia',
+            'descrição': 'O prédio novo do Insper, majoritariamente ocupado por alunos e laboratórios exclusivos da Engenharia',
+            'opcoes': {'elevador': 'Escolher andar',
+                       'rua na frente do Insper': 'sair do prédio novo'}
         },
-        'elevador': {'título': 'O elevador do prédio novo',
-             'descrição': 'É auto explicativo!',
-             'opcoes': {'andar 1-0': 'Andar 0 do prédio novo; nem precisa do elevador',
-                        'andar 1-1': 'Andar 1 do prédio novo',
-                        'andar 1-2': 'Andar 2 do prédio novo',
-                        'andar 1-3': 'Andar 3 do prédio novo',
-                        'andar 1-4': 'Andar 4 do prédio novo',
-                        'andar 1-5': 'Andar 5 do prédio novo',
-                        'andar 1-6': 'Andar 6 do prédio novo'}
+        'elevador': {
+            'título': 'O elevador do prédio novo',
+            'descrição': 'É auto explicativo!',
+            'opcoes': {'andar 1-0': 'Andar 0 do prédio novo; nem precisa do elevador',
+                       'andar 1-1': 'Andar 1 do prédio novo',
+                       'andar 1-2': 'Andar 2 do prédio novo',
+                       'andar 1-3': 'Andar 3 do prédio novo',
+                       'andar 1-4': 'Andar 4 do prédio novo',
+                       'andar 1-5': 'Andar 5 do prédio novo',
+                       'andar 1-6': 'Andar 6 do prédio novo'}
+        },
+        'elevador A': {
+            'título': 'A dádiva dos preguiçosos',
+            'descrição': 'Elevador que cobre desde o S3 até o oitavo andar do prédio antigo',
+            'opcoes': {'andar 0-S3': 'Terceiro subsolo',
+                       'andar 0-S2': 'Segundo subsolo',
+                       'andar 0-S1': 'Primeiro subsolo',
+                       'andar 0-0': 'Térreo',
+                       'andar 0-1': 'Primeiro andar',
+                       'andar 0-2': 'Segundo andar',
+                       'andar 0-3': 'Terceiro andar',
+                       'andar 0-4': 'Quarto andar',
+                       'andar 0-5': 'Quinto andar',
+                       'andar 0-6': 'Sexto andar',
+                       'andar 0-7': 'Sétimo andar',
+                       'andar 0-8': 'Oitavo andar'}
+        },
+        'andar 0-S2': {
+            'título': 'As profundezas',
+            'descrição': 'Segundo subsolo, escuro e vazio',
+            'opcoes': {'andar 0-S1': 'subir um andar',
+                       'andar 0-S3': 'descer um andar',
+                       'elevador A': 'pegar o elevador'}
+        },
+        'andar 0-S3': {
+            'título': 'O fundo',
+            'descrição': 'O ponto mais profundo do Insper, vazio e imerso em breu',
+            'opcoes': {'andar 0-S2': 'subir um andar',
+                       'elevador A': 'Pegar o elevador e sair dali'}
+        },
+        'andar 0-0': {
+            'título': 'O paraíso das possibilidades',
+            'descrição': 'Andar térreo do prédio antigo',
+            'opcoes': {'elevador A': 'ir para outros andares de elevador',
+                       'andar 0-1': 'subir um andar',
+                       'andar 0-S1': 'descer um andar',
+                       'lanchonete': 'Casa do Pão de Queijo, com cookies, suco e café!',
+                       'banheiro 0': 'Ir ao banheiro',
+                       'salas de reunião': 'Salas para fazer reuniões',
+                       'antessala': 'Antessala do auditório',
+                       'biblioteca': 'Biblioteca Telles',
+                       'atendimento ao aluno': 'Balcão de atendimento'}
+        },
+        'fundo': {
+            'título': 'Serenidade',
+            'descrição': 'O fundo da biblioteca',
+            'opcoes': {'andar 0-0': 'sair da biblioteca',
+                       'aquarios biblioteca': 'sentar em um aquário',
+                       'poltronas confortáveis': 'Descansar em uma poltrona',
+                       'balcao': 'Retirar um livro',
+                       'mesas de estudo': 'pegar uma mesa e uma lousa para estudar',
+                       'cubiculos': 'Sentar em um cubículo para descansar',
+                       'computadores': 'Observar as pessoas mexendo nos computadores da biblioteca'}
+        },
+        'balcao': {
+            'título': 'Balcão de atendimento',
+            'descrição': 'O balcão de atendimento da biblioteca',
+            'opcoes': {'biblioteca': 'fazer alguma outra coisa',
+                       'retirar': 'adicionar um livro ao seu inventário'}
+        },
+        'aquarios biblioteca': {
+            'título': 'Bolhas de reflexão',
+            'descrição': 'Os aquários de reunião da biblioteca',
+            'opcoes': {'fundo': 'sair do aquário'}
+        },
+        'poltronas confortáveis': {
+            'título': 'Poltronas confortáveis',
+            'descrição': 'Poltronas confortáveis... o que você esperava que eu dissesse?',
+            'opcoes': {'fundo': 'Chega de descansar, faça alguma coisa'}
+        },
+        'mesas de estudo': {
+            'título': 'Bastião do foco',
+            'descrição': 'Mesas e lousas espalhadas de modo a permiti-lo focar intensamente nos estudos',
+            'opcoes': {'fundo': 'Estudar é legal, mas temos coisas a fazer'}
+        },
+        'cubiculos': {
+            'título': 'Cubículos',
+            'descrição': 'Não tem muito a ser dito... eles são confortáveis e bons para estudar',
+            'opcoes': {'fundo': 'Hora de trabalhar um pouco'}
+        },
+        'computadores': {
+            'título': 'O futuro discreto',
+            'descrição': 'Você não sabe, mas um dia será você lá',
+            'opcoes': {'fundo': 'Ficar parado não vai te levar a lugar nenhum'}
+        },
+        'lanchonete': {
+            'título': 'Casa do Pão de Queijo',
+            'descrição': 'Um bom lugar para descansar e recuperar as forças',
+            'opcoes': {'comprar': 'comprar alguma coisa',
+                       'andar 0-0': 'continuar explorando'}
         }
     }
 
