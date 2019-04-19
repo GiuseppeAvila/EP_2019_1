@@ -1,15 +1,6 @@
 # -*- coding: utf-8 -*-
 #              Sistema de combate! Que a batalha comece!
-'''
-def cria_personagem():
-    vida_personagem = int(input("Com quanta vida esse personagem inicia? "))
-    adrenalina = int(input("Adrenalina da personagem: "))
-    psicologia = int(input("Psicologia da personagem: "))
 
-    força_fisica = int(input("Força física inicial: "))
-    força_psicológica = int(input("Força psicológica inicial: "))
-    mana = int(input("Capacidade mágica da sua personagem: "))
-'''
 def cria_personagem_inicial():
     print("Mas antes de iniciar... quem você é?","\n","Eu, narrador, não me lembro de conhecer alguém tão preguiçoso!")
     print()
