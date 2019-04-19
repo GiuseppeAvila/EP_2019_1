@@ -168,6 +168,21 @@
             'descrição': 'Um bom lugar para descansar e recuperar as forças',
             'opcoes': {'comprar': 'comprar alguma coisa',
                        'andar 0-0': 'continuar explorando'}
+        },
+        'Uberabinha': {
+            'título': 'A fronteira do tempo',
+            'descrição': 'Rua que separa o prédio novo e o prédio antigo do Insper',
+            'opcoes': {'rua em frente ao Insper': 'Ir para a rua Quatá',
+                       'andar 0-S1': 'entrar na garagem do Insper'}
+        },
+        'laboratorios subsolo': {
+            'título': 'A gruta do desenvolvimento',
+            'descrição': 'No escuro e na solidão, valentes cientistas se instalaram e desenvolvem suas atividades, longe do Insper e de outras pessoas',
+            'opcoes': {'andar 0-S1': 'Voltar',
+                       'baja': 'Oficina do Baja, o maior centro de desenvolvimento de tecnologia de transporte',
+                       'tech lab': 'O Tech Lab do Insper, o laboratório mais bem aparelhado dos dois prédios',
+                       'pneumatica': 'Laboratório de Pneumática e Hidráulica',
+                       'automacao': 'Laboratório de Automação e Controle'}
         }
     }
 
