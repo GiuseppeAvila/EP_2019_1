@@ -3,7 +3,7 @@ import json
 
 def carregar_cenarios():
     with open("cenarios.json", "r") as arquivo:
-        cenarios = json.loads(arquivo)
+        cenarios = json.load(arquivo)
     nome_cenario_atual = "inicio"
     return cenarios, nome_cenario_atual
 
