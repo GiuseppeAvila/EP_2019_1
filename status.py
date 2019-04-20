@@ -89,7 +89,6 @@ def escolha_background():
     # d são os backgrounds na forma de lista
     
     d = c.split(",")
-    print(d)
     
     escolheu_background = False
     while not escolheu_background:
