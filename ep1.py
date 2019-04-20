@@ -9,7 +9,7 @@
 '''
 
 import status
-import cenarios
+import carregar_cenarios
 import random
 import combate
 #import supreme_weapons as sw
@@ -36,9 +36,9 @@ def main():
     cenarios_conhecidos = ["inicio"]
     
     # Situação inicial, e criação de personagem
-    cenarios.situacao()
+    carregar_cenarios.situacao()
     status.cria_personagem_inicial()
-    cenario, nome_cenario_atual = cenarios.carregar_cenarios()
+    cenario, nome_cenario_atual = carregar_cenarios.carregar_cenarios()
     
     # Funcionando o jogo
     game_over = False
@@ -46,7 +46,7 @@ def main():
         
         cenario_atual = cenario[nome_cenario_atual]
         
-        cenarios.inicio(cenario_atual)
+        carregar_cenarios.inicio(cenario_atual)
         
         #  Cenários conhecidos para o teleporte
         if nome_cenario_atual not in cenarios_conhecidos:
