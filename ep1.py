@@ -11,7 +11,7 @@
 import status
 import carregar_cenarios
 import random
-import combate
+#import combate
 #import supreme_weapons as sw
 
 
@@ -37,8 +37,8 @@ def main():
     
     # Situação inicial, e criação de personagem
     carregar_cenarios.situacao()
-    status.cria_personagem_inicial()
     cenario, nome_cenario_atual = carregar_cenarios.carregar_cenarios()
+    status.cria_personagem_inicial()
     
     # Funcionando o jogo
     game_over = False
