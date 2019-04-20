@@ -53,9 +53,9 @@ def main():
         else:
             escolha = ""
             
-            chance_monstro = random.randint(0,4)
+            #chance_monstro = random.randint(0,4)
             # para testar batalha:
-            #chance_monstro = 0
+            chance_monstro = 0
             
             if chance_monstro == 0:
                 em_batalha = True
@@ -65,7 +65,11 @@ def main():
             # Se entrar em batalha
             if em_batalha:
                 
-                print("Apareceu um {} no seu caminho! Ele quer acabar com você!".format("monstro"))
+                lista_monstro_atual = cenario_atual["inimigos"]
+                n = random.randint(0,(len(lista_monstro_atual)-1))
+                monstro = lista_monstro_atual[n]
+                
+                print("Apareceu um {} no seu caminho! Ele quer acabar com você!".format(monstro))
                 
                 
                 escolha = input("[L]utar / [F]ugir ")
