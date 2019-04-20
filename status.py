@@ -16,10 +16,10 @@ def cria_personagem_inicial():
     print("...e eu faço isso ser verdade, eu sou incrível não é mesmo?")
     print()
     
-   # IMPLEMENTANDO SISTEMA DE CRIAÇÃO DE PERSONAGEM:
-    escolha_classe()
-    escolha_background()
-                
+    # IMPLEMENTANDO SISTEMA DE CRIAÇÃO DE PERSONAGEM:
+    classe_jogador = escolha_classe()
+    background_jogador = escolha_background()
+    
     print()
     print("Tudo pronto para começarmos...")
     print()
@@ -27,6 +27,8 @@ def cria_personagem_inicial():
     print()
     print("=======================")
     print()    
+    
+    return classe_jogador,background_jogador
 
 def escolha_classe():
     with open("classes.json") as classes:
@@ -64,6 +66,7 @@ def escolha_classe():
                 print("Sua classe é {0}".format(classe_jogador))
                 print()
                 escolheu_classe = True
+                return classe_jogador
             elif confirmacao.upper() == "N":
                 print()
                 print("Se decida")
@@ -111,6 +114,7 @@ def escolha_background():
                 print("Seu background é {0}".format(background_jogador))
                 print()
                 escolheu_background = True
+                return background_jogador
             elif confirmacao.upper() == "N":
                 print()
                 print("Se decida")
@@ -119,6 +123,8 @@ def escolha_background():
                 print("Escolha inválida")
         elif escolha1.upper() == "S":
             print()
-            print("O MAristocrata tem...")
+            print("O Aristocrata tem...")
         else:
             print("Escolha inválida")
+            
+cria_personagem_inicial()
