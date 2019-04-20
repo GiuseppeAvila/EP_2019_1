@@ -324,7 +324,7 @@
             'descrição': 'Tem um corredor à direita, outro à esquerda e um de aquários',
             'opcoes': {'elevador': 'escolher o andar',
                        'andar 1-6': 'subir as escadas',
-                       'andar 1-0': 'descer as escadas',
+                       'andar 1-4': 'descer as escadas',
                        'corredor esquerdo 1-5': 'Ir para a esquerda',
                        'corredor direito 1-5': 'Ir para a direita',
                        'corredor aquarios 1-5': 'Aquários',
@@ -456,7 +456,7 @@
         'sala 512': {
             'título': 'Sala 512',
             'descrição': '9 mesas, 6 lousas e algumas canetas',
-            'opcoes': {'corredor direito': 'voltar'}
+            'opcoes': {'corredor direito 1-5': 'voltar'}
         },
         'sala 113': {
             'título': 'Sala 113',
@@ -471,22 +471,22 @@
         'sala 213': {
             'título': 'Sala 213',
             'descrição': '9 mesas, 6 lousas e algumas canetas',
-            'opcoes': {'corredor direito 1-1': 'voltar'}
+            'opcoes': {'corredor direito 1-2': 'voltar'}
         },
         'sala 214': {
             'título': 'Sala 214',
             'descrição': '9 mesas, 6 lousas e algumas canetas',
-            'opcoes': {'corredor direito 1-1': 'voltar'}
+            'opcoes': {'corredor direito 1-2': 'voltar'}
         },
         'sala 513': {
-            'título': 'Sala 113',
+            'título': 'Sala 513',
             'descrição': '9 mesas, 6 lousas e algumas canetas',
-            'opcoes': {'corredor direito 1-1': 'voltar'}
+            'opcoes': {'corredor direito 1-5': 'voltar'}
         },
         'sala 514': {
-            'título': 'Sala 114',
+            'título': 'Sala 514',
             'descrição': '9 mesas, 6 lousas e algumas canetas',
-            'opcoes': {'corredor direito 1-1': 'voltar'}
+            'opcoes': {'corredor direito 1-5': 'voltar'}
         },
         'varanda': {
             'título': 'Mirante',
@@ -533,6 +533,51 @@
             'descrição': 'Tem todas as máquinas do FabLab... o guru está mexendo no computador',
             'opcoes': {'andar 1-3': 'sair do FabLab',
                        'guru FabLab': 'Falar com o guru'}
+        },
+        'corredor aquarios 1-1': {
+            'título': 'Bolhas de concentração',
+            'descrição': 'Tem 9 aquários, alguns ocupados',
+            'opcoes': {'aquario 1-1': 'Pegar um aquario livre',
+                       'andar 1-1': 'voltar'}
+        },
+        'aquario 1-1': {
+            'título': 'Aquário',
+            'descrição': 'Uma sala aconchegante com uma boa vista e uma atmosfera de foco e concentração',
+            'opcoes': {'corredor aquarios 1-1': 'sair do aquário'}
+        },
+        'corredor aquarios 1-2': {
+            'título': 'Bolhas de concentração',
+            'descrição': 'Tem 7 aquários, alguns ocupados',
+            'opcoes': {'aquario 1-2': 'Pegar um aquario livre',
+                       'andar 1-2': 'voltar'}
+        },
+        'aquario 1-2': {
+            'título': 'Aquário',
+            'descrição': 'Uma sala aconchegante com uma boa vista e uma atmosfera de foco e concentração',
+            'opcoes': {'corredor aquarios 1-2': 'sair do aquário'}
+        },
+        'corredor aquarios 1-3': {
+            'título': 'Bolhas de concentração',
+            'descrição': 'Tem 3 aquários, alguns ocupados, e o HelpDesk',
+            'opcoes': {'aquario 1-3': 'Pegar um aquario livre',
+                       'HelpDesk': ' Falar com alguém do HelpDesk',
+                       'andar 1-3': 'voltar'}
+        },
+        'aquario 1-3': {
+            'título': 'Aquário',
+            'descrição': 'Uma sala aconchegante com uma boa vista e uma atmosfera de foco e concentração',
+            'opcoes': {'corredor aquarios 1-3': 'sair do aquário'}
+        },
+        'corredor aquarios 1-5': {
+            'título': 'Bolhas de concentração',
+            'descrição': 'Tem 7 aquários, alguns ocupados',
+            'opcoes': {'aquario 1-5': 'Pegar um aquario livre',
+                       'andar 1-5': 'voltar'}
+        },
+        'aquario 1-5': {
+            'título': 'Aquário',
+            'descrição': 'Uma sala aconchegante com uma boa vista e uma atmosfera de foco e concentração',
+            'opcoes': {'corredor aquarios 1-5': 'sair do aquário'}
         }
     }
 
