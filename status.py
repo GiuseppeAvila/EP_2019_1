@@ -31,25 +31,33 @@ def cria_personagem_inicial():
     b = a.split(",")
     #print(b)
     
-    print("As classes são...{}".format(a))
-    print("Deseja saber mais sobre alguma delas ou quer já escolher?")
-    print()
-    print("Quero ser um [M]ago")
-    print("Quero ser um [L]adino")
-    print("Quero ser um L[u]tador")
-    print("Quero [s]aber mais...")
-    escolha1 = input()
-    opcoes = ["M", "L", "U"]
-    if escolha1.upper() in opcoes:
+    escolheu_classe = False
+    while not escolheu_classe:
+        print("As classes são...{}".format(a))
+        print("Deseja saber mais sobre alguma delas ou quer já escolher?")
         print()
-        print("{0} - Essa é a sua escolha? [S]im / [N]ão".format(b[opcoes.index(escolha1.upper())]))
-        confirmacao = input()
-        if confirmacao.upper() == "S":
-            classe_jogador = b[opcoes.index(escolha1.upper())]
+        print("Quero ser um [M]ago")
+        print("Quero ser um [L]adino")
+        print("Quero ser um L[u]tador")
+        print("Quero [s]aber mais...")
+        escolha1 = input()
+        opcoes = ["M", "L", "U"]
+        if escolha1.upper() in opcoes:
             print()
-            print("Sua classe é {0}".format(classe_jogador))
-        elif confirmacao.upper() == "N":
-    
+            print("{0} - Essa é a sua escolha? [S]im / [N]ão".format(b[opcoes.index(escolha1.upper())]))
+            confirmacao = input()
+            if confirmacao.upper() == "S":
+                classe_jogador = b[opcoes.index(escolha1.upper())]
+                print()
+                print("Sua classe é {0}".format(classe_jogador))
+                print()
+                escolheu_classe = True
+            elif confirmacao.upper() == "N":
+                print()
+                print("Se decida")
+                print()
+                
+                
     with open("backgrounds.json") as backgrounds:
         backgrounds_disponiveis = json.load(backgrounds)
     c = str(backgrounds_disponiveis.keys())
@@ -60,12 +68,35 @@ def cria_personagem_inicial():
     # c são os backgrounds na forma de str
     # d são os backgrounds na forma de lista
     
-    #d = c.split(",")
+    d = c.split(",")
     #print(b)
     
-    print("Os backgrounds são...{}".format(c))
+    escolheu_background = False
+    while not escolheu_background:
+        print("Os backgrounds são...{}".format(c))
+        print("Deseja saber mais sobre algum deles ou quer já escolher?")
+        print()
+        print("Quero ser um [A]ristocrata")
+        print("Quero ser um [E]sportista")
+        print("Quero ser um [G]amer")
+        print("Quero [s]aber mais...")
+        escolha1 = input()
+        opcoes = ["A", "E", "G"]
+        if escolha1.upper() in opcoes:
+            print()
+            print("{0} - Essa é a sua escolha? [S]im / [N]ão".format(d[opcoes.index(escolha1.upper())]))
+            confirmacao = input()
+            if confirmacao.upper() == "S":
+                background_jogador = d[opcoes.index(escolha1.upper())]
+                print()
+                print("Seu background é {0}".format(background_jogador))
+                print()
+                escolheu_background = True
+            elif confirmacao.upper() == "N":
+                print()
+                print("Se decida")
+                print()
 
-    
     print()
     print("Tudo pronto para começarmos...")
     print()
