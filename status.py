@@ -12,8 +12,7 @@ def cria_personagem_inicial():
     print()
     print("Ótimo! Agora {0}, vamos descobrir o que temos dentro de você!".format(nome))
     print()
-    print("Vamos fazer o seguinte, escolha uma classe e um background...")
-    print("...e eu faço isso ser verdade, eu sou incrível não é mesmo?")
+    print("Vamos fazer o seguinte, escolha uma classe e um background e eu faço isso ser verdade, eu sou incrível não é mesmo?")
     print()
     
     # IMPLEMENTANDO SISTEMA DE CRIAÇÃO DE PERSONAGEM:
