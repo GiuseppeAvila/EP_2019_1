@@ -10,7 +10,7 @@
 
 import status
 import cenarios
-#import random
+import random
 #import supreme_weapons as sw
 
 
@@ -53,10 +53,21 @@ def main():
         else:
             escolha = ""
             
-            em_batalha = False
+            chance_monstro = random.randint(0,4)
+            # para testar batalha:
+            #chance_monstro = 0
+            
+            if chance_monstro == 0:
+                em_batalha = True
+            else:
+                em_batalha = False
             
             # Se entrar em batalha
             if em_batalha:
+                
+                print("Apareceu um {} no seu caminho! Ele quer acabar com você!".format("monstro"))
+                
+                
                 escolha = input("[L]utar / [F]ugir ")
                 
                 '''
@@ -64,7 +75,7 @@ def main():
                     
                 if escolha == "L":
                 
-                    em_batalha = combate()
+                    em_batalha = combate() 
                         
                 elif escolha == "F":
                     
@@ -80,6 +91,7 @@ def main():
             #Se a escolha estiver dentre as disponíveis e for um local == ir para lá
             if escolha in opcoes:
                 nome_cenario_atual = escolha
+                
                 print()
                 print("====================")
             
