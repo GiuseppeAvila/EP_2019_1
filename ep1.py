@@ -11,6 +11,7 @@
 import status
 import cenarios
 import random
+import combate
 #import supreme_weapons as sw
 
 
@@ -73,18 +74,16 @@ def main():
                 
                 
                 escolha = input("[L]utar / [F]ugir ")
-                
-                '''
-                IMPLEMENTANDO SISTEMA DE COMBATE:
-                    
+    
                 if escolha == "L":
-                
-                    em_batalha = combate() 
-                        
+                    em_batalha = combate.lutar() 
+    
                 elif escolha == "F":
-                    
-                    em_batalha = False
-                '''
+                    em_batalha = combate.fugir()
+    
+                else:
+                    print("Não seja covarde!")
+                    escolha = input("[L]utar / [F]ugir ")
                 
             # Se escolher um local e não estiver em batalha
             else:
