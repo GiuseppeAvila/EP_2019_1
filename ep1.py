@@ -41,6 +41,7 @@ def main():
     classe_jogador = status.cria_personagem_inicial()[0]
     background_jogador = status.cria_personagem_inicial()[1]
     
+    
     # Funcionando o jogo
     game_over = False
     while not game_over:
