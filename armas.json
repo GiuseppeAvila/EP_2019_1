@@ -1,10 +1,10 @@
 {"Principia Matematica" : 
-    {"Descrição" : "Aplica 10 mil newtons na cabeça de seu inimigo",
+    {"Descrição" : "Aplica 10 mil newtons de força na cabeça de seu inimigo",
      "F_ATK" : 12,
      "P_ATK" : 0
      },
  "Pistola desIntregradora" : {
-         "Descrição" : "Alguns dizem que isso é na verdade uma Pistola Derivadora, mas não seja enganado.",
+         "Descrição" : "Alguns dizem que isso é na verdade uma Pistola Derivadora, mas não seja enganado",
          "F_ATK" : 0,
          "P_ATK" : 20}
  }
