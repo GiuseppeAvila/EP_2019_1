@@ -22,10 +22,35 @@ def cria_personagem_inicial():
     a = a[11:]
     a = a[:-2]
     a = a.replace("'","")
+    
+    # a são as classes na forma de str
+    # b são as classes na forma de lista
+    
     #b = a.split(",")
-    #print(a)
     #print(b)
+    
     print("As classes são...{}".format(a))
+    print("Deseja saber mais sobre alguma delas ou quer já escolher?")
+    print()
+    print("escolher")
+    print("saber")
+    escolha1 = input("Eu gostaria de...")
+        
+    
+    with open("backgrounds.json") as backgrounds:
+        backgrounds_disponiveis = json.load(backgrounds)
+    c = str(backgrounds_disponiveis.keys())
+    c = c[11:]
+    c = c[:-2]
+    c = c.replace("'","")
+    
+    # c são os backgrounds na forma de str
+    # d são os backgrounds na forma de lista
+    
+    #d = c.split(",")
+    #print(b)
+    
+    print("Os backgrounds são...{}".format(c))
     
     print()
     print("Tudo pronto para começarmos...")
