@@ -9,10 +9,6 @@ def TP(cenarios_conhecidos):
             print("Você não conhece esse local, não faço mágica, isso é matemática!")
             local_desejado = input("Escolha um local que deseja derivar: ")
 
-
-
-
-
 def DIM(dano_fisico,defesa):
     multiplicador = 0
     buff = 0

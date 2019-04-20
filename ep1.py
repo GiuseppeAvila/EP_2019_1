@@ -5,10 +5,6 @@
  - aluno A: Daniel Terra danielgt1@al.insper.edu.br
  - aluno B: Fernando Giuseppe, fernandogab@al.insper.edu.br
  - aluno C: Erick Finger, erickf1@al.insper.edu.br
- 
-                 if escolha in cenario.keys():
-                    locais_visitados.append(escolha)
-                    
 
 '''
 
