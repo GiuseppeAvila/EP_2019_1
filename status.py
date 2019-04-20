@@ -17,7 +17,20 @@ def cria_personagem_inicial():
     print()
     
    # IMPLEMENTANDO SISTEMA DE CRIAÇÃO DE PERSONAGEM:
+    escolha_classe()
+    escolha_background()
+                
+    print()
+    print("Tudo pronto para começarmos...")
+    print()
+    print("Opa, parece que chegamos!....")
+    print()
+    print("=======================")
+    print()    
     
+cria_personagem_inicial()
+
+def escolha_classe():
     with open("classes.json") as classes:
         classes_disponiveis = json.load(classes)
     a = str(classes_disponiveis.keys())
@@ -56,8 +69,9 @@ def cria_personagem_inicial():
                 print()
                 print("Se decida")
                 print()
-                
-                
+
+
+def escolha_background():
     with open("backgrounds.json") as backgrounds:
         backgrounds_disponiveis = json.load(backgrounds)
     c = str(backgrounds_disponiveis.keys())
@@ -96,13 +110,3 @@ def cria_personagem_inicial():
                 print()
                 print("Se decida")
                 print()
-
-    print()
-    print("Tudo pronto para começarmos...")
-    print()
-    print("Opa, parece que chegamos!....")
-    print()
-    print("=======================")
-    print()    
-    
-cria_personagem_inicial()
