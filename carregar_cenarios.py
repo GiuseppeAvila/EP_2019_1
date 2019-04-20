@@ -2,7 +2,7 @@
 import json
 
 def carregar_cenarios():
-    with open("cenarios.json", "r") as arquivo:
+    with open("cenarios.json", "r", encoding="utf8") as arquivo:
         cenarios = json.load(arquivo)
     nome_cenario_atual = "inicio"
     return cenarios, nome_cenario_atual
@@ -15,3 +15,5 @@ def situacao():
     with open("NA HORA DO SUFOCO.txt", "r",encoding="utf8") as arquivo:
         conteudo = arquivo.read()
     print(conteudo)
+    
+print(carregar_cenarios())
