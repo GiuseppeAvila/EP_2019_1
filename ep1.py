@@ -17,6 +17,22 @@ import combate
 
 def main():
     
+    personagem = {"Nome": "",
+                  "Classe" : "",
+                  "Status" : {"HP_Max" : 0,
+                              "HP_Atual" : 0,
+                              "PP_Max" : 0,
+                              "PP_Atual" : 0,
+                              "F_ATK" : 0,
+                              "P_ATK" : 0,
+                              "F_DEF" : 0,
+                              "P_DEF" : 0,
+                              "AGI" : 0,
+                              "Habilidades" : []
+                              },
+                  "Equipamento" : []
+                  }
+    
     cenarios_conhecidos = ["inicio"]
     
     # Situação inicial, e criação de personagem

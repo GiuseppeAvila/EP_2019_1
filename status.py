@@ -27,8 +27,6 @@ def cria_personagem_inicial():
     print()
     print("=======================")
     print()    
-    
-cria_personagem_inicial()
 
 def escolha_classe():
     with open("classes.json") as classes:
@@ -36,13 +34,14 @@ def escolha_classe():
     a = str(classes_disponiveis.keys())
     a = a[11:]
     a = a[:-2]
-    a = a.replace("'","")
-    
+    a = a.replace("'", "")
+    a = a.replace(" ", "")
+
     # a são as classes na forma de str
     # b são as classes na forma de lista
     
     b = a.split(",")
-    #print(b)
+
     
     escolheu_classe = False
     while not escolheu_classe:
@@ -69,7 +68,13 @@ def escolha_classe():
                 print()
                 print("Se decida")
                 print()
-
+            else:
+                print("Escolha inválida")
+        elif escolha1.upper() == "S":
+            print()
+            print("O Mago tem...")
+        else:
+            print("Escolha inválida")
 
 def escolha_background():
     with open("backgrounds.json") as backgrounds:
@@ -78,12 +83,13 @@ def escolha_background():
     c = c[11:]
     c = c[:-2]
     c = c.replace("'","")
+    c = c.replace(" ", "")
     
     # c são os backgrounds na forma de str
     # d são os backgrounds na forma de lista
     
     d = c.split(",")
-    #print(b)
+    print(d)
     
     escolheu_background = False
     while not escolheu_background:
@@ -110,3 +116,12 @@ def escolha_background():
                 print()
                 print("Se decida")
                 print()
+            else:
+                print("Escolha inválida")
+        elif escolha1.upper() == "S":
+            print()
+            print("O MAristocrata tem...")
+        else:
+            print("Escolha inválida")
+                
+cria_personagem_inicial()
