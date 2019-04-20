@@ -1,4 +1,5 @@
 ﻿def carregar_cenarios():
+    # 88 cenários
     cenarios = {
         "inicio": {
             "título": "Saguao do perigo",
@@ -8,6 +9,7 @@
                        "andar 0-0": "Entrar no Insper"}
         },
         "predio velho": {
+            "inimigos" : ["Ayres", "Elemental"],
             "título": "Saguao do perigo",
             "descrição": "Voce esta no saguao de entrada do insper",
             "opcoes": {"rua em frente ao Insper": "Sair do saguão",
@@ -15,6 +17,7 @@
                        "andar 0-0": "Entrar no Insper"}
         },
         "andar 0-6": {
+            "inimigos" : ["Ayres", "Elemental"],
             "título": "Andar do desespero",
             "descrição": "Voce chegou ao andar da sala do seu professor",
             "opcoes": {"elevador A": "Tomar o elevador para o saguao de entrada",
@@ -23,18 +26,20 @@
                        "banheiro": "Ir ao banheiro"}
         },
         "professor": {
-                "inimigos" : ["Ayres", "Elemental"]
+            "inimigos" : ["Ayres", "Elemental"],
             "título": "O monstro do Python",
             "descrição": "Voce foi pedir para o professor adiar o EP. O professor revelou que é um monstro disfarçado e devorou sua alma.",
             "opcoes": {}
         },
         "biblioteca": {
+            "inimigos" : ["Ayres", "Elemental"],
             "título": "Caverna da tranquilidade",
             "descrição": "Voce esta na biblioteca",
             "opcoes": {"andar 0-0": "Voltar para o saguao de entrada",
                        "fundo": "Avançar para os fundos da biblioteca"}
         },
         "andar 0-S1": {
+            "inimigos" : ["Ayres", "Elemental"],
             'título': 'Abismo, o vazio e a escuridão', 
             'descrição': 'Você está na garagem...', 
             'opcoes': {'elevador A': 'Escolher andar', 
@@ -46,6 +51,7 @@
                        'banheiro': 'Ir ao banheiro'}
         },
         "rua em frente ao Insper": {
+            "inimigos" : ["Ayres", "Elemental"],
             "título": 'Os portões', 
             "descrição": 'Você saiu do Insper, está na rua', 
             'opcoes': {'predio novo': 'Entrar no prédio novo', 
@@ -54,6 +60,7 @@
                        'saboroso': 'Ir para o Saboroso'}
         },
         'saboroso': {
+            "inimigos" : ["Ayres", "Elemental"],
             'título': 'Flavoroso', 
             'descrição': 'Você está no restaurante da esquina', 
             'opcoes': {'comer': 'Gastar R$19.9999999999999999... e recuperar X de HP!', 
@@ -62,12 +69,14 @@
                        'rua em frente ao Insper': 'sair do Saboroso'}
         },
         'predio novo': {
+            "inimigos" : ["Ayres", "Elemental"],
             'título': 'Fortaleza da Engenharia',
             'descrição': 'O prédio novo do Insper, majoritariamente ocupado por alunos e laboratórios exclusivos da Engenharia',
             'opcoes': {'andar 1-0': 'entrar no prédio novo',
                        'rua na frente do Insper': 'sair do prédio novo'}
         },
         'elevador': {
+            "inimigos" : ["Ayres", "Elemental"],
             'título': 'O elevador do prédio novo',
             'descrição': 'É auto explicativo!',
             'opcoes': {'andar 1-0': 'Andar 0 do prédio novo; nem precisa do elevador',
@@ -79,6 +88,7 @@
                        'andar 1-6': 'Andar 6 do prédio novo'}
         },
         'elevador A': {
+            "inimigos" : ["Ayres", "Elemental"],
             'título': 'A dádiva dos preguiçosos',
             'descrição': 'Elevador que cobre desde o S3 até o oitavo andar do prédio antigo',
             'opcoes': {'andar 0-S3': 'Terceiro subsolo',
@@ -93,6 +103,7 @@
                        'andar 0-6': 'Sexto andar'}
         },
         'andar 0-S2': {
+            "inimigos" : ["Ayres", "Elemental"],
             'título': 'As profundezas',
             'descrição': 'Segundo subsolo, escuro e vazio',
             'opcoes': {'andar 0-S1': 'subir um andar',
@@ -101,6 +112,7 @@
                        'banheiro': 'Ir ao banheiro'}
         },
         'andar 0-S3': {
+            "inimigos" : ["Ayres", "Elemental"],
             'título': 'O fundo',
             'descrição': 'O ponto mais profundo do Insper, vazio e imerso em breu',
             'opcoes': {'andar 0-S2': 'subir um andar',
@@ -108,6 +120,7 @@
                        'banheiro': 'Ir ao banheiro'}
         },
         'andar 0-0': {
+            "inimigos" : ["Ayres", "Elemental"],
             'título': 'O paraíso das possibilidades',
             'descrição': 'Andar térreo do prédio antigo',
             'opcoes': {'elevador A': 'ir para outros andares de elevador',
@@ -121,6 +134,7 @@
                        'atendimento ao aluno': 'Balcão de atendimento'}
         },
         'fundo': {
+            "inimigos" : ["Ayres", "Elemental"],
             'título': 'Serenidade',
             'descrição': 'O fundo da biblioteca',
             'opcoes': {'andar 0-0': 'sair da biblioteca',
@@ -132,49 +146,58 @@
                        'computadores': 'Observar as pessoas mexendo nos computadores da biblioteca'}
         },
         'balcao': {
+            "inimigos" : ["Ayres", "Elemental"],
             'título': 'Balcão de atendimento',
             'descrição': 'O balcão de atendimento da biblioteca',
             'opcoes': {'biblioteca': 'fazer alguma outra coisa',
                        'retirar': 'adicionar um livro ao seu inventário'}
         },
         'aquarios biblioteca': {
+            "inimigos" : ["Ayres", "Elemental"],
             'título': 'Bolhas de reflexão',
             'descrição': 'Os aquários de reunião da biblioteca',
             'opcoes': {'fundo': 'sair do aquário'}
         },
         'poltronas confortáveis': {
+            "inimigos" : ["Ayres", "Elemental"],
             'título': 'Poltronas confortáveis',
             'descrição': 'Poltronas confortáveis... o que você esperava que eu dissesse?',
             'opcoes': {'fundo': 'Chega de descansar, faça alguma coisa'}
         },
         'mesas de estudo': {
+            "inimigos" : ["Ayres", "Elemental"],
             'título': 'Bastião do foco',
             'descrição': 'Mesas e lousas espalhadas de modo a permiti-lo focar intensamente nos estudos',
             'opcoes': {'fundo': 'Estudar é legal, mas temos coisas a fazer'}
         },
         'cubiculos': {
+            "inimigos" : ["Ayres", "Elemental"],
             'título': 'Cubículos',
             'descrição': 'Não tem muito a ser dito... eles são confortáveis e bons para estudar',
             'opcoes': {'fundo': 'Hora de trabalhar um pouco'}
         },
         'computadores': {
+            "inimigos" : ["Ayres", "Elemental"],
             'título': 'O futuro discreto',
             'descrição': 'Você não sabe, mas um dia será você lá',
             'opcoes': {'fundo': 'Ficar parado não vai te levar a lugar nenhum'}
         },
         'lanchonete': {
+            "inimigos" : ["Ayres", "Elemental"],
             'título': 'Casa do Pão de Queijo',
             'descrição': 'Um bom lugar para descansar e recuperar as forças',
             'opcoes': {'comprar': 'comprar alguma coisa',
                        'andar 0-0': 'continuar explorando'}
         },
         'Uberabinha': {
+            "inimigos" : ["Ayres", "Elemental"],
             'título': 'A fronteira do tempo',
             'descrição': 'Rua que separa o prédio novo e o prédio antigo do Insper',
             'opcoes': {'rua em frente ao Insper': 'Ir para a rua Quatá',
                        'andar 0-S1': 'entrar na garagem do Insper'}
         },
         'laboratorios subsolo': {
+            "inimigos" : ["Ayres", "Elemental"],
             'título': 'A gruta do desenvolvimento',
             'descrição': 'No escuro e na solidão, valentes cientistas se instalaram e desenvolvem suas atividades, longe do Insper e de outras pessoas',
             'opcoes': {'andar 0-S1': 'Voltar',
@@ -184,28 +207,33 @@
                        'automacao': 'Laboratório de Automação e Controle'}
         },
         'tech lab': {
+            "inimigos" : ["Ayres", "Elemental"],
             'título': 'O ninho do Paradigma',
             'descrição': 'No meio do estacionamento, o Tech Lab brilha com sua tecnologia de ponta e seus aparelhos exclusivos, oferecendo segurança e esperança',
             'opcoes': {'laboratorios subsolo': 'Sair do Tech Lab',
                        'guru tech': 'Falar com um guru do Tech Lab'}
         },
         'baja': {
+            "inimigos" : ["Ayres", "Elemental"],
             'título': 'Oficina do Baja',
             'descrição': 'O maior centro de desenvolvimento de tecnologia de transportes do Insper',
             'opcoes': {'laboratorios subsolo': 'voltar',
                        'veterano do baja': 'Falar com o veterano que está na oficina'}
         },
         'pneumatica': {
+            "inimigos" : ["Ayres", "Elemental"],
             'título': 'Laboratório de Pneumática e Hidráulica',
             'descrição': 'Algumas mesas e cadeiras, anotações na lousa, mas não tem ninguém',
             'opcoes': {'laboratorios subsolo': 'voltar'}
         },
         'automacao': {
+            "inimigos" : ["Ayres", "Elemental"],
             'título': 'Laboratório de Automação e Controle',
             'descrição': 'Algumas mesas e cadeiras, anotações na lousa, mas não tem ninguém',
             'opcoes': {'laboratorios subsolo': 'voltar'}
         },
         'antessala': {
+            "inimigos" : ["Ayres", "Elemental"],
             'título': 'O santuário da música',
             'descrição': 'Sala ampla que fica no meio do caminho entre a entrada e o auditório',
             'opcoes': {'andar 0-0': 'sair da antessala',
@@ -213,16 +241,19 @@
                        'auditorio': 'Entrar no Auditório'}
         },
         'piano': {
+            "inimigos" : ["Ayres", "Elemental"],
             'título': 'O piano',
             'descrição': 'Piano localizado na antessala, seu som é muito bonito. Alguém está tocando o piano',
             'opcoes': {'antessala': 'Continuar explorando'}
         },
         'auditorio': {
+            "inimigos" : ["Ayres", "Elemental"],
             'título': 'Auditório',
             'descrição': 'É o auditório do Insper, com suas poltronas confortáveis',
             'opcoes': {'antessala': 'voltar'}
         },
         'banheiro': {
+            "inimigos" : ["Ayres", "Elemental"],
             'título': 'Castelo do alívio',
             'descrição': 'É um banheiro comum. Você faz suas necessidades, dá a descarga, lava as mãos e sai',
             'opcoes': {'andar 0-0': 'térreo do prédio antigo',
@@ -244,11 +275,13 @@
                        'andar 0-S3': 'terceiro subsolo do prédio antigo'}
         },
         'insper jr.': {
+            "inimigos" : ["Ayres", "Elemental"],
             'título': 'Gente séria',
             'descrição': 'O Insper Jr. e o Endeavor são empresas de verdade no Insper, e, como eles são muito sérios sobre o trabalho deles, você pode apenas vê-los trabalhando',
             'opcoes': {'andar 0-6': 'voltar'}
         },
         'andar 1-0': {
+            "inimigos" : ["Ayres", "Elemental"],
             'título': 'Novo térreo',
             'descrição': 'Espaço amplo, tem alguns alunos estudando',
             'opcoes': {'elevador': 'Escolher andar',
@@ -260,21 +293,25 @@
                        'cemp': 'Centro de Empreendedorismo do prédio novo'}
         },
         'novo subsolo': {
+            "inimigos" : ["Ayres", "Elemental"],
             'título': 'Acesso restrito',
             'descrição': 'Não é permitido acessar o subsolo do prédio novo',
             'opcoes': {'andar 1-0': 'desistir e explorar o resto'}
         },
         'cemp': {
+            "inimigos" : ["Ayres", "Elemental"],
             'título': 'Centro de Empreendedorismo do prédio novo',
             'descrição': 'Pessoas sérias fazendo trabalho sério',
             'opcoes': {'andar 1-0': 'continuar explorando'}
         },
         'area de estudo': {
+            "inimigos" : ["Ayres", "Elemental"],
             'título': 'Área de estudo',
             'descrição': 'Ao seu redor, os alunos estão estudando, compenetrados',
             'opcoes': {'andar 1-0': 'Levantar e continuar'}
         },
         'andar 1-1': {
+            "inimigos" : ["Ayres", "Elemental"],
             'título': 'Primeiro andar do prédio novo',
             'descrição': 'Tem um corredor à direita, outro à esquerda e um de aquários',
             'opcoes': {'elevador': 'escolher o andar',
@@ -286,6 +323,7 @@
                        'banheiro': 'Ir ao banheiro'}
         },
         'andar 1-2': {
+            "inimigos" : ["Ayres", "Elemental"],
             'título': 'Segundo andar do prédio novo',
             'descrição': 'Tem um tobogã, um corredor à direita, outro à esquerda e um de aquários',
             'opcoes': {'elevador': 'escolher o andar',
@@ -298,6 +336,7 @@
                        'banheiro': 'Ir ao banheiro'}
         },
         'andar 1-3': {
+            "inimigos" : ["Ayres", "Elemental"],
             'título': 'Terceiro andar do prédio novo',
             'descrição': 'Tem um corredor à direita, outro à esquerda e um de aquários',
             'opcoes': {'elevador': 'escolher o andar',
@@ -309,6 +348,7 @@
                        'banheiro': 'Ir ao banheiro'}
         },
         'andar 1-4': {
+            "inimigos" : ["Ayres", "Elemental"],
             'título': 'Quarto andar do prédio novo',
             'descrição': 'Tem um corredor à direita, outro à esquerda e uma sala',
             'opcoes': {'elevador': 'escolher o andar',
@@ -321,6 +361,7 @@
                        'banheiro': 'Ir ao banheiro'}
         },
         'andar 1-5': {
+            "inimigos" : ["Ayres", "Elemental"],
             'título': 'Quinto andar do prédio novo',
             'descrição': 'Tem um corredor à direita, outro à esquerda e um de aquários',
             'opcoes': {'elevador': 'escolher o andar',
@@ -332,6 +373,7 @@
                        'banheiro': 'Ir ao banheiro'}
         },
         'andar 1-6': {
+            "inimigos" : ["Ayres", "Elemental"],
             'título': 'Sexto andar do prédio novo',
             'descrição': 'Tem mesas, cubículos, uma varanda, a copa e alguns alunos conversando nos sofás',
             'opcoes': {'elevador': 'escolher andar',
@@ -341,6 +383,7 @@
                        'banheiro': 'Ir ao banheiro'}
         },
         'corredor direito 1-1': {
+            "inimigos" : ["Ayres", "Elemental"],
             'título': 'Corredor da direita',
             'descrição': 'É um corredor com duas salas e uma máquina de vendas',
             'opcoes': {'sala 111': 'Sala 111',
@@ -349,6 +392,7 @@
                        'andar 1-1': 'voltar'}
         },
         'corredor direito 1-2': {
+            "inimigos" : ["Ayres", "Elemental"],
             'título': 'Corredor da direita',
             'descrição': 'É um corredor com duas salas e uma máquina de vendas',
             'opcoes': {'sala 211': 'Sala 211',
@@ -357,6 +401,7 @@
                        'andar 1-2': 'voltar'}
         },
         'corredor direito 1-3': {
+            "inimigos" : ["Ayres", "Elemental"],
             'título': 'Corredor da direita',
             'descrição': 'É um corredor com duas salas e uma máquina de vendas',
             'opcoes': {'sala 311': 'Sala 311',
@@ -365,6 +410,7 @@
                        'andar 1-3': 'voltar'}
         },
         'corredor direito 1-4': {
+            "inimigos" : ["Ayres", "Elemental"],
             'título': 'Corredor da direita',
             'descrição': 'É um corredor com três laboratórios',
             'opcoes': {'arq comp': 'Laboratório de Arquitetura da Computação',
@@ -373,6 +419,7 @@
                        'andar 1-4': 'voltar'}
         },
         'corredor direito 1-5': {
+            "inimigos" : ["Ayres", "Elemental"],
             'título': 'Corredor da direita',
             'descrição': 'É um corredor com duas salas e uma máquina de vendas',
             'opcoes': {'sala 511': 'Sala 511',
@@ -380,6 +427,7 @@
                        'andar 1-5': 'voltar'}
         },
         'corredor esquerdo 1-1': {
+            "inimigos" : ["Ayres", "Elemental"],
             'título': 'Corredor da esquerda',
             'descrição': 'Tem duas salas de aula',
             'opcoes': {'sala 113': 'Sala 113',
@@ -387,6 +435,7 @@
                        'andar 1-1': 'voltar'}
         },
         'corredor esquerdo 1-2': {
+            "inimigos" : ["Ayres", "Elemental"],
             'título': 'Corredor da esquerda',
             'descrição': 'Tem duas salas de aula',
             'opcoes': {'sala 213': 'Sala 213',
@@ -394,12 +443,14 @@
                        'andar 1-2': 'voltar'}
         },
         'corredor esquerdo 1-3': {
+            "inimigos" : ["Ayres", "Elemental"],
             'título': 'Corredor da esquerda',
             'descrição': 'Tem o FabLab',
             'opcoes': {'FabLab': 'Entrar no FabLab',
                        'andar 1-3': 'voltar'}
         },
         'corredor esquerdo 1-4': {
+            "inimigos" : ["Ayres", "Elemental"],
             'título': 'Corredor da esquerda',
             'descrição': 'É um corredor com três laboratórios',
             'opcoes': {'agil 1': 'Laboratório Ágil 1',
@@ -408,6 +459,7 @@
                        'andar 1-4': 'voltar'}
         },
         'corredor esquerdo 1-5': {
+            "inimigos" : ["Ayres", "Elemental"],
             'título': 'Corredor da esquerda',
             'descrição': 'Tem duas salas de aula',
             'opcoes': {'sala 513': 'Sala 513',
@@ -415,149 +467,178 @@
                        'andar 1-5': 'voltar'}
         },
         'sala 111': {
+            "inimigos" : ["Ayres", "Elemental"],
             'título': 'Sala 111',
             'descrição': '9 mesas, 6 lousas e algumas canetas',
             'opcoes': {'corredor direito 1-1': 'voltar'}
         },
         'sala 112': {
+            "inimigos" : ["Ayres", "Elemental"],
             'título': 'Sala 112',
             'descrição': '9 mesas, 6 lousas e algumas canetas',
             'opcoes': {'corredor direito 1-1': 'voltar'}
         },
         'sala 211': {
+            "inimigos" : ["Ayres", "Elemental"],
             'título': 'Sala 211',
             'descrição': '9 mesas, 6 lousas e algumas canetas',
             'opcoes': {'corredor direito 1-2': 'voltar'}
         },
         'sala 212': {
+            "inimigos" : ["Ayres", "Elemental"],
             'título': 'Sala 212',
             'descrição': '9 mesas, 6 lousas e algumas canetas',
             'opcoes': {'corredor direito 1-2': 'voltar'}
         },
         'sala 311': {
+            "inimigos" : ["Ayres", "Elemental"],
             'título': 'Sala 311',
             'descrição': '9 mesas, 6 lousas e algumas canetas',
             'opcoes': {'corredor direito 1-3': 'voltar'}
         },
         'sala 312': {
+            "inimigos" : ["Ayres", "Elemental"],
             'título': 'Sala 312',
             'descrição': '9 mesas, 6 lousas e algumas canetas',
             'opcoes': {'corredor direito 1-3': 'voltar'}
         },
         'sala 411': {
+            "inimigos" : ["Ayres", "Elemental"],
             'título': 'Sala 411',
             'descrição': 'Sala enorme que tem a largura de um corredor de aquários',
             'opcoes': {'andar 1-4': 'voltar'}
         },
         'sala 511': {
+            "inimigos" : ["Ayres", "Elemental"],
             'título': 'Sala 511',
             'descrição': '9 mesas, 6 lousas e algumas canetas',
             'opcoes': {'corredor direito 1-5': 'voltar'}
         },
         'sala 512': {
+            "inimigos" : ["Ayres", "Elemental"],
             'título': 'Sala 512',
             'descrição': '9 mesas, 6 lousas e algumas canetas',
             'opcoes': {'corredor direito 1-5': 'voltar'}
         },
         'sala 113': {
+            "inimigos" : ["Ayres", "Elemental"],
             'título': 'Sala 113',
             'descrição': '9 mesas, 6 lousas e algumas canetas',
             'opcoes': {'corredor direito 1-1': 'voltar'}
         },
         'sala 114': {
+            "inimigos" : ["Ayres", "Elemental"],
             'título': 'Sala 114',
             'descrição': '9 mesas, 6 lousas e algumas canetas',
             'opcoes': {'corredor direito 1-1': 'voltar'}
         },
         'sala 213': {
+            "inimigos" : ["Ayres", "Elemental"],
             'título': 'Sala 213',
             'descrição': '9 mesas, 6 lousas e algumas canetas',
             'opcoes': {'corredor direito 1-2': 'voltar'}
         },
         'sala 214': {
+            "inimigos" : ["Ayres", "Elemental"],
             'título': 'Sala 214',
             'descrição': '9 mesas, 6 lousas e algumas canetas',
             'opcoes': {'corredor direito 1-2': 'voltar'}
         },
         'sala 513': {
+            "inimigos" : ["Ayres", "Elemental"],
             'título': 'Sala 513',
             'descrição': '9 mesas, 6 lousas e algumas canetas',
             'opcoes': {'corredor direito 1-5': 'voltar'}
         },
         'sala 514': {
+            "inimigos" : ["Ayres", "Elemental"],
             'título': 'Sala 514',
             'descrição': '9 mesas, 6 lousas e algumas canetas',
             'opcoes': {'corredor direito 1-5': 'voltar'}
         },
         'varanda': {
+            "inimigos" : ["Ayres", "Elemental"],
             'título': 'Mirante',
             'descrição': 'Parte ao ar livre do sexto andar do prédio novo, é possível ver boa parte da Faria Lima e da Hélio Pellegrino',
             'opcoes': {'andar 1-6': 'voltar'}
         },
         'copa': {
+            "inimigos" : ["Ayres", "Elemental"],
             'título': 'Rango',
             'descrição': 'Tem um microondas e uma geladeira',
             'opcoes': {'andar 1-6': 'sair da copa'}
         },
         'agil 1': {
+            "inimigos" : ["Ayres", "Elemental"],
             'título': 'Laboratório Ágil 1',
             'descrição': 'A porta requere senha para abrir',
             'opcoes': {'andar 1-4': 'desistir e continuar explorando'}
         },
         'agil 2': {
+            "inimigos" : ["Ayres", "Elemental"],
             'título': 'Laboratório Ágil 2',
             'descrição': 'A porta requere senha para abrir',
             'opcoes': {'andar 1-4': 'desistir e continuar explorando'}
         },
         'exp usab': {
+            "inimigos" : ["Ayres", "Elemental"],
             'título': 'Sala de Experiências de Usabilidade',
             'descrição': 'A porta requere senha para abrir',
             'opcoes': {'andar 1-4': 'desistir e continuar explorando'}
         },
         'arq comp': {
+            "inimigos" : ["Ayres", "Elemental"],
             'título': 'Laboratório de Arquitetura da Computação',
             'descrição': 'A porta requere senha para abrir',
             'opcoes': {'andar 1-4': 'desistir e continuar explorando'}
         },
         'supercomp': {
+            "inimigos" : ["Ayres", "Elemental"],
             'título': 'Laboratório de Redes e Supercomputação',
             'descrição': 'A porta requere senha para abrir',
             'opcoes': {'andar 1-4': 'desistir e continuar explorando'}
         },
         'videogame': {
+            "inimigos" : ["Ayres", "Elemental"],
             'título': 'Laboratório de Realidade Virtual e Jogos Digitais',
             'descrição': 'A porta requere senha para abrir',
             'opcoes': {'andar 1-4': 'desistir e continuar explorando'}
         },
         'FabLab': {
+            "inimigos" : ["Ayres", "Elemental"],
             'título': 'O laboratório',
             'descrição': 'Tem todas as máquinas do FabLab... o guru está mexendo no computador',
             'opcoes': {'andar 1-3': 'sair do FabLab',
                        'guru FabLab': 'Falar com o guru'}
         },
         'corredor aquarios 1-1': {
+            "inimigos" : ["Ayres", "Elemental"],
             'título': 'Bolhas de concentração',
             'descrição': 'Tem 9 aquários, alguns ocupados',
             'opcoes': {'aquario 1-1': 'Pegar um aquario livre',
                        'andar 1-1': 'voltar'}
         },
         'aquario 1-1': {
+            "inimigos" : ["Ayres", "Elemental"],
             'título': 'Aquário',
             'descrição': 'Uma sala aconchegante com uma boa vista e uma atmosfera de foco e concentração',
             'opcoes': {'corredor aquarios 1-1': 'sair do aquário'}
         },
         'corredor aquarios 1-2': {
+            "inimigos" : ["Ayres", "Elemental"],
             'título': 'Bolhas de concentração',
             'descrição': 'Tem 7 aquários, alguns ocupados',
             'opcoes': {'aquario 1-2': 'Pegar um aquario livre',
                        'andar 1-2': 'voltar'}
         },
         'aquario 1-2': {
+            "inimigos" : ["Ayres", "Elemental"],
             'título': 'Aquário',
             'descrição': 'Uma sala aconchegante com uma boa vista e uma atmosfera de foco e concentração',
             'opcoes': {'corredor aquarios 1-2': 'sair do aquário'}
         },
         'corredor aquarios 1-3': {
+            "inimigos" : ["Ayres", "Elemental"],
             'título': 'Bolhas de concentração',
             'descrição': 'Tem 3 aquários, alguns ocupados, e o HelpDesk',
             'opcoes': {'aquario 1-3': 'Pegar um aquario livre',
@@ -565,22 +646,26 @@
                        'andar 1-3': 'voltar'}
         },
         'aquario 1-3': {
+            "inimigos" : ["Ayres", "Elemental"],
             'título': 'Aquário',
             'descrição': 'Uma sala aconchegante com uma boa vista e uma atmosfera de foco e concentração',
             'opcoes': {'corredor aquarios 1-3': 'sair do aquário'}
         },
         'corredor aquarios 1-5': {
+            "inimigos" : ["Ayres", "Elemental"],
             'título': 'Bolhas de concentração',
             'descrição': 'Tem 7 aquários, alguns ocupados',
             'opcoes': {'aquario 1-5': 'Pegar um aquario livre',
                        'andar 1-5': 'voltar'}
         },
         'aquario 1-5': {
+            "inimigos" : ["Ayres", "Elemental"],
             'título': 'Aquário',
             'descrição': 'Uma sala aconchegante com uma boa vista e uma atmosfera de foco e concentração',
             'opcoes': {'corredor aquarios 1-5': 'sair do aquário'}
         },
         'andar 0-1': {
+            "inimigos" : ["Ayres", "Elemental"],
             'título': 'Primeiro andar do prédio antigo',
             'descrição': 'Corredor amplo',
             'opcoes': {'andar 0-2': 'Subir as escadas',
@@ -597,6 +682,7 @@
                        'estudo individual': 'Área de estudo individual'}
         },
         'andar 0-2': {
+            "inimigos" : ["Ayres", "Elemental"],
             'título': 'Segundo andar do prédio antigo',
             'descrição': 'Corredor amplo',
             'opcoes': {'andar 0-3': 'Subir as escadas',
@@ -625,6 +711,7 @@
                        'armarios 0-2': 'Armários'}
         },
         'andar 0-3': {
+            "inimigos" : ["Ayres", "Elemental"],
             'título': 'Terceiro andar do prédio antigo',
             'descrição': 'Corredor amplo',
             'opcoes': {'andar 0-4': 'Subir as escadas',
