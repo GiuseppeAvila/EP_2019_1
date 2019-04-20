@@ -15,5 +15,3 @@ def situacao():
     with open("NA HORA DO SUFOCO.txt", "r",encoding="utf8") as arquivo:
         conteudo = arquivo.read()
     print(conteudo)
-    
-print(carregar_cenarios())

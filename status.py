@@ -122,5 +122,3 @@ def escolha_background():
             print("O MAristocrata tem...")
         else:
             print("Escolha inválida")
-                
-cria_personagem_inicial()
