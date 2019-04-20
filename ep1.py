@@ -38,7 +38,8 @@ def main():
     # Situação inicial, e criação de personagem
     carregar_cenarios.situacao()
     cenario, nome_cenario_atual = carregar_cenarios.carregar_cenarios()
-    classe_jogador,background_jogador = status.cria_personagem_inicial()
+    classe_jogador = status.cria_personagem_inicial()[0]
+    background_jogador = status.cria_personagem_inicial()[1]
     
     # Funcionando o jogo
     game_over = False
