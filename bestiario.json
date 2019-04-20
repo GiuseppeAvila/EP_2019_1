@@ -5,6 +5,7 @@
      "P_ATK" : 20,
      "F_DEF" : 10,
      "P_DEF" : 15,
+     "AGI" : 9,
      "Habilidades" : []
      },
  "Veterano Selvagem" : 
@@ -14,6 +15,7 @@
      "P_ATK" : 5,
      "F_DEF" : 10,
      "P_DEF" : 3,
+     "AGI" : 9,
      "Habilidades" : []
      },
   "Alan-Tron 3000" :
@@ -23,6 +25,7 @@
      "P_ATK" : 200,
      "F_DEF" : 100,
      "P_DEF" : 150,
+     "AGI" : 9,
      "Habilidades" : []
      }
 }
