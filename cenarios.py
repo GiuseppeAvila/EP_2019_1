@@ -338,6 +338,201 @@
                        'copa': 'entrar na copa',
                        'varanda': 'ir para o lado externo',
                        'banheiro': 'Ir ao banheiro'}
+        },
+        'corredor direito 1-1': {
+            'título': 'Corredor da direita',
+            'descrição': 'É um corredor com duas salas e uma máquina de vendas',
+            'opcoes': {'sala 111': 'Sala 111',
+                       'sala 112': 'Sala 112',
+                       'maquina de vendas 1-1': 'comprar algo',
+                       'andar 1-1': 'voltar'}
+        },
+        'corredor direito 1-2': {
+            'título': 'Corredor da direita',
+            'descrição': 'É um corredor com duas salas e uma máquina de vendas',
+            'opcoes': {'sala 211': 'Sala 211',
+                       'sala 212': 'Sala 212',
+                       'maquina de vendas 1-2': 'comprar algo',
+                       'andar 1-2': 'voltar'}
+        },
+        'corredor direito 1-3': {
+            'título': 'Corredor da direita',
+            'descrição': 'É um corredor com duas salas e uma máquina de vendas',
+            'opcoes': {'sala 311': 'Sala 311',
+                       'sala 312': 'Sala 312',
+                       'maquina de vendas 1-3': 'comprar algo',
+                       'andar 1-3': 'voltar'}
+        },
+        'corredor direito 1-4': {
+            'título': 'Corredor da direita',
+            'descrição': 'É um corredor com três laboratórios',
+            'opcoes': {'arq comp': 'Laboratório de Arquitetura da Computação',
+                       'supercomp': 'Laboratório de Redes e Supercomputação',
+                       'videogame': 'Laboratório de Realidade Virtual e Jogos Virtuais',
+                       'andar 1-4': 'voltar'}
+        },
+        'corredor direito 1-5': {
+            'título': 'Corredor da direita',
+            'descrição': 'É um corredor com duas salas e uma máquina de vendas',
+            'opcoes': {'sala 511': 'Sala 511',
+                       'sala 512': 'Sala 512',
+                       'andar 1-5': 'voltar'}
+        },
+        'corredor esquerdo 1-1': {
+            'título': 'Corredor da esquerda',
+            'descrição': 'Tem duas salas de aula',
+            'opcoes': {'sala 113': 'Sala 113',
+                       'sala 114': 'Sala 114',
+                       'andar 1-1': 'voltar'}
+        },
+        'corredor esquerdo 1-2': {
+            'título': 'Corredor da esquerda',
+            'descrição': 'Tem duas salas de aula',
+            'opcoes': {'sala 213': 'Sala 213',
+                       'sala 214': 'Sala 214',
+                       'andar 1-2': 'voltar'}
+        },
+        'corredor esquerdo 1-3': {
+            'título': 'Corredor da esquerda',
+            'descrição': 'Tem o FabLab',
+            'opcoes': {'FabLab': 'Entrar no FabLab',
+                       'andar 1-3': 'voltar'}
+        },
+        'corredor esquerdo 1-4': {
+            'título': 'Corredor da esquerda',
+            'descrição': 'É um corredor com três laboratórios',
+            'opcoes': {'agil 1': 'Laboratório Ágil 1',
+                       'agil 2': 'Laboratório Ágil 2',
+                       'exp usab': 'Sala de Experiências de Usabilidade',
+                       'andar 1-4': 'voltar'}
+        },
+        'corredor esquerdo 1-5': {
+            'título': 'Corredor da esquerda',
+            'descrição': 'Tem duas salas de aula',
+            'opcoes': {'sala 513': 'Sala 513',
+                       'sala 514': 'Sala 514',
+                       'andar 1-5': 'voltar'}
+        },
+        'sala 111': {
+            'título': 'Sala 111',
+            'descrição': '9 mesas, 6 lousas e algumas canetas',
+            'opcoes': {'corredor direito 1-1': 'voltar'}
+        },
+        'sala 112': {
+            'título': 'Sala 112',
+            'descrição': '9 mesas, 6 lousas e algumas canetas',
+            'opcoes': {'corredor direito 1-1': 'voltar'}
+        },
+        'sala 211': {
+            'título': 'Sala 211',
+            'descrição': '9 mesas, 6 lousas e algumas canetas',
+            'opcoes': {'corredor direito 1-2': 'voltar'}
+        },
+        'sala 212': {
+            'título': 'Sala 212',
+            'descrição': '9 mesas, 6 lousas e algumas canetas',
+            'opcoes': {'corredor direito 1-2': 'voltar'}
+        },
+        'sala 311': {
+            'título': 'Sala 311',
+            'descrição': '9 mesas, 6 lousas e algumas canetas',
+            'opcoes': {'corredor direito 1-3': 'voltar'}
+        },
+        'sala 312': {
+            'título': 'Sala 312',
+            'descrição': '9 mesas, 6 lousas e algumas canetas',
+            'opcoes': {'corredor direito 1-3': 'voltar'}
+        },
+        'sala 411': {
+            'título': 'Sala 411',
+            'descrição': 'Sala enorme que tem a largura de um corredor de aquários',
+            'opcoes': {'andar 1-4': 'voltar'}
+        },
+        'sala 511': {
+            'título': 'Sala 511',
+            'descrição': '9 mesas, 6 lousas e algumas canetas',
+            'opcoes': {'corredor direito 1-5': 'voltar'}
+        },
+        'sala 512': {
+            'título': 'Sala 512',
+            'descrição': '9 mesas, 6 lousas e algumas canetas',
+            'opcoes': {'corredor direito': 'voltar'}
+        },
+        'sala 113': {
+            'título': 'Sala 113',
+            'descrição': '9 mesas, 6 lousas e algumas canetas',
+            'opcoes': {'corredor direito 1-1': 'voltar'}
+        },
+        'sala 114': {
+            'título': 'Sala 114',
+            'descrição': '9 mesas, 6 lousas e algumas canetas',
+            'opcoes': {'corredor direito 1-1': 'voltar'}
+        },
+        'sala 213': {
+            'título': 'Sala 213',
+            'descrição': '9 mesas, 6 lousas e algumas canetas',
+            'opcoes': {'corredor direito 1-1': 'voltar'}
+        },
+        'sala 214': {
+            'título': 'Sala 214',
+            'descrição': '9 mesas, 6 lousas e algumas canetas',
+            'opcoes': {'corredor direito 1-1': 'voltar'}
+        },
+        'sala 513': {
+            'título': 'Sala 113',
+            'descrição': '9 mesas, 6 lousas e algumas canetas',
+            'opcoes': {'corredor direito 1-1': 'voltar'}
+        },
+        'sala 514': {
+            'título': 'Sala 114',
+            'descrição': '9 mesas, 6 lousas e algumas canetas',
+            'opcoes': {'corredor direito 1-1': 'voltar'}
+        },
+        'varanda': {
+            'título': 'Mirante',
+            'descrição': 'Parte ao ar livre do sexto andar do prédio novo, é possível ver boa parte da Faria Lima e da Hélio Pellegrino',
+            'opcoes': {'andar 1-6': 'voltar'}
+        },
+        'copa': {
+            'título': 'Rango',
+            'descrição': 'Tem um microondas e uma geladeira',
+            'opcoes': {'andar 1-6': 'sair da copa'}
+        },
+        'agil 1': {
+            'título': 'Laboratório Ágil 1',
+            'descrição': 'A porta requere senha para abrir',
+            'opcoes': {'andar 1-4': 'desistir e continuar explorando'}
+        },
+        'agil 2': {
+            'título': 'Laboratório Ágil 2',
+            'descrição': 'A porta requere senha para abrir',
+            'opcoes': {'andar 1-4': 'desistir e continuar explorando'}
+        },
+        'exp usab': {
+            'título': 'Sala de Experiências de Usabilidade',
+            'descrição': 'A porta requere senha para abrir',
+            'opcoes': {'andar 1-4': 'desistir e continuar explorando'}
+        },
+        'arq comp': {
+            'título': 'Laboratório de Arquitetura da Computação',
+            'descrição': 'A porta requere senha para abrir',
+            'opcoes': {'andar 1-4': 'desistir e continuar explorando'}
+        },
+        'supercomp': {
+            'título': 'Laboratório de Redes e Supercomputação',
+            'descrição': 'A porta requere senha para abrir',
+            'opcoes': {'andar 1-4': 'desistir e continuar explorando'}
+        },
+        'videogame': {
+            'título': 'Laboratório de Realidade Virtual e Jogos Digitais',
+            'descrição': 'A porta requere senha para abrir',
+            'opcoes': {'andar 1-4': 'desistir e continuar explorando'}
+        },
+        'FabLab': {
+            'título': 'O laboratório',
+            'descrição': 'Tem todas as máquinas do FabLab... o guru está mexendo no computador',
+            'opcoes': {'andar 1-3': 'sair do FabLab',
+                       'guru FabLab': 'Falar com o guru'}
         }
     }
 
