@@ -72,7 +72,7 @@ def main():
             
             #chance_monstro = random.randint(0,4)
             # para testar batalha:
-            chance_monstro = 0
+            chance_monstro = 1
             
             if chance_monstro == 0:
                 em_batalha = True
