@@ -5,6 +5,10 @@
  - aluno A: Daniel Terra danielgt1@al.insper.edu.br
  - aluno B: Fernando Giuseppe, fernandogab@al.insper.edu.br
  - aluno C: Erick Finger, erickf1@al.insper.edu.br
+ 
+                 if escolha in cenario.keys():
+                    locais_visitados.append(escolha)
+                    
 
 '''
 
@@ -15,13 +19,23 @@ import cenarios
 
 def main():
     
+    cenarios_conhecidos = ["inicio"]
+    
     cenarios.situacao()
     status.cria_personagem_inicial()
     cenario, nome_cenario_atual = cenarios.carregar_cenarios()
+    
     game_over = False
     while not game_over:
+        
         cenario_atual = cenario[nome_cenario_atual]
+        
         cenarios.inicio(cenario_atual)
+        
+        if nome_cenario_atual not in cenarios_conhecidos:
+            cenarios_conhecidos.append(nome_cenario_atual)
+        
+        print(cenarios_conhecidos)
         print()
         print("=======================")
        
