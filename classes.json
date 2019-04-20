@@ -5,6 +5,7 @@
      "P_ATK" : 20,
      "F_DEF" : 10,
      "P_DEF" : 15,
+     "AGI" : 2,
      "Habilidades" : []
      },
  "Ladino" : 
@@ -14,6 +15,7 @@
      "P_ATK" : 20,
      "F_DEF" : 10,
      "P_DEF" : 15,
+     "AGI" : 24,
      "Habilidades" : []
      },
   "Lutador" :
@@ -23,6 +25,7 @@
      "P_ATK" : 20,
      "F_DEF" : 10,
      "P_DEF" : 15,
+     "AGI" : 10,
      "Habilidades" : []
      }
 }

@@ -23,6 +23,7 @@
                        "banheiro": "Ir ao banheiro"}
         },
         "professor": {
+                "inimigos" : ["Ayres", "Elemental"]
             "título": "O monstro do Python",
             "descrição": "Voce foi pedir para o professor adiar o EP. O professor revelou que é um monstro disfarçado e devorou sua alma.",
             "opcoes": {}

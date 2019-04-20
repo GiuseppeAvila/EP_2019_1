@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-#import json
+import json
 
 def cria_personagem_inicial():
     with open("Dialogo inicial narrador.txt","r",encoding = "utf8") as dialogo:
@@ -16,8 +16,7 @@ def cria_personagem_inicial():
     print("...e eu faço isso ser verdade, eu sou incrível não é mesmo?")
     print()
     
-    '''
-    IMPLEMENTANDO SISTEMA DE CRIAÇÃO DE PERSONAGEM:
+   # IMPLEMENTANDO SISTEMA DE CRIAÇÃO DE PERSONAGEM:
     
     with open("classes.json") as classes:
         classes_disponiveis = json.load(classes)
@@ -29,16 +28,27 @@ def cria_personagem_inicial():
     # a são as classes na forma de str
     # b são as classes na forma de lista
     
-    #b = a.split(",")
+    b = a.split(",")
     #print(b)
     
     print("As classes são...{}".format(a))
     print("Deseja saber mais sobre alguma delas ou quer já escolher?")
     print()
-    print("escolher")
-    print("saber")
-    escolha1 = input("Eu gostaria de...")
-        
+    print("Quero ser um [M]ago")
+    print("Quero ser um [L]adino")
+    print("Quero ser um L[u]tador")
+    print("Quero [s]aber mais...")
+    escolha1 = input()
+    opcoes = ["M", "L", "U"]
+    if escolha1.upper() in opcoes:
+        print()
+        print("{0} - Essa é a sua escolha? [S]im / [N]ão".format(b[opcoes.index(escolha1.upper())]))
+        confirmacao = input()
+        if confirmacao.upper() == "S":
+            classe_jogador = b[opcoes.index(escolha1.upper())]
+            print()
+            print("Sua classe é {0}".format(classe_jogador))
+        elif confirmacao.upper() == "N":
     
     with open("backgrounds.json") as backgrounds:
         backgrounds_disponiveis = json.load(backgrounds)
@@ -54,8 +64,7 @@ def cria_personagem_inicial():
     #print(b)
     
     print("Os backgrounds são...{}".format(c))
-    
-    '''
+
     
     print()
     print("Tudo pronto para começarmos...")
@@ -65,4 +74,4 @@ def cria_personagem_inicial():
     print("=======================")
     print()    
     
-#cria_personagem_inicial()
+cria_personagem_inicial()
