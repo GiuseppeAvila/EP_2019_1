@@ -24,9 +24,7 @@
         },
         "professor": {
             "título": "O monstro do Python",
-            "descrição": "Voce foi pedir para o professor adiar o EP. "
-                         "O professor revelou que é um monstro disfarçado "
-                         "e devorou sua alma.",
+            "descrição": "Voce foi pedir para o professor adiar o EP. O professor revelou que é um monstro disfarçado e devorou sua alma.",
             "opcoes": {}
         },
         "biblioteca": {
@@ -274,6 +272,72 @@
             'título': 'Área de estudo',
             'descrição': 'Ao seu redor, os alunos estão estudando, compenetrados',
             'opcoes': {'andar 1-0': 'Levantar e continuar'}
+        },
+        'andar 1-1': {
+            'título': 'Primeiro andar do prédio novo',
+            'descrição': 'Tem um corredor à direita, outro à esquerda e um de aquários',
+            'opcoes': {'elevador': 'escolher o andar',
+                       'andar 1-2': 'subir as escadas',
+                       'andar 1-0': 'descer as escadas',
+                       'corredor esquerdo 1-1': 'Ir para a esquerda',
+                       'corredor direito 1-1': 'Ir para a direita',
+                       'corredor aquarios 1-1': 'Aquários',
+                       'banheiro': 'Ir ao banheiro'}
+        },
+        'andar 1-2': {
+            'título': 'Segundo andar do prédio novo',
+            'descrição': 'Tem um tobogã, um corredor à direita, outro à esquerda e um de aquários',
+            'opcoes': {'elevador': 'escolher o andar',
+                       'andar 1-3': 'subir as escadas',
+                       'andar 1-1': 'descer as escadas',
+                       'andar 1-0': 'descer o tobogã',
+                       'corredor esquerdo 1-2': 'Ir para a esquerda',
+                       'corredor direito 1-2': 'Ir para a direita',
+                       'corredor aquarios 1-2': 'Aquários',
+                       'banheiro': 'Ir ao banheiro'}
+        },
+        'andar 1-3': {
+            'título': 'Terceiro andar do prédio novo',
+            'descrição': 'Tem um corredor à direita, outro à esquerda e um de aquários',
+            'opcoes': {'elevador': 'escolher o andar',
+                       'andar 1-4': 'subir as escadas',
+                       'andar 1-2': 'descer as escadas',
+                       'corredor esquerdo 1-3': 'Ir para a esquerda',
+                       'corredor direito 1-3': 'Ir para a direita',
+                       'corredor aquarios 1-3': 'Aquários',
+                       'banheiro': 'Ir ao banheiro'}
+        },
+        'andar 1-4': {
+            'título': 'Quarto andar do prédio novo',
+            'descrição': 'Tem um corredor à direita, outro à esquerda e uma sala',
+            'opcoes': {'elevador': 'escolher o andar',
+                       'andar 1-5': 'subir as escadas',
+                       'andar 1-3': 'descer as escadas',
+                       'corredor esquerdo 1-4': 'Ir para a esquerda',
+                       'corredor direito 1-4': 'Ir para a direita',
+                       'sala 411': 'Entrar na sala',
+                       'máquinas de vendas 1-4': 'comprar alguma coisa',
+                       'banheiro': 'Ir ao banheiro'}
+        },
+        'andar 1-5': {
+            'título': 'Quinto andar do prédio novo',
+            'descrição': 'Tem um corredor à direita, outro à esquerda e um de aquários',
+            'opcoes': {'elevador': 'escolher o andar',
+                       'andar 1-6': 'subir as escadas',
+                       'andar 1-0': 'descer as escadas',
+                       'corredor esquerdo 1-5': 'Ir para a esquerda',
+                       'corredor direito 1-5': 'Ir para a direita',
+                       'corredor aquarios 1-5': 'Aquários',
+                       'banheiro': 'Ir ao banheiro'}
+        },
+        'andar 1-6': {
+            'título': 'Sexto andar do prédio novo',
+            'descrição': 'Tem mesas, cubículos, uma varanda, a copa e alguns alunos conversando nos sofás',
+            'opcoes': {'elevador': 'escolher andar',
+                       'andar 1-5': 'descer as escadas',
+                       'copa': 'entrar na copa',
+                       'varanda': 'ir para o lado externo',
+                       'banheiro': 'Ir ao banheiro'}
         }
     }
 
