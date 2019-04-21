@@ -1,16 +1,26 @@
 {"Aristocrata" :
-    {"LUCK" : 10,
-     "Inventario": {"Dinheiro" : 30, "Chaveiro_DA": 1},
-     "Habilidades" : [4,5,6]
+    {"LUCK" : 18,
+     "Inventario": {"Dinheiro" : 100, "Chaveiro do DA": 1},
+     "Habilidades" : ["Ego Superinflado"]
      },
  "Esportista" : 
     {"LUCK" : 10,
-     "Inventario": {"Dinheiro" : 10, "Camiseta_atletica": 1},
-     "Habilidades" : []
+     "Inventario": {"Dinheiro" : 40, "Camiseta da Atlética": 1},
+     "Habilidades" : ["Buff Body"]
      },
   "Gamer" :
     {"LUCK" : 0,
-     "Inventario": {"Dinheiro" : 0, "Camiseta_Mad_Fox": 1},
-     "Habilidades" : []
+     "Inventario": {"Dinheiro" : 0, "Camiseta da Mad Fox": 1},
+     "Habilidades" : ["Nerdice"]
+     },
+  "Dependente" :
+    {"LUCK" : 5,
+     "Inventario": {"Dinheiro" : 30, "Sensação de Culpa": 1},
+     "Habilidades" : ["Rede de Contatos"]
+     },
+  "Gringo" :
+    {"LUCK" : 13,
+     "Inventario": {"Dinheiro" : 70, "Boné MAGA": 1},
+     "Habilidades" : ["Sotaque Estrangeiro"]
      }
 }

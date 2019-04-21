@@ -5,8 +5,8 @@
      "P_ATK" : 20,
      "F_DEF" : 10,
      "P_DEF" : 15,
-     "AGI" : 2,
-     "Habilidades" : [3,2,1]
+     "AGI" : 5,
+     "Habilidades" : ["Proeza Psíquica"]
      },
  "Ladino" : 
     {"HP_Max" : 10,
@@ -16,7 +16,7 @@
      "F_DEF" : 10,
      "P_DEF" : 15,
      "AGI" : 24,
-     "Habilidades" : []
+     "Habilidades" : ["Esquiva"]
      },
   "Lutador" :
      {"HP_Max" : 10,
@@ -26,6 +26,16 @@
      "F_DEF" : 10,
      "P_DEF" : 15,
      "AGI" : 10,
-     "Habilidades" : []
+     "Habilidades" : ["Proeza Física"]
+     },
+  "Druída" :
+     {"HP_Max" : 10,
+     "PP_Max" : 30,
+     "F_ATK" : 10,
+     "P_ATK" : 20,
+     "F_DEF" : 10,
+     "P_DEF" : 15,
+     "AGI" : 10,
+     "Habilidades" : ["Defesa Natural"]
      }
 }
