@@ -875,7 +875,7 @@
 			"sala mario haberfeld": "Sala Mario Haberfeld",
 			"sala 201": "Sala 201",
 			"sala 202": "Sala 202",
-			"maquina de vendas 0-1": "Máquina de vendas",
+			"maquina de vendas 0-2": "Máquina de vendas",
 			"balcao de impressao": "Balcão de Impressão",
 			"estudo grupal 0-2-1": "Sala de Estudo em grupo 01",
 			"armarios 0-2": "Armários"
@@ -1240,5 +1240,61 @@
         "opcoes": {
             "andar 0-4": "voltar"
         }
+    },
+    "estudo individual": {
+        "título": "Área de estudo individual",
+        "descrição": "Espaço amplo com diversos cubículos de estudo, quase todos ocupados por alunos compenetrados",
+        "opcoes": {
+            "andar 0-1": "voltar"
+        }
+    },
+    "estudo grupal 0-2-1": {
+        "título": "Sala de estudo em grupo 01",
+        "descrição": "Sala de reuniões",
+        "opcoes": {
+            "andar 0-2": "voltar"
+        }
+    },
+    "estudo grupal 0-3-1": {
+        "título": "Sala de estudo em grupo 01",
+        "descrição": "Sala de reuniões",
+        "opcoes": {
+            "andar 0-3": "voltar"
+        }
+    },
+    "estudo grupal 0-3-2": {
+        "título": "Sala de estudo em grupo 02",
+        "descrição": "Sala de reuniões",
+        "opcoes": {
+            "andar 0-3": "voltar"
+        }
+    },
+    "maquina de vendas 0-1": {
+        "título": "Máquina de Vendas",
+        "descrição": "É uma máquina com itens úteis",
+        "opcoes": {
+            "comprar": "Comprar alguma coisa",
+            "andar 0-1": "voltar"}
+    },
+    "maquina de vendas 0-2": {
+        "título": "Máquina de Vendas",
+        "descrição": "É uma máquina com itens úteis",
+        "opcoes": {
+            "comprar": "Comprar alguma coisa",
+            "andar 0-2": "voltar"}
+    },
+    "maquina de vendas 0-3": {
+        "título": "Máquina de Vendas",
+        "descrição": "É uma máquina com itens úteis",
+        "opcoes": {
+            "comprar": "Comprar alguma coisa",
+            "andar 0-3": "voltar"}
+    },
+    "maquina de vendas 0-4": {
+        "título": "Máquina de Vendas",
+        "descrição": "É uma máquina com itens úteis",
+        "opcoes": {
+            "comprar": "Comprar alguma coisa",
+            "andar 0-4": "voltar"}
     }
 }
