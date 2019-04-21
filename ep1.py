@@ -220,6 +220,7 @@ def main():
                                     print(f,"=",g)
                                 escolhendo_item = True
                                 while escolhendo_item:
+                                    print()
                                     print("Dê o Nome do Item que deseja usar:")
                                     item_escolhido = input()
                                     if item_escolhido in personagem["Inventario"]:
@@ -228,7 +229,11 @@ def main():
                                         menu_atk = False
                                     else:
                                         print("Você não possui esse item")
-                                
+                                        print()
+                                        print("Itens em seu inventario, escolha um deles!")
+                                        for f,g in personagem["Inventario"].items():
+                                            print()
+                                            print(f,"=",g)
                                 
                             elif acao == "G":
                                 print("Essa ação ainda não foi implementada - volte a escolher")
