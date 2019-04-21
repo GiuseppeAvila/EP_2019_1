@@ -11,7 +11,7 @@
      "Habilidades" : ["Choque"],
      "Prêmios" : {"Poção de Cura" : 1, "Dinheiro" : 10}
      },
-"Ayres" :
+ "Ayres" :
     {"Descrição" : "",
     "Tipo" : ["Ayres"],
      "HP_Max" : 30,
@@ -37,7 +37,7 @@
      "Habilidades" : [],
      "Prêmios" : {"Poção de Cura" : 1, "Dinheiro" : 10}
      },
-  "Alan-Tron 3000" :
+ "Alan-Tron 3000" :
       {"Descrição" : "",
       "Tipo" : ["Ciborgue", "Boss"],
       "HP_Max" : 1000,
