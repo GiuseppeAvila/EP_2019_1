@@ -113,6 +113,13 @@ def main():
                                 monstro_atual["HP_atual"] -= dano_recebido
                                 if monstro_atual["HP_atual"] < 0:
                                     monstro_atual["HP_atual"] = 0
+                                    print("Monstrengo eliminado!")
+                                    
+                                    #premios = monstro_atual["Premios"]
+                                    print("Você encontrou em sua carcaça.. {}".format("premios"))
+                                    
+                                    print()
+                                    monstro_vivo = False
                                 
                                 print("Você deu incríveis {} de dano!".format(dano_recebido))
                                 print("A vida do monstro atualmente é: {}".format(monstro_atual["HP_atual"]))
@@ -152,6 +159,7 @@ def main():
                 else:
                     print("Não seja covarde!")
                     escolha_bat = input("[L]utar / [F]ugir ")
+                
                 
             #  Se escolher um local e não estiver em batalha
             else:
