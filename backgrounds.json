@@ -1,16 +1,16 @@
 {"Aristocrata" :
     {"LUCK" : 10,
-     "Dinheiro" : 30,
+     "Inventario": {"Dinheiro" : 30, "Chaveiro_DA": 1},
      "Habilidades" : [4,5,6]
      },
  "Esportista" : 
     {"LUCK" : 10,
-     "Dinheiro" : 10,
+     "Inventario": {"Dinheiro" : 10, "Camiseta_atletica": 1},
      "Habilidades" : []
      },
   "Gamer" :
     {"LUCK" : 0,
-     "Dinheiro" : 0,
+     "Inventario": {"Dinheiro" : 0, "Camiseta_Mad_Fox": 1},
      "Habilidades" : []
      }
 }

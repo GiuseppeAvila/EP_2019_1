@@ -135,6 +135,7 @@ def personagem_protagonista():
                               "LUCK": 0,
                               "Habilidades" : []
                               },
+                  "Inventario": {"Dinheiro" : 0},
                   "Equipamento" : []
                   }
     classe_jogador, background_jogador,nome = cria_personagem_inicial()
@@ -168,12 +169,21 @@ def personagem_protagonista():
         backgrounds_disponiveis = json.load(backgrounds)
     
     atributos2 = backgrounds_disponiveis[background_jogador]
+    
     personagem["Background"] = background_jogador
     
     atualiza_status["LUCK"] += atributos2["LUCK"]
     
-    lista_habilidades_background = atributos2["Habilidades"]
+    dicionario_inventario_background = atributos2["Inventario"]
+    for chave,valor in dicionario_inventario_background.items():
+        
+        if chave in personagem["Inventario"]:
+            personagem["Inventario"][chave] += valor
+        
+        elif chave not in personagem["Inventario"]:
+            personagem["Inventario"][chave] = valor
     
+    lista_habilidades_background = atributos2["Habilidades"]
     for i in range(len(lista_habilidades_background)):
         atualiza_status["Habilidades"].append(lista_habilidades_background[i])
     
