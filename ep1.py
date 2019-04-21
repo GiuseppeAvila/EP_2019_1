@@ -11,7 +11,7 @@
 import status
 import carregar_cenarios
 import random
-#import combate
+import combate
 #import supreme_weapons as sw
 
 def main():
@@ -114,24 +114,7 @@ def main():
                 
                 #  Fuga da personagem quando em batalha
                 elif escolha_bat == "F":
-                    
-                    #em_batalha = combate.fugir(personagem)
-                    print("Só corre!")
-                    AGI = personagem["Status"]["AGI"]
-                    numero = random.randint(0, 100)
-                    if numero >= (20 - AGI):
-                        print("Toma essa monstrengo! Você escapou!")
-                        print()
-                        em_batalha = False
-                        print("=======================")
-                        for i,j in opcoes.items():
-                            print()
-                            print(i,"=",j)
-                    
-                    else:
-                        print("Puts ele previu seus movimentos! Não foi dessa vez!")
-                        print()
-                        em_batalha = True
+                    em_batalha = combate.fugir(personagem, opcoes)
                         
                 else:
                     print("Não seja covarde!")
