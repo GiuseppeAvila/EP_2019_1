@@ -1407,5 +1407,75 @@
         "opcoes": {
             "andar 0-4": "voltar"
         }
+    },
+    "CEMP": {
+        "inimigos": ["Ayres", "Elemental"],
+        "título": "Centro de Empreendedorismo do prédio antigo",
+        "descrição": "É uma sala pequena e trancada",
+        "opcoes": {
+            "andar 0-4": "voltar"
+        }
+    },
+    "restaurante": {
+        "inimigos": ["Ayres", "Elemental"],
+        "título": "Restaurante do prédio antigo",
+        "descrição": "É um lugar agradável e aconchegante... o cheiro de comida é praticamente irresistível",
+        "opcoes": {
+            "andar 0-5": "voltar",
+            "comer no restaurante": "Comer alguma coisa"
+        }
+    },
+    "entidades": {
+        "inimigos": ["Ayres", "Elemental"],
+        "título": "Área das entidades",
+        "descrição": "É um lugar agradável e aconchegante... os veternaos dormem nos sofás",
+        "opcoes": {
+            "andar 0-5": "voltar",
+            "veterano entidades": "Conversar com um veterano"
+        }
+    },
+    "multi insper": {
+        "inimigos": ["Ayres", "Elemental"],
+        "título": "Quartel-General da Sanidade",
+        "descrição": "É um espaço incrível feito para auxiliar alunos no que eles precisarem",
+        "opcoes": {
+            "andar 0-5": "voltar"
+        }
+    },
+    "quadra": {
+        "inimigos": ["Ayres", "Elemental"],
+        "título": "Quadra Esportiva",
+        "descrição": "É uma quadra comum ao ar livre... a vista é ótima",
+        "opcoes": {
+            "andar 0-5": "voltar",
+            "se exercitar": "Fazer exercícios"
+        }
+    },
+    "area de lazer 0-3": {
+        "inimigos": ["Ayres", "Elemental"],
+        "título": "Abrigo confortável",
+        "descrição": "Um espaço seguro com poltronas",
+        "opcoes": {
+            "andar 0-3": "voltar",
+            "descansar 0-3": "Descansar"
+        }
+    },
+    "area de lazer 0-4": {
+        "inimigos": ["Ayres", "Elemental"],
+        "título": "Abrigo confortável",
+        "descrição": "Um espaço seguro com poltronas",
+        "opcoes": {
+            "andar 0-4": "voltar",
+            "descansar 0-4": "Descansar"
+        }
+    },
+    "area de lazer 0-5": {
+        "inimigos": ["Ayres", "Elemental"],
+        "título": "Abrigo confortável",
+        "descrição": "Um espaço seguro com poltronas",
+        "opcoes": {
+            "andar 0-5": "voltar",
+            "descansar 0-5": "Descansar"
+        }
     }
 }
