@@ -116,6 +116,15 @@ def main():
                                     print("Monstrengo eliminado!")
                                     
                                     premios = monstro_atual["Premios"]
+                                    
+                                    for chave,valor in premios.items():
+        
+                                        if chave in personagem["Inventario"]:
+                                            personagem["Inventario"][chave] += valor
+        
+                                        elif chave not in personagem["Inventario"]:
+                                            personagem["Inventario"][chave] = valor
+                                            
                                     print("Você encontrou em sua carcaça.. {}".format(premios))
                                     
                                     print()
@@ -123,6 +132,12 @@ def main():
                                 
                                 print("Você deu incríveis {} de dano!".format(dano_recebido))
                                 print("A vida do monstro atualmente é: {}".format(monstro_atual["HP_atual"]))
+                                
+                                print()
+                                print("=======================")
+                                for i,j in opcoes.items():
+                                    print()
+                                    print(i,"=",j)
                     
                                 menu_atk = False
                             
