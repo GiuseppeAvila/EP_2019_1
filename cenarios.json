@@ -955,5 +955,11 @@
                        "area de lazer 0-5": "Área de lazer",
                        "quadra": "Quadra externa"
         }
+    },
+    "sala amador aguiar": {
+            "título": "Sala Amador Aguiar",
+            "descrição": "É uma sala de aula grande e espaçosa",
+            "opcoes": {"andar 0-1": "voltar"
+        }
     }
 }
