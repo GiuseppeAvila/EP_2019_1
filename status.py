@@ -123,6 +123,7 @@ def personagem_protagonista():
     personagem = {"Nome": "",
                   "Classe" : "",
                   "Background" : "",
+                  "Equipamento" : [],
                   "Status" : {"HP_Max" : 0,
                               "HP_Atual" : 0,
                               "PP_Max" : 0,
@@ -135,8 +136,9 @@ def personagem_protagonista():
                               "LUCK": 0,
                               "Habilidades" : []
                               },
-                  "Inventario": {"Dinheiro" : 0},
-                  "Equipamento" : []
+                  "Inventário" : {"Poção de Vida" : 0,
+                                  "Item de Teletransporte" : 0,
+                                  "Dinheiro" : 0}
                   }
     classe_jogador, background_jogador,nome = cria_personagem_inicial()
     personagem["Nome"] = nome
