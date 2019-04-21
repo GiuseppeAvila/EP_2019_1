@@ -187,6 +187,8 @@ def personagem_protagonista():
     print("Opa, parece que chegamos!....")
     print()
     print("=======================")
-    print()    
+    print()  
+    
+    return personagem
     
 #personagem_protagonista()

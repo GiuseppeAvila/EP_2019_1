@@ -16,19 +16,18 @@ import random
 
 def main():
     
+    #  Situação inicial, e criação de personagem
     cenarios_conhecidos = ["inicio"]
-    
-    # Situação inicial, e criação de personagem
     carregar_cenarios.situacao()
     cenario, nome_cenario_atual = carregar_cenarios.carregar_cenarios()
-    status.personagem_protagonista()
+    personagem = status.personagem_protagonista()
     
-    # Funcionando o jogo
+    #  Funcionando o jogo
     game_over = False
     while not game_over:
         
+        #  Carrega o dicionario do cenario atual
         cenario_atual = cenario[nome_cenario_atual]
-        
         carregar_cenarios.inicio(cenario_atual)
         
         #  Cenários conhecidos para o teleporte
@@ -44,17 +43,17 @@ def main():
             print()
             print(i,"=",j)
             
-        # Morte da personagem por falta de opções
+        #  Morte da personagem por falta de opções
         if len(opcoes) == 0:
             print("Acabaram-se suas opções! Mwo mwo mwooooo...")
             game_over = True
         
-        # Possui opções, faz uma escolha
+        #  Possui opções, faz uma escolha
         else:
             escolha = ""
             
             #chance_monstro = random.randint(0,4)
-            # para testar batalha:
+            #  Para testar batalha:
             chance_monstro = 1
             
             if chance_monstro == 0:
@@ -62,7 +61,7 @@ def main():
             else:
                 em_batalha = False
             
-            # Se entrar em batalha
+            #  Se entrar em batalha
             if em_batalha:
                 
                 lista_monstro_atual = cenario_atual["inimigos"]
@@ -84,20 +83,20 @@ def main():
                     print("Não seja covarde!")
                     escolha = input("[L]utar / [F]ugir ")
                 
-            # Se escolher um local e não estiver em batalha
+            #  Se escolher um local e não estiver em batalha
             else:
                 print()
                 print("====================")
                 escolha = input("O que deseja fazer? ")
             
-            #Se a escolha estiver dentre as disponíveis e for um local == ir para lá
+            #  Se a escolha estiver dentre as disponíveis e for um local == ir para lá
             if escolha in opcoes:
                 nome_cenario_atual = escolha
                 
                 print()
                 print("====================")
             
-            #Se a escolha não estiver dentre as disponíveis == perguntar novamente
+            #  Se a escolha não estiver dentre as disponíveis == perguntar novamente
             else:
                 print("<suspiro> Eu preciso te explicar tudo? O que você escolheu não é uma opção válida, atenha-se às opções apresentadas! Ou o quê, você acha que consegue atravessar paredes?")
                 print()
@@ -106,6 +105,6 @@ def main():
 
     print("Você morreu!")
 
-# Programa principal.
+#  Programa principal.
 if __name__ == "__main__":
     main()
