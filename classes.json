@@ -6,7 +6,7 @@
      "F_DEF" : 10,
      "P_DEF" : 15,
      "AGI" : 2,
-     "Habilidades" : []
+     "Habilidades" : [3,2,1]
      },
  "Ladino" : 
     {"HP_Max" : 10,

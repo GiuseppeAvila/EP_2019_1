@@ -11,9 +11,10 @@
 import status
 import carregar_cenarios
 import random
+import json
+from pprint import pprint
 #import combate
 #import supreme_weapons as sw
-
 
 def main():
     
@@ -29,6 +30,7 @@ def main():
                               "F_DEF" : 0,
                               "P_DEF" : 0,
                               "AGI" : 0,
+                              "LUCK": 0,
                               "Habilidades" : []
                               },
                   "Equipamento" : []
@@ -39,10 +41,51 @@ def main():
     # Situação inicial, e criação de personagem
     carregar_cenarios.situacao()
     cenario, nome_cenario_atual = carregar_cenarios.carregar_cenarios()
-    classe_jogador, background_jogador = status.cria_personagem_inicial()
-    print(classe_jogador)
-    print(background_jogador)
+    classe_jogador, background_jogador,nome = status.cria_personagem_inicial()
+    personagem["Nome"] = nome
     
+    # Adicionando atributos de classe:
+    with open("classes.json") as classes:
+        classe_disponiveis = json.load(classes)
+    
+    atributos1 = classe_disponiveis[classe_jogador]
+    personagem["Classe"] = classe_jogador
+    atualiza_status = personagem["Status"]
+    
+    atualiza_status["HP_Max"] += atributos1["HP_Max"]
+    atualiza_status["HP_Atual"] += atributos1["HP_Max"]
+    atualiza_status["PP_Max"] += atributos1["PP_Max"]
+    atualiza_status["PP_Atual"] += atributos1["PP_Max"]
+    atualiza_status["F_ATK"] += atributos1["F_ATK"]
+    atualiza_status["P_ATK"] += atributos1["P_ATK"]
+    atualiza_status["F_DEF"] += atributos1["F_DEF"]
+    atualiza_status["P_DEF"] += atributos1["P_DEF"]
+    atualiza_status["AGI"] += atributos1["AGI"]
+    
+    lista_habilidades_classe = atributos1["Habilidades"]
+    
+    for i in range(len(lista_habilidades_classe)):
+        atualiza_status["Habilidades"].append(lista_habilidades_classe[i])
+    
+    # Adicionando atributos de background:
+    with open("backgrounds.json") as backgrounds:
+        backgrounds_disponiveis = json.load(backgrounds)
+    
+    atributos2 = backgrounds_disponiveis[background_jogador]
+    personagem["Background"] = background_jogador
+    
+    atualiza_status["LUCK"] += atributos2["LUCK"]
+    
+    lista_habilidades_background = atributos2["Habilidades"]
+    
+    for i in range(len(lista_habilidades_background)):
+        atualiza_status["Habilidades"].append(lista_habilidades_background[i])
+    
+    #Personagem inicial status:
+    pprint(personagem)
+    print()
+    print("=======================")
+    print()
     
     # Funcionando o jogo
     game_over = False

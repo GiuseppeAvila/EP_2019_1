@@ -27,7 +27,7 @@ def cria_personagem_inicial():
     print("=======================")
     print()    
     
-    return classe_jogador,background_jogador
+    return classe_jogador,background_jogador,nome
 
 def escolha_classe():
     with open("classes.json") as classes:
@@ -126,4 +126,4 @@ def escolha_background():
         else:
             print("Escolha inválida")
             
-cria_personagem_inicial()
+#cria_personagem_inicial()
