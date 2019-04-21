@@ -184,10 +184,12 @@ def main():
             
                 #  Se a escolha estiver dentre as disponíveis e for um local == ir para lá
                 if escolha in opcoes:
-                    nome_cenario_atual = escolha
-                
-                    print()
-                    print("====================")
+                    if escolha == "comprar algo":
+                        carregar_cenarios.compra(personagem)
+                    else:
+                        nome_cenario_atual = escolha
+                        print()
+                        print("====================")
             
                 #  Se a escolha não estiver dentre as disponíveis == perguntar novamente
                 else:

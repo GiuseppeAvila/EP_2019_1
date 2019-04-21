@@ -6,7 +6,8 @@
 		"opcoes": {
 			"rua em frente ao Insper": "Sair do saguão",
 			"andar 0-S1": "Ir ao subsolo 1",
-			"andar 0-0": "Entrar no Insper"
+			"andar 0-0": "Entrar no Insper",
+			"comprar algo" : "Tem uma maquina de snacks ali.."			
 		}
 	},
 	"predio velho": {
