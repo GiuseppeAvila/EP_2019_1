@@ -126,18 +126,19 @@ def main():
                                             personagem["Inventario"][chave] = valor
                                             
                                     print("Você encontrou em sua carcaça.. {}".format(premios))
-                                    
                                     print()
                                     monstro_vivo = False
                                 
                                 print("Você deu incríveis {} de dano!".format(dano_recebido))
-                                print("A vida do monstro atualmente é: {}".format(monstro_atual["HP_atual"]))
+                                if monstro_atual["HP_atual"] > 0:
+                                    print("A vida do monstro atualmente é: {}".format(monstro_atual["HP_atual"]))
                                 
-                                print()
-                                print("=======================")
-                                for i,j in opcoes.items():
+                                if not monstro_vivo:
                                     print()
-                                    print(i,"=",j)
+                                    print("=======================")
+                                    for i,j in opcoes.items():
+                                        print()
+                                        print(i,"=",j)
                     
                                 menu_atk = False
                             
@@ -153,9 +154,60 @@ def main():
                                 menu_atk = True
                                 
                             elif acao == "P":
-                                P_ATK = personagem["Status"]["P_ATK"]
-                                print(P_ATK)
-                                menu_atk = False
+                                
+                                if personagem["Status"]["PP_Atual"] >= 5:
+                                    
+                                    P_ATK_personagem = personagem["Status"]["P_ATK"]
+                                    P_DEF_monstro = monstro_atual["P_DEF"]
+                                    dano_recebido = P_ATK_personagem - P_DEF_monstro*0.3
+                                    if dano_recebido < 0:
+                                        dano_recebido = 0
+                                    personagem["Status"]["PP_Atual"] -= 5
+                                    if personagem["Status"]["PP_Atual"] < 0:
+                                        personagem["Status"]["PP_Atual"] = 0
+                                    monstro_atual["HP_atual"] -= dano_recebido
+                                    if monstro_atual["HP_atual"] < 0:
+                                        monstro_atual["HP_atual"] = 0
+                                        print("Monstrengo eliminado!")
+                                    
+                                        premios = monstro_atual["Premios"]
+                                    
+                                        for chave,valor in premios.items():
+        
+                                            if chave in personagem["Inventario"]:
+                                                personagem["Inventario"][chave] += valor
+        
+                                            elif chave not in personagem["Inventario"]:
+                                                personagem["Inventario"][chave] = valor
+                                            
+                                        print("Você encontrou em sua carcaça.. {}".format(premios))
+                                        print()
+                                        monstro_vivo = False
+                                
+                                    print("Você deu incríveis {} de dano!".format(dano_recebido))
+                                    if monstro_atual["HP_atual"] > 0:
+                                        print("A vida do monstro atualmente é: {}".format(monstro_atual["HP_atual"]))
+                                
+                                    if not monstro_vivo:
+                                        print()
+                                        print("=======================")
+                                        for i,j in opcoes.items():
+                                            print()
+                                            print(i,"=",j)
+                    
+                                    menu_atk = False
+                                
+                                else:
+                                    print("Seu PP está baixo, precisa-se de 5PP para realizar um PP ATK!")
+                                    print()
+                                    print("Take your time:")
+                                    print("[A]tacar / [P]sy / [D]efender / [I]tem / [G]un / [S]tatus")
+                    
+                                    acao = input()
+                                    acao = acao.upper()
+                                    print()
+                                    menu_atk = True
+
                             #elif acao == "D":
                                 #f_guard = personagem["Status"]["F_DEF"] + 0.5*personagem["Status"]["F_DEF"]
                                 #p_guard = personagem["Status"]["P_DEF"] + 0.5*personagem["Status"]["P_DEF"]

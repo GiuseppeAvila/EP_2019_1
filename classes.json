@@ -10,7 +10,7 @@
      },
  "Ladino" : 
     {"HP_Max" : 10,
-     "PP_Max" : 30,
+     "PP_Max" : 1,
      "F_ATK" : 10,
      "P_ATK" : 20,
      "F_DEF" : 10,
