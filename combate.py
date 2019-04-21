@@ -30,7 +30,7 @@ def fugir(personagem, opcoes):
     return monstro_vivo
 
 def monstro_cenario(monstro):
-    with open("bestiario.json") as bestiario:
+    with open("bestiario.json", encoding="utf8") as bestiario:
         bestas = json.load(bestiario)
             
         monstro_atual = {monstro :
@@ -51,7 +51,8 @@ def monstro_cenario(monstro):
                  
                  "AGI" : 0,
                  
-                 "Habilidades" : []
+                 "Habilidades" : [],
+                 "Premios" : {}
                  }
                 }
             
@@ -76,6 +77,15 @@ def monstro_cenario(monstro):
         lista_hab_monstro = bestas[monstro]["Habilidades"]
         for m in range(len(lista_hab_monstro)):
             monstro_atual[monstro]["Habilidades"].append(lista_hab_monstro[m])
+            
+        dicionario_premios_monstro = bestas[monstro]["Premios"]
+        for chave,valor in dicionario_premios_monstro.items():
+        
+            if chave in monstro_atual[monstro]["Premios"]:
+                monstro_atual[monstro]["Premios"][chave] += valor
+        
+            elif chave not in monstro_atual[monstro]["Premios"]:
+                monstro_atual[monstro]["Premios"][chave] = valor
             
         pprint(monstro_atual)
         return monstro_atual

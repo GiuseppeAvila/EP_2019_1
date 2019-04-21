@@ -115,8 +115,8 @@ def main():
                                     monstro_atual["HP_atual"] = 0
                                     print("Monstrengo eliminado!")
                                     
-                                    #premios = monstro_atual["Premios"]
-                                    print("Você encontrou em sua carcaça.. {}".format("premios"))
+                                    premios = monstro_atual["Premios"]
+                                    print("Você encontrou em sua carcaça.. {}".format(premios))
                                     
                                     print()
                                     monstro_vivo = False
