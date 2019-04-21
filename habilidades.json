@@ -1,15 +1,15 @@
 {"Esquiva" :
     {"Descrição" : "Aumenta a agilidade em x",
-    "Efeito" : AGI + 10},
+    "Efeito" : "AGI + 10"},
 "Proeza Psíquica" : 
     {"Descrição" : "Aumenta o seu dano psíquico em x",
-    "Efeito" : P_ATK + 10},
+    "Efeito" : "P_ATK + 10"},
 "Proeza Física" : 
     {"Descrição" : "Aumenta o seu dano físico em x",
-    "Efeito" : F_ATK + 10},
+    "Efeito" : "F_ATK + 10"},
 "Defesa Natural" : 
     {"Descrição" : "Aumenta a sua defesa física em x",
-    "Efeito" : F_DEF + 10},
+    "Efeito" : "F_DEF + 10"},
 "Ego Superinflado" : 
     {"Descrição" : "A sua superioridade é impossível de esconder",
     "Efeito" : "Opções diferentes em diálogo"},

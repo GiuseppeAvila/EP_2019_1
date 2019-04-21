@@ -142,7 +142,7 @@ def personagem_protagonista():
     personagem["Nome"] = nome
     
     # Adicionando atributos de classe:
-    with open("classes.json") as classes:
+    with open("classes.json", encoding="utf8") as classes:
         classe_disponiveis = json.load(classes)
     
     atributos1 = classe_disponiveis[classe_jogador]
@@ -165,7 +165,7 @@ def personagem_protagonista():
         atualiza_status["Habilidades"].append(lista_habilidades_classe[i])
     
     # Adicionando atributos de background:
-    with open("backgrounds.json") as backgrounds:
+    with open("backgrounds.json", encoding="utf8") as backgrounds:
         backgrounds_disponiveis = json.load(backgrounds)
     
     atributos2 = backgrounds_disponiveis[background_jogador]
