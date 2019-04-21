@@ -247,15 +247,17 @@ def main():
                                 menu_atk = True
                         else:
                             print("Que ataque é esse?! Magic punch?")
-                
+                        
                 #  Fuga da personagem quando em batalha
                 elif escolha_bat == "F":
                     monstro_vivo = combate.fugir(personagem, opcoes)
                         
+                elif monstro_atual["HP_atual"] <= 0:
+                    monstro_vivo = False
+                
                 else:
                     print("Não seja covarde!")
                     escolha_bat = input("[L]utar / [F]ugir ")
-                
                 
             #  Se escolher um local e não estiver em batalha
             else:
