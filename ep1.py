@@ -185,7 +185,7 @@ def main():
                 #  Se a escolha estiver dentre as disponíveis e for um local == ir para lá
                 if escolha in opcoes:
                     if escolha == "comprar algo":
-                        carregar_cenarios.compra(personagem)
+                        personagem = carregar_cenarios.compra(personagem, opcoes)
                     else:
                         nome_cenario_atual = escolha
                         print()

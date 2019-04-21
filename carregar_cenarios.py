@@ -17,7 +17,7 @@ def situacao():
         conteudo = arquivo.read()
     print(conteudo)
     
-def compra(personagem):
+def compra(personagem, opcoes):
     em_compra = True
     while em_compra:
         produtos = {"S" : 3,
@@ -73,4 +73,5 @@ def compra(personagem):
                 print("Você não tem dinheiro o bastante")
         else:
             print("Escolha invalida")
+    return personagem
         
