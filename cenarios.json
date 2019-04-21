@@ -1,5 +1,6 @@
 {
 	"inicio": {
+		"inimigos": ["Ayres", "Elemental"],
 		"título": "Saguao do perigo",
 		"descrição": "Voce esta no saguao de entrada do insper",
 		"opcoes": {

@@ -10,6 +10,7 @@ def carregar_cenarios():
 def inicio(cenario_atual):
     print(cenario_atual["título"])
     print(cenario_atual["descrição"])
+    print()
 
 def situacao():
     with open("NA HORA DO SUFOCO.txt", "r",encoding="utf8") as arquivo:
