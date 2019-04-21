@@ -1,5 +1,6 @@
 {"Elemental" :
-    {"Tipo" : ["Elemental"],
+    {"Descrição" : "",
+    "Tipo" : ["Elemental"],
      "HP_Max" : 30,
      "PP_Max" : 30,
      "F_ATK" : 10,
@@ -7,10 +8,12 @@
      "F_DEF" : 10,
      "P_DEF" : 15,
      "AGI" : 9,
-     "Habilidades" : ["Choque"]
+     "Habilidades" : ["Choque"],
+     "Prêmios" : {"Poção de Cura" : 1, "Dinheiro" : 10}
      },
 "Ayres" :
-    {"Tipo" : ["Ayres"],
+    {"Descrição" : "",
+    "Tipo" : ["Ayres"],
      "HP_Max" : 30,
      "PP_Max" : 30,
      "F_ATK" : 10,
@@ -18,10 +21,12 @@
      "F_DEF" : 10,
      "P_DEF" : 15,
      "AGI" : 9,
-     "Habilidades" : ["Chamada"]
+     "Habilidades" : ["Chamada"],
+     "Prêmios" : {"Poção de Cura" : 1, "Dinheiro" : 10}
      },
  "Veterano Selvagem" : 
-     {"Tipo" : ["Veterano", "Humano"],
+     {"Descrição" : "",
+     "Tipo" : ["Veterano", "Humano"],
      "HP_Max" : 10,
      "PP_Max" : 5,
      "F_ATK" : 10,
@@ -29,10 +34,12 @@
      "F_DEF" : 10,
      "P_DEF" : 3,
      "AGI" : 9,
-     "Habilidades" : []
+     "Habilidades" : [],
+     "Prêmios" : {"Poção de Cura" : 1, "Dinheiro" : 10}
      },
   "Alan-Tron 3000" :
-      {"Tipo" : ["Ciborgue", "Boss"],
+      {"Descrição" : "",
+      "Tipo" : ["Ciborgue", "Boss"],
       "HP_Max" : 1000,
      "PP_Max" : 300,
      "F_ATK" : 100,
@@ -40,6 +47,7 @@
      "F_DEF" : 100,
      "P_DEF" : 150,
      "AGI" : 9,
-     "Habilidades" : []
+     "Habilidades" : [],
+     "Prêmios" : {"Poção de Cura" : 1, "Dinheiro" : 10}
      }
 }
