@@ -910,6 +910,7 @@
 		}
 	},
 	"andar 0-4": {
+		"inimigos": ["Ayres", "Elemental"],
         "título": "Quarto andar do prédio antigo",
         "descrição": "Corredor amplo",
         "opcoes": {
@@ -938,6 +939,7 @@
         }
     },
     "sala do Smash": {
+    	"inimigos": ["Ayres", "Elemental"],
         "título": "Coliseu dos Desocupados",
         "descrição": "Uma sala com uma grande variedade de jogos de tabuleiro e videogames, com veteranos de todos os cursos e semestres competindo",
         "opcoes": {
@@ -947,6 +949,7 @@
         }
     },
     "andar 0-5": {
+    	"inimigos": ["Ayres", "Elemental"],
         "título": "Quinto andar do prédio antigo",
         "descrição": "Tem um restaurante, uma quadra externa e a área das entidades",
         "opcoes": {
@@ -962,6 +965,7 @@
         }
     },
     "atendimento ao aluno": {
+    	"inimigos": ["Ayres", "Elemental"],
         "título": "Balcão de Informações",
         "descrição": "É um lugar cheio de gente prestativa disposta a ajudar alunos confusos",
         "opcoes": {
@@ -969,6 +973,7 @@
         }
     },
     "sala amador aguiar": {
+    	"inimigos": ["Ayres", "Elemental"],
         "título": "Sala Amador Aguiar",
         "descrição": "É uma sala de aula grande e espaçosa",
         "opcoes": {
@@ -976,6 +981,7 @@
         }
     },
     "sala sebastiao camargo": {
+    	"inimigos": ["Ayres", "Elemental"],
         "título": "Sala Sebastião Camargo",
         "descrição": "É uma sala de aula grande e espaçosa",
         "opcoes": {
@@ -983,6 +989,7 @@
         }
     },
     "sala walther moreira sales": {
+    	"inimigos": ["Ayres", "Elemental"],
         "título": "Sala Walther Moreira Sales",
         "descrição": "É uma sala de aula grande e espaçosa",
         "opcoes": {
@@ -990,6 +997,7 @@
         }
     },
     "sala jose ermirio de moraes": {
+    	"inimigos": ["Ayres", "Elemental"],
         "título": "Sala José Ermírio de Moraes Filho",
         "descrição": "É uma sala de aula grande e espaçosa",
         "opcoes": {
@@ -997,6 +1005,7 @@
         }
     },
     "sala olavo setubal": {
+    	"inimigos": ["Ayres", "Elemental"],
         "título": "Sala Olavo Setúbal",
         "descrição": "É uma sala de aula grande e espaçosa",
         "opcoes": {
@@ -1004,6 +1013,7 @@
         }
     },
     "sala jorge paulo lemann": {
+    	"inimigos": ["Ayres", "Elemental"],
         "título": "Sala Jorge Paulo Lemann",
         "descrição": "É uma sala de aula grande e espaçosa",
         "opcoes": {
@@ -1011,6 +1021,7 @@
         }
     },
     "sala luiz martins de souza dantas": {
+    	"inimigos": ["Ayres", "Elemental"],
         "título": "Sala Luiz Martins de Souza Dantas",
         "descrição": "É uma sala de aula grande e espaçosa",
         "opcoes": {
@@ -1018,6 +1029,7 @@
         }
     },
     "sala paulo renato souza": {
+    	"inimigos": ["Ayres", "Elemental"],
         "título": "Sala Paulo Renato Souza",
         "descrição": "É uma sala de aula grande e espaçosa",
         "opcoes": {
@@ -1025,6 +1037,7 @@
         }
     },
     "sala marcos lopes": {
+    	"inimigos": ["Ayres", "Elemental"],
         "título": "Sala Marcos Lopes",
         "descrição": "É uma sala de aula grande e espaçosa",
         "opcoes": {
@@ -1032,6 +1045,7 @@
         }
     },
     "sala 205": {
+    	"inimigos": ["Ayres", "Elemental"],
         "título": "Sala 205",
         "descrição": "É uma sala de aula grande e espaçosa",
         "opcoes": {
@@ -1039,6 +1053,7 @@
         }
     },
     "sala 206": {
+    	"inimigos": ["Ayres", "Elemental"],
         "título": "Sala 206",
         "descrição": "É uma sala de aula grande e espaçosa",
         "opcoes": {
@@ -1046,6 +1061,7 @@
         }
     },
     "sala graber": {
+    	"inimigos": ["Ayres", "Elemental"],
         "título": "Sala Graber",
         "descrição": "É uma sala de aula grande e espaçosa",
         "opcoes": {
@@ -1053,6 +1069,7 @@
         }
     },
     "sala alberto bandeira de queiroz": {
+    	"inimigos": ["Ayres", "Elemental"],
         "título": "Sala Alberto Bandeira de Queiroz",
         "descrição": "É uma sala de aula grande e espaçosa",
         "opcoes": {
@@ -1060,6 +1077,7 @@
         }
     },
     "sala 204": {
+    	"inimigos": ["Ayres", "Elemental"],
         "título": "Sala 204",
         "descrição": "É uma sala de aula grande e espaçosa",
         "opcoes": {
@@ -1067,6 +1085,7 @@
         }
     },
     "sala 203": {
+    	"inimigos": ["Ayres", "Elemental"],
         "título": "Sala 203",
         "descrição": "É uma sala de aula grande e espaçosa",
         "opcoes": {
@@ -1074,6 +1093,7 @@
         }
     },
     "sala octavio gouvea de bulhoes": {
+    	"inimigos": ["Ayres", "Elemental"],
         "título": "Sala Octávio Gouvea de Bulhões",
         "descrição": "É uma sala de aula grande e espaçosa",
         "opcoes": {
@@ -1081,6 +1101,7 @@
         }
     },
     "sala ottolara resende": {
+    	"inimigos": ["Ayres", "Elemental"],
         "título": "Sala Ottolara Resende",
         "descrição": "É uma sala de aula grande e espaçosa",
         "opcoes": {
@@ -1088,6 +1109,7 @@
         }
     },
     "sala peter drucker": {
+    	"inimigos": ["Ayres", "Elemental"],
         "título": "Sala Peter Drucker",
         "descrição": "É uma sala de aula grande e espaçosa",
         "opcoes": {
@@ -1095,6 +1117,7 @@
         }
     },
     "sala mario haberfeld": {
+    	"inimigos": ["Ayres", "Elemental"],
         "título": "Sala Mario Haberfeld",
         "descrição": "É uma sala de aula grande e espaçosa",
         "opcoes": {
@@ -1102,6 +1125,7 @@
         }
     },
     "sala 201": {
+    	"inimigos": ["Ayres", "Elemental"],
         "título": "Sala 201",
         "descrição": "É uma sala de aula grande e espaçosa",
         "opcoes": {
@@ -1109,6 +1133,7 @@
         }
     },
     "sala 202": {
+    	"inimigos": ["Ayres", "Elemental"],
         "título": "Sala 202",
         "descrição": "É uma sala de aula grande e espaçosa",
         "opcoes": {
@@ -1116,6 +1141,7 @@
         }
     },
     "sala bovespa 1": {
+    	"inimigos": ["Ayres", "Elemental"],
         "título": "Sala BM&F Bovespa 1",
         "descrição": "É uma sala de aula grande e espaçosa",
         "opcoes": {
@@ -1123,6 +1149,7 @@
         }
     },
     "sala bovespa 2": {
+    	"inimigos": ["Ayres", "Elemental"],
         "título": "Sala BM&F Bovespa 2",
         "descrição": "É uma sala de aula grande e espaçosa",
         "opcoes": {
@@ -1130,6 +1157,7 @@
         }
     },
     "sala vicente falconi campos": {
+    	"inimigos": ["Ayres", "Elemental"],
         "título": "Sala Vicente Falconi Campos",
         "descrição": "É uma sala de aula grande e espaçosa",
         "opcoes": {
@@ -1137,6 +1165,7 @@
         }
     },
     "sala joao gerdau": {
+    	"inimigos": ["Ayres", "Elemental"],
         "título": "Sala João Gerdau",
         "descrição": "É uma sala de aula grande e espaçosa",
         "opcoes": {
@@ -1144,6 +1173,7 @@
         }
     },
     "sala victor civita": {
+    	"inimigos": ["Ayres", "Elemental"],
         "título": "Sala Victor Civita",
         "descrição": "É uma sala de aula grande e espaçosa",
         "opcoes": {
@@ -1151,6 +1181,7 @@
         }
     },
     "sala max feffer": {
+    	"inimigos": ["Ayres", "Elemental"],
         "título": "Sala Max Feffer",
         "descrição": "É uma sala de aula grande e espaçosa",
         "opcoes": {
@@ -1158,6 +1189,7 @@
         }
     },
     "sala roberto cochrane simonsen": {
+    	"inimigos": ["Ayres", "Elemental"],
         "título": "Sala Roberto Cochrane Simonsen",
         "descrição": "É uma sala de aula grande e espaçosa",
         "opcoes": {
@@ -1165,6 +1197,7 @@
         }
     },
     "sala eugenio gudin": {
+    	"inimigos": ["Ayres", "Elemental"],
         "título": "Sala Eugênio Gudin",
         "descrição": "É uma sala de aula grande e espaçosa",
         "opcoes": {
@@ -1172,6 +1205,7 @@
         }
     },
     "sala eudoro villela": {
+    	"inimigos": ["Ayres", "Elemental"],
         "título": "Sala Eudoro Villela",
         "descrição": "É uma sala de aula grande e espaçosa",
         "opcoes": {
@@ -1179,6 +1213,7 @@
         }
     },
     "sala francisca": {
+    	"inimigos": ["Ayres", "Elemental"],
         "título": "Sala Francisca JPA Moraes",
         "descrição": "É uma sala de aula grande e espaçosa",
         "opcoes": {
@@ -1186,6 +1221,7 @@
         }
     },
     "sala 302": {
+    	"inimigos": ["Ayres", "Elemental"],
         "título": "Sala 302",
         "descrição": "É uma sala de aula grande e espaçosa",
         "opcoes": {
@@ -1193,6 +1229,7 @@
         }
     },
     "sala 308": {
+    	"inimigos": ["Ayres", "Elemental"],
         "título": "Sala 308",
         "descrição": "É uma sala de aula grande e espaçosa",
         "opcoes": {
@@ -1200,6 +1237,7 @@
         }
     },
     "sala 406": {
+    	"inimigos": ["Ayres", "Elemental"],
         "título": "Sala 406",
         "descrição": "É uma sala de aula grande e espaçosa",
         "opcoes": {
@@ -1207,6 +1245,7 @@
         }
     },
     "sala 405": {
+    	"inimigos": ["Ayres", "Elemental"],
         "título": "Sala 405",
         "descrição": "É uma sala de aula grande e espaçosa",
         "opcoes": {
@@ -1214,6 +1253,7 @@
         }
     },
     "sala 407": {
+    	"inimigos": ["Ayres", "Elemental"],
         "título": "Sala 407",
         "descrição": "É uma sala de aula grande e espaçosa",
         "opcoes": {
@@ -1221,6 +1261,7 @@
         }
     },
     "sala 408": {
+    	"inimigos": ["Ayres", "Elemental"],
         "título": "Sala 408",
         "descrição": "É uma sala de aula grande e espaçosa",
         "opcoes": {
@@ -1228,6 +1269,7 @@
         }
     },
     "sala 409": {
+    	"inimigos": ["Ayres", "Elemental"],
         "título": "Sala 409",
         "descrição": "É uma sala de aula grande e espaçosa",
         "opcoes": {
@@ -1235,6 +1277,7 @@
         }
     },
     "sala 410": {
+    	"inimigos": ["Ayres", "Elemental"],
         "título": "Sala 410",
         "descrição": "É uma sala de aula grande e espaçosa",
         "opcoes": {
@@ -1242,6 +1285,7 @@
         }
     },
     "estudo individual": {
+    	"inimigos": ["Ayres", "Elemental"],
         "título": "Área de estudo individual",
         "descrição": "Espaço amplo com diversos cubículos de estudo, quase todos ocupados por alunos compenetrados",
         "opcoes": {
@@ -1249,6 +1293,7 @@
         }
     },
     "estudo grupal 0-2-1": {
+    	"inimigos": ["Ayres", "Elemental"],
         "título": "Sala de estudo em grupo 01",
         "descrição": "Sala de reuniões",
         "opcoes": {
@@ -1256,6 +1301,7 @@
         }
     },
     "estudo grupal 0-3-1": {
+    	"inimigos": ["Ayres", "Elemental"],
         "título": "Sala de estudo em grupo 01",
         "descrição": "Sala de reuniões",
         "opcoes": {
@@ -1263,6 +1309,7 @@
         }
     },
     "estudo grupal 0-3-2": {
+    	"inimigos": ["Ayres", "Elemental"],
         "título": "Sala de estudo em grupo 02",
         "descrição": "Sala de reuniões",
         "opcoes": {
@@ -1270,6 +1317,7 @@
         }
     },
     "maquina de vendas 0-1": {
+    	"inimigos": ["Ayres", "Elemental"],
         "título": "Máquina de Vendas",
         "descrição": "É uma máquina com itens úteis",
         "opcoes": {
@@ -1277,6 +1325,7 @@
             "andar 0-1": "voltar"}
     },
     "maquina de vendas 0-2": {
+    	"inimigos": ["Ayres", "Elemental"],
         "título": "Máquina de Vendas",
         "descrição": "É uma máquina com itens úteis",
         "opcoes": {
@@ -1284,6 +1333,7 @@
             "andar 0-2": "voltar"}
     },
     "maquina de vendas 0-3": {
+    	"inimigos": ["Ayres", "Elemental"],
         "título": "Máquina de Vendas",
         "descrição": "É uma máquina com itens úteis",
         "opcoes": {
@@ -1291,6 +1341,7 @@
             "andar 0-3": "voltar"}
     },
     "maquina de vendas 0-4": {
+    	"inimigos": ["Ayres", "Elemental"],
         "título": "Máquina de Vendas",
         "descrição": "É uma máquina com itens úteis",
         "opcoes": {
