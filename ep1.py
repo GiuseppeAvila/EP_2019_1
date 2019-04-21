@@ -38,9 +38,9 @@ def main():
         n = random.randint(0,(len(lista_monstro_atual)-1))
         monstro = lista_monstro_atual[n]
         
-        chance_monstro = random.randint(0,1)
+        #chance_monstro = random.randint(0,1)
         #  Para testar batalha:
-        #chance_monstro = 0
+        chance_monstro = 1
             
         if chance_monstro == 0:
             em_batalha = True
@@ -119,7 +119,7 @@ def main():
                     print("Só corre!")
                     AGI = personagem["Status"]["AGI"]
                     numero = random.randint(0, 100)
-                    if numero <= (20 - AGI):
+                    if numero >= (20 - AGI):
                         print("Toma essa monstrengo! Você escapou!")
                         print()
                         em_batalha = False
