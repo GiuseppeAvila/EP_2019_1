@@ -208,14 +208,38 @@ def main():
                                     print()
                                     menu_atk = True
 
-                            #elif acao == "D":
-                                #f_guard = personagem["Status"]["F_DEF"] + 0.5*personagem["Status"]["F_DEF"]
-                                #p_guard = personagem["Status"]["P_DEF"] + 0.5*personagem["Status"]["P_DEF"]
-                                #menu_atk = False
-                            #elif acao == "I":
-                                
-                            #elif acao == "G":
+                            elif acao == "D":
+                                #F_guard = 0.5*personagem["Status"]["F_DEF"]
+                                #P_guard = 0.5*personagem["Status"]["P_DEF"]
+                                menu_atk = False
                             
+                            elif acao == "I":
+                                print("Itens em seu inventario, escolha um deles!")
+                                for f,g in personagem["Inventario"].items():
+                                    print()
+                                    print(f,"=",g)
+                                escolhendo_item = True
+                                while escolhendo_item:
+                                    print("Dê o Nome do Item que deseja usar:")
+                                    item_escolhido = input()
+                                    if item_escolhido in personagem["Inventario"]:
+                                        #combate.usar()
+                                        escolhendo_item = False
+                                        menu_atk = False
+                                    else:
+                                        print("Você não possui esse item")
+                                
+                                
+                            elif acao == "G":
+                                print("Essa ação ainda não foi implementada - volte a escolher")
+                                print()
+                                print("Take your time:")
+                                print("[A]tacar / [P]sy / [D]efender / [I]tem / [G]un / [S]tatus")
+                    
+                                acao = input()
+                                acao = acao.upper()
+                                print()
+                                menu_atk = True
                         else:
                             print("Que ataque é esse?! Magic punch?")
                 
