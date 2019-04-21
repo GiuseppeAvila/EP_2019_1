@@ -919,8 +919,8 @@
             "elevador A": "escolher andar",
             "banheiro": "Ir no banheiro",
             "lab fis inst": "Laboratório de Física e Instrumentação",
-            "multidisc": "Laboratório Multidisciplinar",
-            "informatica": "Laboratório de Informática",
+            "lab multidisc": "Laboratório Multidisciplinar",
+            "lab informatica": "Laboratório de Informática",
             "lab sist mecat": "Laboratório de Sistemas Mecatrônicos",
             "lab materiais": "Laboratório de Materiais",
             "lab química": "Laboratório de Química",
@@ -1322,7 +1322,8 @@
         "descrição": "É uma máquina com itens úteis",
         "opcoes": {
             "comprar": "Comprar alguma coisa",
-            "andar 0-1": "voltar"}
+            "andar 0-1": "voltar"
+        }
     },
     "maquina de vendas 0-2": {
     	"inimigos": ["Ayres", "Elemental"],
@@ -1330,7 +1331,8 @@
         "descrição": "É uma máquina com itens úteis",
         "opcoes": {
             "comprar": "Comprar alguma coisa",
-            "andar 0-2": "voltar"}
+            "andar 0-2": "voltar"
+        }
     },
     "maquina de vendas 0-3": {
     	"inimigos": ["Ayres", "Elemental"],
@@ -1338,7 +1340,8 @@
         "descrição": "É uma máquina com itens úteis",
         "opcoes": {
             "comprar": "Comprar alguma coisa",
-            "andar 0-3": "voltar"}
+            "andar 0-3": "voltar"
+        }
     },
     "maquina de vendas 0-4": {
     	"inimigos": ["Ayres", "Elemental"],
@@ -1346,6 +1349,63 @@
         "descrição": "É uma máquina com itens úteis",
         "opcoes": {
             "comprar": "Comprar alguma coisa",
-            "andar 0-4": "voltar"}
+            "andar 0-4": "voltar"
+        }
+    },
+    "lab multidisc": {
+        "inimigos": ["Ayres", "Elemental"],
+        "título": "Laboratório Multidisciplinar",
+        "descrição": "É um contâiner com mesas e equipamentos. Não tem ninguém aqui",
+        "opcoes": {
+            "andar 0-4": "voltar"
+        }
+    },
+    "lab informatica": {
+        "inimigos": ["Ayres", "Elemental"],
+        "título": "Laboratório de Informática",
+        "descrição": "É uma sala grande com diversos equipamentos. Não tem ninguém aqui",
+        "opcoes": {
+            "andar 0-4": "voltar"
+        }
+    },
+    "lab sist mecat": {
+        "inimigos": ["Ayres", "Elemental"],
+        "título": "Laboratório de Sistemas Mecatrônicos",
+        "descrição": "É uma sala com diversos equipamentos. Não tem ninguém aqui",
+        "opcoes": {
+            "andar 0-4": "voltar"
+        }
+    },
+    "lab materiais": {
+        "inimigos": ["Ayres", "Elemental"],
+        "título": "Laboratório de Materiais",
+        "descrição": "É uma sala com diversos equipamentos. Não tem ninguém aqui",
+        "opcoes": {
+            "andar 0-4": "voltar"
+        }
+    },
+    "lab química": {
+        "inimigos": ["Ayres", "Elemental"],
+        "título": "Laboratório Multidisciplinar",
+        "descrição": "É um contâiner com mesas e equipamentos. Não tem ninguém aqui",
+        "opcoes": {
+            "andar 0-4": "voltar"
+        }
+    },
+    "lab ciencias termicas": {
+        "inimigos": ["Ayres", "Elemental"],
+        "título": "Laboratório de Ciências Térmicas",
+        "descrição": "É uma sala com um monte de apetrechos enormes. Não tem ninguém aqui",
+        "opcoes": {
+            "andar 0-4": "voltar"
+        }
+    },
+    "lab fis inst": {
+        "inimigos": ["Ayres", "Elemental"],
+        "título": "Laboratório de Física e Instrumentação",
+        "descrição": "É uma sala com mesas e equipamentos.",
+        "opcoes": {
+            "andar 0-4": "voltar"
+        }
     }
 }
