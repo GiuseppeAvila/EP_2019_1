@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 '''
             EP 2019-1: Escape Insper
 
@@ -12,6 +13,7 @@ import status
 import carregar_cenarios
 import random
 import combate
+from pprint import pprint
 #import supreme_weapons as sw
 
 def main():
@@ -68,11 +70,17 @@ def main():
             game_over = True
         
         #  Possui opções, faz uma escolha
-        else:
+        elif em_batalha:
+            
+             #Implementação dos valores desse monstro:
+            monstro_atual = combate.monstro_cenario(monstro)
+            monstro_atual = monstro_atual[monstro]
+            monstro_vivo = True
+
             escolha = ""
             
-            #  Se entrar em batalha
-            while em_batalha:
+            #  Enquanto o monstro não morrer
+            while monstro_vivo:
                 
                 print("[L]utar / [F]ugir ")
                 escolha_bat = input()
@@ -82,21 +90,46 @@ def main():
                 if escolha_bat == "L":
                     
                     #em_batalha = combate.lutar(personagem) 
+                    print()
                     print("Take your time:")
-                    print("[A]tacar / [P]sy / [D]efender / [I]tem / [G]un")
+                    print("[A]tacar / [P]sy / [D]efender / [I]tem / [G]un / [S]tatus")
                     
                     acao = input()
                     acao = acao.upper()
-                    acoes_possiveis = ["A","P","D","I","G"]
+                    acoes_possiveis = ["A","P","D","I","G","S"]
+                    print()
                     
                     menu_atk = True
                     while menu_atk:
                         
                         if acao in acoes_possiveis:
                             if acao == "A":
-                                F_ATK = personagem["Status"]["F_ATK"]
-                                print(F_ATK)
+                    
+                                F_ATK_personagem = personagem["Status"]["F_ATK"]
+                                F_DEF_monstro = monstro_atual["F_DEF"]
+                                dano_recebido = F_ATK_personagem - F_DEF_monstro*0.3
+                                if dano_recebido < 0:
+                                    dano_recebido = 0
+                                monstro_atual["HP_atual"] -= dano_recebido
+                                if monstro_atual["HP_atual"] < 0:
+                                    monstro_atual["HP_atual"] = 0
+                                
+                                print("Você deu incríveis {} de dano!".format(dano_recebido))
+                                print("A vida do monstro atualmente é: {}".format(monstro_atual["HP_atual"]))
+                    
                                 menu_atk = False
+                            
+                            elif acao == "S":
+                                pprint(personagem)
+                                print()
+                                print("Take your time:")
+                                print("[A]tacar / [P]sy / [D]efender / [I]tem / [G]un / [S]tatus")
+                    
+                                acao = input()
+                                acao = acao.upper()
+                                print()
+                                menu_atk = True
+                                
                             elif acao == "P":
                                 P_ATK = personagem["Status"]["P_ATK"]
                                 print(P_ATK)
@@ -114,7 +147,7 @@ def main():
                 
                 #  Fuga da personagem quando em batalha
                 elif escolha_bat == "F":
-                    em_batalha = combate.fugir(personagem, opcoes)
+                    monstro_vivo = combate.fugir(personagem, opcoes)
                         
                 else:
                     print("Não seja covarde!")

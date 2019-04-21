@@ -201,4 +201,4 @@ def personagem_protagonista():
     
     return personagem
     
-personagem_protagonista()
+#personagem_protagonista()

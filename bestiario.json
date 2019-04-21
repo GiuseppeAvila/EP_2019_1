@@ -1,13 +1,24 @@
-{"Elemental Eletromagnético" :
+{"Elemental" :
     {"Tipo" : ["Elemental"],
-    "HP_Max" : 30,
+     "HP_Max" : 30,
      "PP_Max" : 30,
      "F_ATK" : 10,
      "P_ATK" : 20,
      "F_DEF" : 10,
      "P_DEF" : 15,
      "AGI" : 9,
-     "Habilidades" : []
+     "Habilidades" : ["Choque"]
+     },
+"Ayres" :
+    {"Tipo" : ["Ayres"],
+     "HP_Max" : 30,
+     "PP_Max" : 30,
+     "F_ATK" : 10,
+     "P_ATK" : 20,
+     "F_DEF" : 10,
+     "P_DEF" : 15,
+     "AGI" : 9,
+     "Habilidades" : ["Chamada"]
      },
  "Veterano Selvagem" : 
      {"Tipo" : ["Veterano", "Humano"],
