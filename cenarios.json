@@ -869,7 +869,7 @@
 			"sala 204": "Sala 204",
 			"helpdesk": "HelpDesk do prédio antigo",
 			"sala 203": "Sala 203",
-			"sala octavio gouvea de bulhoes": "Sala Octavia Gouvea de Bulhões",
+			"sala octavio gouvea de bulhoes": "Sala Octavio Gouvea de Bulhões",
 			"sala ottolara resende": "Sala Ottolara Resende",
 			"sala peter drucker": "Sala Peter Drucker",
 			"sala mario haberfeld": "Sala Mario Haberfeld",
@@ -905,56 +905,340 @@
 			"sala eugenio gudin": "Sala Eugênio Gudin",
 			"sala eudoro villela": "Sala Eudoro Villela",
 			"sala francisca": "Sala Francisca JPA Moraes",
-			"sala 308": "Sala 308"
+			"sala 308": "Sala 308",
+			"sala 302": "Sala 302"
 		}
 	},
 	"andar 0-4": {
-            "título": "Quarto andar do prédio antigo",
-            "descrição": "Corredor amplo",
-            "opcoes": {"andar 0-5": "Subir as escadas",
-                       "andar 0-3": "Descer as escadas",
-                       "elevador A": "escolher andar",
-                       "banheiro": "Ir no banheiro",
-                       "lab fis inst": "Laboratório de Física e Instrumentação",
-                       "multidisc": "Laboratório Multidisciplinar",
-                       "informatica": "Laboratório de Informática",
-                       "lab sist mecat": "Laboratório de Sistemas Mecatrônicos",
-                       "lab materiais": "Laboratório de Materiais",
-                       "lab química": "Laboratório de Química",
-                       "lab ciencias termicas": "Laboratória de Ciências Térmicas",
-                       "CEMP": "Centro de Empreendedorismo do prédio antigo",
-                       "sala do Smash": "Sala de videogames e afins",
-                       "sala 406": "Sala 406",
-                       "sala 407": "Sala 407",
-                       "sala 408": "Sala 408",
-                       "sala 409": "Sala 409",
-                       "sala 410": "Sala 410",
-                       "maquina de vendas 0-4": "Máquina de vendas",
-                       "area de lazer 0-4": "Área de lazer",
-                       "canto dos projetos": "Ver os projetos da Engenharia",
-                       "armarios 0-4": "Armários"
+        "título": "Quarto andar do prédio antigo",
+        "descrição": "Corredor amplo",
+        "opcoes": {
+            "andar 0-5": "Subir as escadas",
+            "andar 0-3": "Descer as escadas",
+            "elevador A": "escolher andar",
+            "banheiro": "Ir no banheiro",
+            "lab fis inst": "Laboratório de Física e Instrumentação",
+            "multidisc": "Laboratório Multidisciplinar",
+            "informatica": "Laboratório de Informática",
+            "lab sist mecat": "Laboratório de Sistemas Mecatrônicos",
+            "lab materiais": "Laboratório de Materiais",
+            "lab química": "Laboratório de Química",
+            "lab ciencias termicas": "Laboratória de Ciências Térmicas",
+            "CEMP": "Centro de Empreendedorismo do prédio antigo",
+            "sala do Smash": "Sala de videogames e afins",
+            "sala 406": "Sala 406",
+            "sala 407": "Sala 407",
+            "sala 408": "Sala 408",
+            "sala 409": "Sala 409",
+            "sala 410": "Sala 410",
+            "maquina de vendas 0-4": "Máquina de vendas",
+            "area de lazer 0-4": "Área de lazer",
+            "canto dos projetos": "Ver os projetos da Engenharia",
+            "armarios 0-4": "Armários"
         }
     },
     "sala do Smash": {
-            "título": "Coliseu dos Desocupados",
-            "descrição": "Uma sala com uma grande variedade de jogos de tabuleiro e videogames, com veteranos de todos os cursos e semestres competindo",
-            "opcoes": {"andar 0-4": "sair",
-                       "sala 405": "Entrar na sala 405",
-                       "Smash": "Enfrentar veteranos por dinheiro"
+        "título": "Coliseu dos Desocupados",
+        "descrição": "Uma sala com uma grande variedade de jogos de tabuleiro e videogames, com veteranos de todos os cursos e semestres competindo",
+        "opcoes": {
+            "andar 0-4": "sair",
+            "sala 405": "Entrar na sala 405",
+            "Smash": "Enfrentar veteranos por dinheiro"
         }
     },
     "andar 0-5": {
-            "título": "Quinto andar do prédio antigo",
-            "descrição": "Tem um restaurante, uma quadra externa e a área das entidades",
-            "opcoes": {"andar 0-6": "Subir as escadas",
-                       "andar 0-4": "Descer as escadas",
-                       "elevador A": "escolher o andar",
-                       "banheiro": "Ir no banheiro",
-                       "entidades": "Área das entidades",
-                       "multi insper": "Multi Insper",
-                       "restaurante": "Comprar alguma coisa",
-                       "area de lazer 0-5": "Área de lazer",
-                       "quadra": "Quadra externa"
+        "título": "Quinto andar do prédio antigo",
+        "descrição": "Tem um restaurante, uma quadra externa e a área das entidades",
+        "opcoes": {
+            "andar 0-6": "Subir as escadas",
+            "andar 0-4": "Descer as escadas",
+            "elevador A": "escolher o andar",
+            "banheiro": "Ir no banheiro",
+            "entidades": "Área das entidades",
+            "multi insper": "Multi Insper",
+            "restaurante": "Comprar alguma coisa",
+            "area de lazer 0-5": "Área de lazer",
+            "quadra": "Quadra externa"
+        }
+    },
+    "atendimento ao aluno": {
+        "título": "Balcão de Informações",
+        "descrição": "É um lugar cheio de gente prestativa disposta a ajudar alunos confusos",
+        "opcoes": {
+            "andar 0-0": "voltar"
+        }
+    },
+    "sala amador aguiar": {
+        "título": "Sala Amador Aguiar",
+        "descrição": "É uma sala de aula grande e espaçosa",
+        "opcoes": {
+            "andar 0-1": "voltar"
+        }
+    },
+    "sala sebastiao camargo": {
+        "título": "Sala Sebastião Camargo",
+        "descrição": "É uma sala de aula grande e espaçosa",
+        "opcoes": {
+            "andar 0-1": "voltar"
+        }
+    },
+    "sala walther moreira sales": {
+        "título": "Sala Walther Moreira Sales",
+        "descrição": "É uma sala de aula grande e espaçosa",
+        "opcoes": {
+            "andar 0-1": "voltar"
+        }
+    },
+    "sala jose ermirio de moraes": {
+        "título": "Sala José Ermírio de Moraes Filho",
+        "descrição": "É uma sala de aula grande e espaçosa",
+        "opcoes": {
+            "andar 0-1": "voltar"
+        }
+    },
+    "sala olavo setubal": {
+        "título": "Sala Olavo Setúbal",
+        "descrição": "É uma sala de aula grande e espaçosa",
+        "opcoes": {
+            "andar 0-1": "voltar"
+        }
+    },
+    "sala jorge paulo lemann": {
+        "título": "Sala Jorge Paulo Lemann",
+        "descrição": "É uma sala de aula grande e espaçosa",
+        "opcoes": {
+            "andar 0-1": "voltar"
+        }
+    },
+    "sala luiz martins de souza dantas": {
+        "título": "Sala Luiz Martins de Souza Dantas",
+        "descrição": "É uma sala de aula grande e espaçosa",
+        "opcoes": {
+            "andar 0-2": "voltar"
+        }
+    },
+    "sala paulo renato souza": {
+        "título": "Sala Paulo Renato Souza",
+        "descrição": "É uma sala de aula grande e espaçosa",
+        "opcoes": {
+            "andar 0-2": "voltar"
+        }
+    },
+    "sala marcos lopes": {
+        "título": "Sala Marcos Lopes",
+        "descrição": "É uma sala de aula grande e espaçosa",
+        "opcoes": {
+            "andar 0-2": "voltar"
+        }
+    },
+    "sala 205": {
+        "título": "Sala 205",
+        "descrição": "É uma sala de aula grande e espaçosa",
+        "opcoes": {
+            "andar 0-2": "voltar"
+        }
+    },
+    "sala 206": {
+        "título": "Sala 206",
+        "descrição": "É uma sala de aula grande e espaçosa",
+        "opcoes": {
+            "andar 0-2": "voltar"
+        }
+    },
+    "sala graber": {
+        "título": "Sala Graber",
+        "descrição": "É uma sala de aula grande e espaçosa",
+        "opcoes": {
+            "andar 0-2": "voltar"
+        }
+    },
+    "sala alberto bandeira de queiroz": {
+        "título": "Sala Alberto Bandeira de Queiroz",
+        "descrição": "É uma sala de aula grande e espaçosa",
+        "opcoes": {
+            "andar 0-2": "voltar"
+        }
+    },
+    "sala 204": {
+        "título": "Sala 204",
+        "descrição": "É uma sala de aula grande e espaçosa",
+        "opcoes": {
+            "andar 0-2": "voltar"
+        }
+    },
+    "sala 203": {
+        "título": "Sala 203",
+        "descrição": "É uma sala de aula grande e espaçosa",
+        "opcoes": {
+            "andar 0-2": "voltar"
+        }
+    },
+    "sala octavio gouvea de bulhoes": {
+        "título": "Sala Octávio Gouvea de Bulhões",
+        "descrição": "É uma sala de aula grande e espaçosa",
+        "opcoes": {
+            "andar 0-2": "voltar"
+        }
+    },
+    "sala ottolara resende": {
+        "título": "Sala Ottolara Resende",
+        "descrição": "É uma sala de aula grande e espaçosa",
+        "opcoes": {
+            "andar 0-2": "voltar"
+        }
+    },
+    "sala peter drucker": {
+        "título": "Sala Peter Drucker",
+        "descrição": "É uma sala de aula grande e espaçosa",
+        "opcoes": {
+            "andar 0-2": "voltar"
+        }
+    },
+    "sala mario haberfeld": {
+        "título": "Sala Mario Haberfeld",
+        "descrição": "É uma sala de aula grande e espaçosa",
+        "opcoes": {
+            "andar 0-2": "voltar"
+        }
+    },
+    "sala 201": {
+        "título": "Sala 201",
+        "descrição": "É uma sala de aula grande e espaçosa",
+        "opcoes": {
+            "andar 0-2": "voltar"
+        }
+    },
+    "sala 202": {
+        "título": "Sala 202",
+        "descrição": "É uma sala de aula grande e espaçosa",
+        "opcoes": {
+            "andar 0-2": "voltar"
+        }
+    },
+    "sala bovespa 1": {
+        "título": "Sala BM&F Bovespa 1",
+        "descrição": "É uma sala de aula grande e espaçosa",
+        "opcoes": {
+            "andar 0-3": "voltar"
+        }
+    },
+    "sala bovespa 2": {
+        "título": "Sala BM&F Bovespa 2",
+        "descrição": "É uma sala de aula grande e espaçosa",
+        "opcoes": {
+            "andar 0-3": "voltar"
+        }
+    },
+    "sala vicente falconi campos": {
+        "título": "Sala Vicente Falconi Campos",
+        "descrição": "É uma sala de aula grande e espaçosa",
+        "opcoes": {
+            "andar 0-3": "voltar"
+        }
+    },
+    "sala joao gerdau": {
+        "título": "Sala João Gerdau",
+        "descrição": "É uma sala de aula grande e espaçosa",
+        "opcoes": {
+            "andar 0-3": "voltar"
+        }
+    },
+    "sala victor civita": {
+        "título": "Sala Victor Civita",
+        "descrição": "É uma sala de aula grande e espaçosa",
+        "opcoes": {
+            "andar 0-3": "voltar"
+        }
+    },
+    "sala max feffer": {
+        "título": "Sala Max Feffer",
+        "descrição": "É uma sala de aula grande e espaçosa",
+        "opcoes": {
+            "andar 0-3": "voltar"
+        }
+    },
+    "sala roberto cochrane simonsen": {
+        "título": "Sala Roberto Cochrane Simonsen",
+        "descrição": "É uma sala de aula grande e espaçosa",
+        "opcoes": {
+            "andar 0-3": "voltar"
+        }
+    },
+    "sala eugenio gudin": {
+        "título": "Sala Eugênio Gudin",
+        "descrição": "É uma sala de aula grande e espaçosa",
+        "opcoes": {
+            "andar 0-3": "voltar"
+        }
+    },
+    "sala eudoro villela": {
+        "título": "Sala Eudoro Villela",
+        "descrição": "É uma sala de aula grande e espaçosa",
+        "opcoes": {
+            "andar 0-3": "voltar"
+        }
+    },
+    "sala francisca": {
+        "título": "Sala Francisca JPA Moraes",
+        "descrição": "É uma sala de aula grande e espaçosa",
+        "opcoes": {
+            "andar 0-3": "voltar"
+        }
+    },
+    "sala 302": {
+        "título": "Sala 302",
+        "descrição": "É uma sala de aula grande e espaçosa",
+        "opcoes": {
+            "andar 0-3": "voltar"
+        }
+    },
+    "sala 308": {
+        "título": "Sala 308",
+        "descrição": "É uma sala de aula grande e espaçosa",
+        "opcoes": {
+            "andar 0-3": "voltar"
+        }
+    },
+    "sala 406": {
+        "título": "Sala 406",
+        "descrição": "É uma sala de aula grande e espaçosa",
+        "opcoes": {
+            "andar 0-4": "voltar"
+        }
+    },
+    "sala 405": {
+        "título": "Sala 405",
+        "descrição": "É uma sala de aula grande e espaçosa",
+        "opcoes": {
+            "sala do Smash": "voltar"
+        }
+    },
+    "sala 407": {
+        "título": "Sala 407",
+        "descrição": "É uma sala de aula grande e espaçosa",
+        "opcoes": {
+            "andar 0-4": "voltar"
+        }
+    },
+    "sala 408": {
+        "título": "Sala 408",
+        "descrição": "É uma sala de aula grande e espaçosa",
+        "opcoes": {
+            "andar 0-4": "voltar"
+        }
+    },
+    "sala 409": {
+        "título": "Sala 409",
+        "descrição": "É uma sala de aula grande e espaçosa",
+        "opcoes": {
+            "andar 0-4": "voltar"
+        }
+    },
+    "sala 410": {
+        "título": "Sala 410",
+        "descrição": "É uma sala de aula grande e espaçosa",
+        "opcoes": {
+            "andar 0-4": "voltar"
         }
     }
 }
