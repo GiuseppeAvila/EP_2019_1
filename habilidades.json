@@ -1,3 +1,4 @@
 {"Esquiva" :
-    {"Aumenta AGI em x"}
+    {"Descrição" : "Aumenta a agilidade em x",
+    "Efeito" : AGI + 10}
 }
