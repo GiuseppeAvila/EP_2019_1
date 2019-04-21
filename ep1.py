@@ -38,9 +38,9 @@ def main():
         n = random.randint(0,(len(lista_monstro_atual)-1))
         monstro = lista_monstro_atual[n]
         
-        #chance_monstro = random.randint(0,1)
+        chance_monstro = random.randint(0,1)
         #  Para testar batalha:
-        chance_monstro = 1
+        #chance_monstro = 0
             
         if chance_monstro == 0:
             em_batalha = True
