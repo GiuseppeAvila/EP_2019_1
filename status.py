@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 
 import json
+from pprint import pprint
 
 def cria_personagem_inicial():
     with open("Dialogo inicial narrador.txt","r",encoding = "utf8") as dialogo:
@@ -18,14 +19,6 @@ def cria_personagem_inicial():
     # IMPLEMENTANDO SISTEMA DE CRIAÇÃO DE PERSONAGEM:
     classe_jogador = escolha_classe()
     background_jogador = escolha_background()
-    
-    print()
-    print("Tudo pronto para começarmos...")
-    print()
-    print("Opa, parece que chegamos!....")
-    print()
-    print("=======================")
-    print()    
     
     return classe_jogador,background_jogador,nome
 
@@ -126,4 +119,74 @@ def escolha_background():
         else:
             print("Escolha inválida")
             
-#cria_personagem_inicial()
+def personagem_protagonista():
+    personagem = {"Nome": "",
+                  "Classe" : "",
+                  "Background" : "",
+                  "Status" : {"HP_Max" : 0,
+                              "HP_Atual" : 0,
+                              "PP_Max" : 0,
+                              "PP_Atual" : 0,
+                              "F_ATK" : 0,
+                              "P_ATK" : 0,
+                              "F_DEF" : 0,
+                              "P_DEF" : 0,
+                              "AGI" : 0,
+                              "LUCK": 0,
+                              "Habilidades" : []
+                              },
+                  "Equipamento" : []
+                  }
+    classe_jogador, background_jogador,nome = cria_personagem_inicial()
+    personagem["Nome"] = nome
+    
+    # Adicionando atributos de classe:
+    with open("classes.json") as classes:
+        classe_disponiveis = json.load(classes)
+    
+    atributos1 = classe_disponiveis[classe_jogador]
+    personagem["Classe"] = classe_jogador
+    atualiza_status = personagem["Status"]
+    
+    atualiza_status["HP_Max"] += atributos1["HP_Max"]
+    atualiza_status["HP_Atual"] += atributos1["HP_Max"]
+    atualiza_status["PP_Max"] += atributos1["PP_Max"]
+    atualiza_status["PP_Atual"] += atributos1["PP_Max"]
+    atualiza_status["F_ATK"] += atributos1["F_ATK"]
+    atualiza_status["P_ATK"] += atributos1["P_ATK"]
+    atualiza_status["F_DEF"] += atributos1["F_DEF"]
+    atualiza_status["P_DEF"] += atributos1["P_DEF"]
+    atualiza_status["AGI"] += atributos1["AGI"]
+    
+    lista_habilidades_classe = atributos1["Habilidades"]
+    
+    for i in range(len(lista_habilidades_classe)):
+        atualiza_status["Habilidades"].append(lista_habilidades_classe[i])
+    
+    # Adicionando atributos de background:
+    with open("backgrounds.json") as backgrounds:
+        backgrounds_disponiveis = json.load(backgrounds)
+    
+    atributos2 = backgrounds_disponiveis[background_jogador]
+    personagem["Background"] = background_jogador
+    
+    atualiza_status["LUCK"] += atributos2["LUCK"]
+    
+    lista_habilidades_background = atributos2["Habilidades"]
+    
+    for i in range(len(lista_habilidades_background)):
+        atualiza_status["Habilidades"].append(lista_habilidades_background[i])
+    
+    #Personagem inicial status:
+    print("=======================")
+    pprint(personagem)
+    print("=======================")
+    print()
+    print("Tudo pronto para começarmos...")
+    print()
+    print("Opa, parece que chegamos!....")
+    print()
+    print("=======================")
+    print()    
+    
+#personagem_protagonista()
