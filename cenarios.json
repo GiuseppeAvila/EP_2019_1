@@ -1,28 +1,30 @@
 {
 	"inicio": {
-		"inimigos": ["Ayres", "Elemental"],
+		"inimigos": ["Veterano Selvagem", "Elemental", "F. H."],
 		"título": "Saguao do perigo",
 		"descrição": "Voce esta no saguao de entrada do insper",
 		"opcoes": {
 			"rua em frente ao Insper": "Sair do saguão",
 			"andar 0-S1": "Ir ao subsolo 1",
 			"andar 0-0": "Entrar no Insper",
-			"comprar algo" : "Tem uma maquina de snacks ali.."			
+			"comprar algo" : "Tem uma maquina de snacks ali..",
+			"aluno" : "que tal bater um papo?"			
 		}
 	},
 	"predio velho": {
-		"inimigos": ["Ayres", "Elemental"],
+		"inimigos": ["Veterano Selvagem", "Elemental", "F. H."],
 		"título": "Saguao do perigo",
 		"descrição": "Voce esta no saguao de entrada do insper",
 		"opcoes": {
 			"rua em frente ao Insper": "Sair do saguão",
 			"andar 0-S1": "Ir ao subsolo 1",
 			"andar 0-0": "Entrar no Insper",
-			"comprar algo" : "Tem uma maquina de snacks ali.."
+			"comprar algo" : "Tem uma maquina de snacks ali..",
+			"aluno" : "que tal bater um papo?"
 		}
 	},
 	"andar 0-6": {
-		"inimigos": ["Ayres", "Elemental"],
+		"inimigos": ["Veterano Selvagem", "Elemental", "F. H."],
 		"título": "Andar do desespero",
 		"descrição": "Voce chegou ao andar da sala do seu professor",
 		"opcoes": {
@@ -30,26 +32,33 @@
 			"sala do professor": "Falar com o professor",
 			"insper jr.": "Visitar o Insper Jr. ou o Endeavor",
 			"banheiro": "Ir ao banheiro",
-			"comprar algo" : "Tem uma maquina de snacks ali.."
+			"comprar algo" : "Tem uma maquina de snacks ali..",
+			"aluno" : "que tal bater um papo?"
 		}
 	},
 	"sala do professor": {
-		"inimigos": ["Ayres"],
+		"inimigos": ["Fabio Ayres"],
 		"título": "O monstro do Python",
-		"descrição": "Voce foi pedir para o professor adiar o EP. O professor revelou que é um monstro disfarçado e devorou sua alma.",
+		"descrição": "Voce foi pedir para o professor adiar o EP. Mas o professor é um monstro!! WOOOOOOOOOWW!!! Plot Twist!!",
+		"opcoes": {"chorar" : "chora bebê"},
+	"chorar": {
+		"inimigos": [],
+		"título": "Você aceitou sua derrota",
+		"descrição": "Você aceitou sua derrota",
 		"opcoes": {}
 	},
 	"biblioteca": {
-		"inimigos": ["Ayres", "Elemental"],
+		"inimigos": ["Veterano Selvagem", "Elemental", "F. H."],
 		"título": "Caverna da tranquilidade",
 		"descrição": "Voce esta na biblioteca",
 		"opcoes": {
 			"andar 0-0": "Voltar para o saguao de entrada",
-			"fundo": "Avançar para os fundos da biblioteca"
+			"fundo": "Avançar para os fundos da biblioteca",
+			"aluno" : "que tal bater um papo?"
 		}
 	},
 	"andar 0-S1": {
-		"inimigos": ["Ayres", "Elemental"],
+		"inimigos": ["Veterano Selvagem", "Elemental", "F. H."],
 		"título": "Abismo, o vazio e a escuridão",
 		"descrição": "Você está na garagem...",
 		"opcoes": {
@@ -60,43 +69,47 @@
 			"Uberabinha": "Seguir a rua para a rua Uberabinha",
 			"bicicletario": "Entrar no bicicletário",
 			"banheiro": "Ir ao banheiro",
-			"comprar algo" : "Tem uma maquina de snacks ali.."
+			"comprar algo" : "Tem uma maquina de snacks ali..",
+			"aluno" : "que tal bater um papo?"
 		}
 	},
 	"rua em frente ao Insper": {
-		"inimigos": ["Ayres", "Elemental"],
+		"inimigos": ["Veterano Selvagem", "Elemental", "F. H."],
 		"título": "Os portões",
 		"descrição": "Você saiu do Insper, está na rua",
 		"opcoes": {
 			"predio novo": "Entrar no prédio novo",
 			"predio velho": "Entrar no prédio velho",
 			"Uberabinha": "Seguir a rua para a rua Uberabinha",
-			"saboroso": "Ir para o Saboroso"
+			"flavoroso": "Ir para o Flavoroso",
+			"aluno" : "que tal bater um papo?"
 		}
 	},
-	"saboroso": {
-		"inimigos": ["Ayres", "Elemental"],
+	"flavoroso": {
+		"inimigos": ["Veterano Selvagem", "Elemental", "F. H."],
 		"título": "Flavoroso",
 		"descrição": "Você está no restaurante da esquina",
 		"opcoes": {
 			"comer": "Gastar R$19.9999999999999999... e recuperar X de HP!",
 			"beber agua": "Retornar sua adrenalina em X%! Apenas R$3!",
 			"daniel guzzo": "Conversar com Daniel Guzzo",
-			"rua em frente ao Insper": "sair do Saboroso"
+			"rua em frente ao Insper": "sair do Flavoroso",
+			"aluno" : "que tal bater um papo?"
 		}
 	},
 	"predio novo": {
-		"inimigos": ["Ayres", "Elemental"],
+		"inimigos": ["Veterano Selvagem", "Elemental", "F. H."],
 		"título": "Fortaleza da Engenharia",
 		"descrição": "O prédio novo do Insper, majoritariamente ocupado por alunos e laboratórios exclusivos da Engenharia",
 		"opcoes": {
 			"andar 1-0": "entrar no prédio novo",
 			"rua na frente do Insper": "sair do prédio novo",
-			"comprar algo" : "Tem uma maquina de snacks ali.."
+			"comprar algo" : "Tem uma maquina de snacks ali..",
+			"aluno" : "que tal bater um papo?"
 		}
 	},
 	"elevador": {
-		"inimigos": ["Ayres", "Elemental"],
+		"inimigos": ["Veterano Selvagem", "Elemental", "F. H."],
 		"título": "O elevador do prédio novo",
 		"descrição": "É auto explicativo!",
 		"opcoes": {
@@ -110,7 +123,7 @@
 		}
 	},
 	"elevador A": {
-		"inimigos": ["Ayres", "Elemental"],
+		"inimigos": ["Veterano Selvagem", "Elemental", "F. H."],
 		"título": "A dádiva dos preguiçosos",
 		"descrição": "Elevador que cobre desde o S3 até o oitavo andar do prédio antigo",
 		"opcoes": {
@@ -127,7 +140,7 @@
 		}
 	},
 	"andar 0-S2": {
-		"inimigos": ["Ayres", "Elemental"],
+		"inimigos": ["Veterano Selvagem", "Elemental", "F. H."],
 		"título": "As profundezas",
 		"descrição": "Segundo subsolo, escuro e vazio",
 		"opcoes": {
@@ -135,22 +148,24 @@
 			"andar 0-S3": "descer um andar",
 			"elevador A": "pegar o elevador",
 			"banheiro": "Ir ao banheiro",
-			"comprar algo" : "Tem uma maquina de snacks ali.."
+			"comprar algo" : "Tem uma maquina de snacks ali..",
+			"aluno" : "que tal bater um papo?"
 		}
 	},
 	"andar 0-S3": {
-		"inimigos": ["Ayres", "Elemental"],
+		"inimigos": ["Veterano Selvagem", "Elemental", "F. H."],
 		"título": "O fundo",
 		"descrição": "O ponto mais profundo do Insper, vazio e imerso em breu",
 		"opcoes": {
 			"andar 0-S2": "subir um andar",
 			"elevador A": "Pegar o elevador e sair dali",
 			"banheiro": "Ir ao banheiro",
-			"comprar algo" : "Tem uma maquina de snacks ali.."
+			"comprar algo" : "Tem uma maquina de snacks ali..",
+			"aluno" : "que tal bater um papo?"
 		}
 	},
 	"andar 0-0": {
-		"inimigos": ["Ayres", "Elemental"],
+		"inimigos": ["Veterano Selvagem", "Elemental", "F. H."],
 		"título": "O paraíso das possibilidades",
 		"descrição": "Andar térreo do prédio antigo",
 		"opcoes": {
@@ -163,11 +178,12 @@
 			"antessala": "Antessala do auditório",
 			"biblioteca": "Biblioteca Telles",
 			"atendimento ao aluno": "Balcão de atendimento",
-			"comprar algo" : "Tem uma maquina de snacks ali.."
+			"comprar algo" : "Tem uma maquina de snacks ali..",
+			"aluno" : "que tal bater um papo?"
 		}
 	},
 	"fundo": {
-		"inimigos": ["Ayres", "Elemental"],
+		"inimigos": ["Veterano Selvagem", "Elemental", "F. H."],
 		"título": "Serenidade",
 		"descrição": "O fundo da biblioteca",
 		"opcoes": {
@@ -177,11 +193,12 @@
 			"balcao": "Retirar um livro",
 			"mesas de estudo": "pegar uma mesa e uma lousa para estudar",
 			"cubiculos": "Sentar em um cubículo para descansar",
-			"computadores": "Observar as pessoas mexendo nos computadores da biblioteca"
+			"computadores": "Observar as pessoas mexendo nos computadores da biblioteca",
+			"aluno" : "que tal bater um papo?"
 		}
 	},
 	"balcao": {
-		"inimigos": ["Ayres", "Elemental"],
+		"inimigos": ["Veterano Selvagem", "Elemental", "F. H."],
 		"título": "Balcão de atendimento",
 		"descrição": "O balcão de atendimento da biblioteca",
 		"opcoes": {
@@ -190,7 +207,7 @@
 		}
 	},
 	"aquarios biblioteca": {
-		"inimigos": ["Ayres", "Elemental"],
+		"inimigos": ["Veterano Selvagem", "Elemental", "F. H."],
 		"título": "Bolhas de reflexão",
 		"descrição": "Os aquários de reunião da biblioteca",
 		"opcoes": {
@@ -198,15 +215,16 @@
 		}
 	},
 	"poltronas confortáveis": {
-		"inimigos": ["Ayres", "Elemental"],
+		"inimigos": ["Veterano Selvagem", "Elemental", "F. H."],
 		"título": "Poltronas confortáveis",
 		"descrição": "Poltronas confortáveis... o que você esperava que eu dissesse?",
 		"opcoes": {
-			"fundo": "Chega de descansar, faça alguma coisa"
+			"fundo": "Chega de descansar, faça alguma coisa",
+			"aluno" : "que tal bater um papo?"
 		}
 	},
 	"mesas de estudo": {
-		"inimigos": ["Ayres", "Elemental"],
+		"inimigos": ["Veterano Selvagem", "Elemental", "F. H."],
 		"título": "Bastião do foco",
 		"descrição": "Mesas e lousas espalhadas de modo a permiti-lo focar intensamente nos estudos",
 		"opcoes": {
@@ -214,7 +232,7 @@
 		}
 	},
 	"cubiculos": {
-		"inimigos": ["Ayres", "Elemental"],
+		"inimigos": ["Veterano Selvagem", "Elemental", "F. H."],
 		"título": "Cubículos",
 		"descrição": "Não tem muito a ser dito... eles são confortáveis e bons para estudar",
 		"opcoes": {
@@ -222,7 +240,7 @@
 		}
 	},
 	"computadores": {
-		"inimigos": ["Ayres", "Elemental"],
+		"inimigos": ["Veterano Selvagem", "Elemental", "F. H."],
 		"título": "O futuro discreto",
 		"descrição": "Você não sabe, mas um dia será você lá",
 		"opcoes": {
@@ -230,16 +248,17 @@
 		}
 	},
 	"lanchonete": {
-		"inimigos": ["Ayres", "Elemental"],
+		"inimigos": ["Veterano Selvagem", "Elemental", "F. H."],
 		"título": "Casa do Pão de Queijo",
 		"descrição": "Um bom lugar para descansar e recuperar as forças",
 		"opcoes": {
 			"comprar": "comprar alguma coisa",
-			"andar 0-0": "continuar explorando"
+			"andar 0-0": "continuar explorando",
+			"aluno" : "que tal bater um papo?"
 		}
 	},
 	"Uberabinha": {
-		"inimigos": ["Ayres", "Elemental"],
+		"inimigos": ["Veterano Selvagem", "Elemental", "F. H."],
 		"título": "A fronteira do tempo",
 		"descrição": "Rua que separa o prédio novo e o prédio antigo do Insper",
 		"opcoes": {
@@ -248,7 +267,7 @@
 		}
 	},
 	"laboratorios subsolo": {
-		"inimigos": ["Ayres", "Elemental"],
+		"inimigos": ["Veterano Selvagem", "Elemental", "F. H."],
 		"título": "A gruta do desenvolvimento",
 		"descrição": "No escuro e na solidão, valentes cientistas se instalaram e desenvolvem suas atividades, longe do Insper e de outras pessoas",
 		"opcoes": {
@@ -256,20 +275,22 @@
 			"baja": "Oficina do Baja, o maior centro de desenvolvimento de tecnologia de transporte",
 			"tech lab": "O Tech Lab do Insper, o laboratório mais bem aparelhado dos dois prédios",
 			"pneumatica": "Laboratório de Pneumática e Hidráulica",
-			"automacao": "Laboratório de Automação e Controle"
+			"automacao": "Laboratório de Automação e Controle",
+			"aluno" : "que tal bater um papo?"
 		}
 	},
 	"tech lab": {
-		"inimigos": ["Ayres", "Elemental"],
+		"inimigos": ["Veterano Selvagem", "Elemental", "F. H."],
 		"título": "O ninho do Paradigma",
 		"descrição": "No meio do estacionamento, o Tech Lab brilha com sua tecnologia de ponta e seus aparelhos exclusivos, oferecendo segurança e esperança",
 		"opcoes": {
 			"laboratorios subsolo": "Sair do Tech Lab",
-			"guru tech": "Falar com um guru do Tech Lab"
+			"guru tech": "Falar com um guru do Tech Lab",
+			"aluno" : "que tal bater um papo?"
 		}
 	},
 	"baja": {
-		"inimigos": ["Ayres", "Elemental"],
+		"inimigos": ["Veterano Selvagem", "Elemental", "F. H."],
 		"título": "Oficina do Baja",
 		"descrição": "O maior centro de desenvolvimento de tecnologia de transportes do Insper",
 		"opcoes": {
@@ -278,7 +299,7 @@
 		}
 	},
 	"pneumatica": {
-		"inimigos": ["Ayres", "Elemental"],
+		"inimigos": ["Veterano Selvagem", "Elemental", "F. H."],
 		"título": "Laboratório de Pneumática e Hidráulica",
 		"descrição": "Algumas mesas e cadeiras, anotações na lousa, mas não tem ninguém",
 		"opcoes": {
@@ -286,7 +307,7 @@
 		}
 	},
 	"automacao": {
-		"inimigos": ["Ayres", "Elemental"],
+		"inimigos": ["Veterano Selvagem", "Elemental", "F. H."],
 		"título": "Laboratório de Automação e Controle",
 		"descrição": "Algumas mesas e cadeiras, anotações na lousa, mas não tem ninguém",
 		"opcoes": {
@@ -294,7 +315,7 @@
 		}
 	},
 	"antessala": {
-		"inimigos": ["Ayres", "Elemental"],
+		"inimigos": ["Veterano Selvagem", "Elemental", "F. H."],
 		"título": "O santuário da música",
 		"descrição": "Sala ampla que fica no meio do caminho entre a entrada e o auditório",
 		"opcoes": {
@@ -304,7 +325,7 @@
 		}
 	},
 	"piano": {
-		"inimigos": ["Ayres", "Elemental"],
+		"inimigos": ["Piano Possuído"],
 		"título": "O piano",
 		"descrição": "Piano localizado na antessala, seu som é muito bonito. Alguém está tocando o piano",
 		"opcoes": {
@@ -312,7 +333,7 @@
 		}
 	},
 	"auditorio": {
-		"inimigos": ["Ayres", "Elemental"],
+		"inimigos": ["Cantora de Ópera"],
 		"título": "Auditório",
 		"descrição": "É o auditório do Insper, com suas poltronas confortáveis",
 		"opcoes": {
@@ -320,7 +341,7 @@
 		}
 	},
 	"banheiro": {
-		"inimigos": ["Ayres", "Elemental"],
+		"inimigos": ["Privada Entupida"],
 		"título": "Castelo do alívio",
 		"descrição": "É um banheiro comum. Você faz suas necessidades, dá a descarga, lava as mãos e sai",
 		"opcoes": {
@@ -340,19 +361,21 @@
 			"andar 1-6": "sexto andar do prédio novo",
 			"andar 0-S1": "primeiro subsolo do prédio antigo",
 			"andar 0-S2": "segundo subsolo do prédio antigo",
-			"andar 0-S3": "terceiro subsolo do prédio antigo"
+			"andar 0-S3": "terceiro subsolo do prédio antigo",
+			"aluno" : "que tal bater um papo?"
 		}
 	},
 	"insper jr.": {
-		"inimigos": ["Ayres", "Elemental"],
+		"inimigos": ["Veterano Selvagem", "Elemental", "F. H."],
 		"título": "Gente séria",
 		"descrição": "O Insper Jr. e o Endeavor são empresas de verdade no Insper, e, como eles são muito sérios sobre o trabalho deles, você pode apenas vê-los trabalhando",
 		"opcoes": {
-			"andar 0-6": "voltar"
+			"andar 0-6": "voltar",
+			"aluno" : "que tal bater um papo?"
 		}
 	},
 	"andar 1-0": {
-		"inimigos": ["Ayres", "Elemental"],
+		"inimigos": ["Veterano Selvagem", "Elemental", "F. H."],
 		"título": "Novo térreo",
 		"descrição": "Espaço amplo, tem alguns alunos estudando",
 		"opcoes": {
@@ -363,11 +386,12 @@
 			"banheiro": "Ir ao banheiro",
 			"novo subsolo": "Descer um andar",
 			"cemp": "Centro de Empreendedorismo do prédio novo",
-			"comprar algo" : "Tem uma maquina de snacks ali.."
+			"comprar algo" : "Tem uma maquina de snacks ali..",
+			"aluno" : "que tal bater um papo?"
 		}
 	},
 	"novo subsolo": {
-		"inimigos": ["Ayres", "Elemental"],
+		"inimigos": ["Veterano Selvagem", "Elemental", "F. H."],
 		"título": "Acesso restrito",
 		"descrição": "Não é permitido acessar o subsolo do prédio novo",
 		"opcoes": {
@@ -375,7 +399,7 @@
 		}
 	},
 	"cemp": {
-		"inimigos": ["Ayres", "Elemental"],
+		"inimigos": ["Veterano Selvagem", "Elemental", "F. H."],
 		"título": "Centro de Empreendedorismo do prédio novo",
 		"descrição": "Pessoas sérias fazendo trabalho sério",
 		"opcoes": {
@@ -383,7 +407,7 @@
 		}
 	},
 	"area de estudo": {
-		"inimigos": ["Ayres", "Elemental"],
+		"inimigos": ["Veterano Selvagem", "Elemental", "F. H."],
 		"título": "Área de estudo",
 		"descrição": "Ao seu redor, os alunos estão estudando, compenetrados",
 		"opcoes": {
@@ -391,7 +415,7 @@
 		}
 	},
 	"andar 1-1": {
-		"inimigos": ["Ayres", "Elemental"],
+		"inimigos": ["Veterano Selvagem", "Elemental", "F. H."],
 		"título": "Primeiro andar do prédio novo",
 		"descrição": "Tem um corredor à direita, outro à esquerda e um de aquários",
 		"opcoes": {
@@ -402,11 +426,12 @@
 			"corredor direito 1-1": "Ir para a direita",
 			"corredor aquarios 1-1": "Aquários",
 			"banheiro": "Ir ao banheiro",
-			"comprar algo" : "Tem uma maquina de snacks ali.."
+			"comprar algo" : "Tem uma maquina de snacks ali..",
+			"aluno" : "que tal bater um papo?"
 		}
 	},
 	"andar 1-2": {
-		"inimigos": ["Ayres", "Elemental"],
+		"inimigos": ["Veterano Selvagem", "Elemental", "F. H."],
 		"título": "Segundo andar do prédio novo",
 		"descrição": "Tem um tobogã, um corredor à direita, outro à esquerda e um de aquários",
 		"opcoes": {
@@ -418,11 +443,12 @@
 			"corredor direito 1-2": "Ir para a direita",
 			"corredor aquarios 1-2": "Aquários",
 			"banheiro": "Ir ao banheiro",
-			"comprar algo" : "Tem uma maquina de snacks ali.."
+			"comprar algo" : "Tem uma maquina de snacks ali..",
+			"aluno" : "que tal bater um papo?"
 		}
 	},
 	"andar 1-3": {
-		"inimigos": ["Ayres", "Elemental"],
+		"inimigos": ["Veterano Selvagem", "Elemental", "F. H."],
 		"título": "Terceiro andar do prédio novo",
 		"descrição": "Tem um corredor à direita, outro à esquerda e um de aquários",
 		"opcoes": {
@@ -433,11 +459,12 @@
 			"corredor direito 1-3": "Ir para a direita",
 			"corredor aquarios 1-3": "Aquários",
 			"banheiro": "Ir ao banheiro",
-			"comprar algo" : "Tem uma maquina de snacks ali.."
+			"comprar algo" : "Tem uma maquina de snacks ali..",
+			"aluno" : "que tal bater um papo?"
 		}
 	},
 	"andar 1-4": {
-		"inimigos": ["Ayres", "Elemental"],
+		"inimigos": ["Veterano Selvagem", "Elemental", "F. H."],
 		"título": "Quarto andar do prédio novo",
 		"descrição": "Tem um corredor à direita, outro à esquerda e uma sala",
 		"opcoes": {
@@ -449,11 +476,12 @@
 			"sala 411": "Entrar na sala",
 			"máquinas de vendas 1-4": "comprar alguma coisa",
 			"banheiro": "Ir ao banheiro",
-			"comprar algo" : "Tem uma maquina de snacks ali.."
+			"comprar algo" : "Tem uma maquina de snacks ali..",
+			"aluno" : "que tal bater um papo?"
 		}
 	},
 	"andar 1-5": {
-		"inimigos": ["Ayres", "Elemental"],
+		"inimigos": ["Veterano Selvagem", "Elemental", "F. H."],
 		"título": "Quinto andar do prédio novo",
 		"descrição": "Tem um corredor à direita, outro à esquerda e um de aquários",
 		"opcoes": {
@@ -464,11 +492,12 @@
 			"corredor direito 1-5": "Ir para a direita",
 			"corredor aquarios 1-5": "Aquários",
 			"banheiro": "Ir ao banheiro",
-			"comprar algo" : "Tem uma maquina de snacks ali.."
+			"comprar algo" : "Tem uma maquina de snacks ali..",
+			"aluno" : "que tal bater um papo?"
 		}
 	},
 	"andar 1-6": {
-		"inimigos": ["Ayres", "Elemental"],
+		"inimigos": ["Veterano Selvagem", "Elemental", "F. H."],
 		"título": "Sexto andar do prédio novo",
 		"descrição": "Tem mesas, cubículos, uma varanda, a copa e alguns alunos conversando nos sofás",
 		"opcoes": {
@@ -477,11 +506,12 @@
 			"copa": "entrar na copa",
 			"varanda": "ir para o lado externo",
 			"banheiro": "Ir ao banheiro",
-			"comprar algo" : "Tem uma maquina de snacks ali.."
+			"comprar algo" : "Tem uma maquina de snacks ali..",
+			"aluno" : "que tal bater um papo?"
 		}
 	},
 	"corredor direito 1-1": {
-		"inimigos": ["Ayres", "Elemental"],
+		"inimigos": ["Veterano Selvagem", "Elemental", "F. H."],
 		"título": "Corredor da direita",
 		"descrição": "É um corredor com duas salas e uma máquina de vendas",
 		"opcoes": {
@@ -491,7 +521,7 @@
 		}
 	},
 	"corredor direito 1-2": {
-		"inimigos": ["Ayres", "Elemental"],
+		"inimigos": ["Veterano Selvagem", "Elemental", "F. H."],
 		"título": "Corredor da direita",
 		"descrição": "É um corredor com duas salas e uma máquina de vendas",
 		"opcoes": {
@@ -501,7 +531,7 @@
 		}
 	},
 	"corredor direito 1-3": {
-		"inimigos": ["Ayres", "Elemental"],
+		"inimigos": ["Veterano Selvagem", "Elemental", "F. H."],
 		"título": "Corredor da direita",
 		"descrição": "É um corredor com duas salas e uma máquina de vendas",
 		"opcoes": {
@@ -511,7 +541,7 @@
 		}
 	},
 	"corredor direito 1-4": {
-		"inimigos": ["Ayres", "Elemental"],
+		"inimigos": ["Veterano Selvagem", "Elemental", "F. H."],
 		"título": "Corredor da direita",
 		"descrição": "É um corredor com três laboratórios",
 		"opcoes": {
@@ -522,7 +552,7 @@
 		}
 	},
 	"corredor direito 1-5": {
-		"inimigos": ["Ayres", "Elemental"],
+		"inimigos": ["Veterano Selvagem", "Elemental", "F. H."],
 		"título": "Corredor da direita",
 		"descrição": "É um corredor com duas salas e uma máquina de vendas",
 		"opcoes": {
@@ -532,7 +562,7 @@
 		}
 	},
 	"corredor esquerdo 1-1": {
-		"inimigos": ["Ayres", "Elemental"],
+		"inimigos": ["Veterano Selvagem", "Elemental", "F. H."],
 		"título": "Corredor da esquerda",
 		"descrição": "Tem duas salas de aula",
 		"opcoes": {
@@ -542,7 +572,7 @@
 		}
 	},
 	"corredor esquerdo 1-2": {
-		"inimigos": ["Ayres", "Elemental"],
+		"inimigos": ["Veterano Selvagem", "Elemental", "F. H."],
 		"título": "Corredor da esquerda",
 		"descrição": "Tem duas salas de aula",
 		"opcoes": {
@@ -552,7 +582,7 @@
 		}
 	},
 	"corredor esquerdo 1-3": {
-		"inimigos": ["Ayres", "Elemental"],
+		"inimigos": ["Veterano Selvagem", "Elemental", "F. H."],
 		"título": "Corredor da esquerda",
 		"descrição": "Tem o FabLab",
 		"opcoes": {
@@ -561,7 +591,7 @@
 		}
 	},
 	"corredor esquerdo 1-4": {
-		"inimigos": ["Ayres", "Elemental"],
+		"inimigos": ["Veterano Selvagem", "Elemental", "F. H."],
 		"título": "Corredor da esquerda",
 		"descrição": "É um corredor com três laboratórios",
 		"opcoes": {
@@ -572,7 +602,7 @@
 		}
 	},
 	"corredor esquerdo 1-5": {
-		"inimigos": ["Ayres", "Elemental"],
+		"inimigos": ["Veterano Selvagem", "Elemental", "F. H."],
 		"título": "Corredor da esquerda",
 		"descrição": "Tem duas salas de aula",
 		"opcoes": {
@@ -582,7 +612,7 @@
 		}
 	},
 	"sala 111": {
-		"inimigos": ["Ayres", "Elemental"],
+		"inimigos": ["Veterano Selvagem", "Elemental", "F. H."],
 		"título": "Sala 111",
 		"descrição": "9 mesas, 6 lousas e algumas canetas",
 		"opcoes": {
@@ -590,7 +620,7 @@
 		}
 	},
 	"sala 112": {
-		"inimigos": ["Ayres", "Elemental"],
+		"inimigos": ["Veterano Selvagem", "Elemental", "F. H."],
 		"título": "Sala 112",
 		"descrição": "9 mesas, 6 lousas e algumas canetas",
 		"opcoes": {
@@ -598,15 +628,16 @@
 		}
 	},
 	"sala 211": {
-		"inimigos": ["Ayres", "Elemental"],
+		"inimigos": ["Veterano Selvagem", "Elemental", "F. H."],
 		"título": "Sala 211",
 		"descrição": "9 mesas, 6 lousas e algumas canetas",
 		"opcoes": {
-			"corredor direito 1-2": "voltar"
+			"corredor direito 1-2": "voltar",
+			"aluno" : "que tal bater um papo?"
 		}
 	},
 	"sala 212": {
-		"inimigos": ["Ayres", "Elemental"],
+		"inimigos": ["Veterano Selvagem", "Elemental", "F. H."],
 		"título": "Sala 212",
 		"descrição": "9 mesas, 6 lousas e algumas canetas",
 		"opcoes": {
@@ -614,7 +645,7 @@
 		}
 	},
 	"sala 311": {
-		"inimigos": ["Ayres", "Elemental"],
+		"inimigos": ["Veterano Selvagem", "Elemental", "F. H."],
 		"título": "Sala 311",
 		"descrição": "9 mesas, 6 lousas e algumas canetas",
 		"opcoes": {
@@ -622,7 +653,7 @@
 		}
 	},
 	"sala 312": {
-		"inimigos": ["Ayres", "Elemental"],
+		"inimigos": ["Veterano Selvagem", "Elemental", "F. H."],
 		"título": "Sala 312",
 		"descrição": "9 mesas, 6 lousas e algumas canetas",
 		"opcoes": {
@@ -630,15 +661,16 @@
 		}
 	},
 	"sala 411": {
-		"inimigos": ["Ayres", "Elemental"],
+		"inimigos": ["Veterano Selvagem", "Elemental", "F. H."],
 		"título": "Sala 411",
 		"descrição": "Sala enorme que tem a largura de um corredor de aquários",
 		"opcoes": {
-			"andar 1-4": "voltar"
+			"andar 1-4": "voltar",
+			"aluno" : "que tal bater um papo?"
 		}
 	},
 	"sala 511": {
-		"inimigos": ["Ayres", "Elemental"],
+		"inimigos": ["Veterano Selvagem", "Elemental", "F. H."],
 		"título": "Sala 511",
 		"descrição": "9 mesas, 6 lousas e algumas canetas",
 		"opcoes": {
@@ -646,7 +678,7 @@
 		}
 	},
 	"sala 512": {
-		"inimigos": ["Ayres", "Elemental"],
+		"inimigos": ["Veterano Selvagem", "Elemental", "F. H."],
 		"título": "Sala 512",
 		"descrição": "9 mesas, 6 lousas e algumas canetas",
 		"opcoes": {
@@ -654,7 +686,7 @@
 		}
 	},
 	"sala 113": {
-		"inimigos": ["Ayres", "Elemental"],
+		"inimigos": ["Veterano Selvagem", "Elemental", "F. H."],
 		"título": "Sala 113",
 		"descrição": "9 mesas, 6 lousas e algumas canetas",
 		"opcoes": {
@@ -662,15 +694,16 @@
 		}
 	},
 	"sala 114": {
-		"inimigos": ["Ayres", "Elemental"],
+		"inimigos": ["Veterano Selvagem", "Elemental", "F. H."],
 		"título": "Sala 114",
 		"descrição": "9 mesas, 6 lousas e algumas canetas",
 		"opcoes": {
-			"corredor direito 1-1": "voltar"
+			"corredor direito 1-1": "voltar",
+			"aluno" : "que tal bater um papo?"
 		}
 	},
 	"sala 213": {
-		"inimigos": ["Ayres", "Elemental"],
+		"inimigos": ["Veterano Selvagem", "Elemental", "F. H."],
 		"título": "Sala 213",
 		"descrição": "9 mesas, 6 lousas e algumas canetas",
 		"opcoes": {
@@ -678,7 +711,7 @@
 		}
 	},
 	"sala 214": {
-		"inimigos": ["Ayres", "Elemental"],
+		"inimigos": ["Veterano Selvagem", "Elemental", "F. H."],
 		"título": "Sala 214",
 		"descrição": "9 mesas, 6 lousas e algumas canetas",
 		"opcoes": {
@@ -686,7 +719,7 @@
 		}
 	},
 	"sala 513": {
-		"inimigos": ["Ayres", "Elemental"],
+		"inimigos": ["Veterano Selvagem", "Elemental", "F. H."],
 		"título": "Sala 513",
 		"descrição": "9 mesas, 6 lousas e algumas canetas",
 		"opcoes": {
@@ -694,7 +727,7 @@
 		}
 	},
 	"sala 514": {
-		"inimigos": ["Ayres", "Elemental"],
+		"inimigos": ["Veterano Selvagem", "Elemental", "F. H."],
 		"título": "Sala 514",
 		"descrição": "9 mesas, 6 lousas e algumas canetas",
 		"opcoes": {
@@ -702,15 +735,16 @@
 		}
 	},
 	"varanda": {
-		"inimigos": ["Ayres", "Elemental"],
+		"inimigos": ["Fragmento do Universo"],
 		"título": "Mirante",
 		"descrição": "Parte ao ar livre do sexto andar do prédio novo, é possível ver boa parte da Faria Lima e da Hélio Pellegrino",
 		"opcoes": {
-			"andar 1-6": "voltar"
+			"andar 1-6": "voltar",
+			"aluno" : "que tal bater um papo?"
 		}
 	},
 	"copa": {
-		"inimigos": ["Ayres", "Elemental"],
+		"inimigos": ["Veterano Selvagem", "Elemental", "F. H."],
 		"título": "Rango",
 		"descrição": "Tem um microondas e uma geladeira",
 		"opcoes": {
@@ -718,7 +752,7 @@
 		}
 	},
 	"agil 1": {
-		"inimigos": ["Ayres", "Elemental"],
+		"inimigos": ["Veterano Selvagem", "Elemental", "F. H."],
 		"título": "Laboratório Ágil 1",
 		"descrição": "A porta requere senha para abrir",
 		"opcoes": {
@@ -726,7 +760,7 @@
 		}
 	},
 	"agil 2": {
-		"inimigos": ["Ayres", "Elemental"],
+		"inimigos": ["Veterano Selvagem", "Elemental", "F. H."],
 		"título": "Laboratório Ágil 2",
 		"descrição": "A porta requere senha para abrir",
 		"opcoes": {
@@ -734,7 +768,7 @@
 		}
 	},
 	"exp usab": {
-		"inimigos": ["Ayres", "Elemental"],
+		"inimigos": ["Veterano Selvagem", "Elemental", "F. H."],
 		"título": "Sala de Experiências de Usabilidade",
 		"descrição": "A porta requere senha para abrir",
 		"opcoes": {
@@ -742,7 +776,7 @@
 		}
 	},
 	"arq comp": {
-		"inimigos": ["Ayres", "Elemental"],
+		"inimigos": ["Veterano Selvagem", "Elemental", "F. H."],
 		"título": "Laboratório de Arquitetura da Computação",
 		"descrição": "A porta requere senha para abrir",
 		"opcoes": {
@@ -750,7 +784,7 @@
 		}
 	},
 	"supercomp": {
-		"inimigos": ["Ayres", "Elemental"],
+		"inimigos": ["Supercomputador"],
 		"título": "Laboratório de Redes e Supercomputação",
 		"descrição": "A porta requere senha para abrir",
 		"opcoes": {
@@ -758,7 +792,7 @@
 		}
 	},
 	"videogame": {
-		"inimigos": ["Ayres", "Elemental"],
+		"inimigos": ["Veterano Selvagem", "Elemental", "F. H."],
 		"título": "Laboratório de Realidade Virtual e Jogos Digitais",
 		"descrição": "A porta requere senha para abrir",
 		"opcoes": {
@@ -766,16 +800,17 @@
 		}
 	},
 	"FabLab": {
-		"inimigos": ["Ayres", "Elemental"],
+		"inimigos": ["Veterano Selvagem", "Elemental", "F. H."],
 		"título": "O laboratório",
 		"descrição": "Tem todas as máquinas do FabLab... o guru está mexendo no computador",
 		"opcoes": {
 			"andar 1-3": "sair do FabLab",
-			"guru FabLab": "Falar com o guru"
+			"guru FabLab": "Falar com o guru",
+			"aluno" : "que tal bater um papo?"
 		}
 	},
 	"corredor aquarios 1-1": {
-		"inimigos": ["Ayres", "Elemental"],
+		"inimigos": ["Veterano Selvagem", "Elemental", "F. H."],
 		"título": "Bolhas de concentração",
 		"descrição": "Tem 9 aquários, alguns ocupados",
 		"opcoes": {
@@ -784,7 +819,7 @@
 		}
 	},
 	"aquario 1-1": {
-		"inimigos": ["Ayres", "Elemental"],
+		"inimigos": ["Veterano Selvagem", "Elemental", "F. H."],
 		"título": "Aquário",
 		"descrição": "Uma sala aconchegante com uma boa vista e uma atmosfera de foco e concentração",
 		"opcoes": {
@@ -792,7 +827,7 @@
 		}
 	},
 	"corredor aquarios 1-2": {
-		"inimigos": ["Ayres", "Elemental"],
+		"inimigos": ["Veterano Selvagem", "Elemental", "F. H."],
 		"título": "Bolhas de concentração",
 		"descrição": "Tem 7 aquários, alguns ocupados",
 		"opcoes": {
@@ -801,7 +836,7 @@
 		}
 	},
 	"aquario 1-2": {
-		"inimigos": ["Ayres", "Elemental"],
+		"inimigos": ["Veterano Selvagem", "Elemental", "F. H."],
 		"título": "Aquário",
 		"descrição": "Uma sala aconchegante com uma boa vista e uma atmosfera de foco e concentração",
 		"opcoes": {
@@ -809,7 +844,7 @@
 		}
 	},
 	"corredor aquarios 1-3": {
-		"inimigos": ["Ayres", "Elemental"],
+		"inimigos": ["Veterano Selvagem", "Elemental", "F. H."],
 		"título": "Bolhas de concentração",
 		"descrição": "Tem 3 aquários, alguns ocupados, e o HelpDesk",
 		"opcoes": {
@@ -819,7 +854,7 @@
 		}
 	},
 	"aquario 1-3": {
-		"inimigos": ["Ayres", "Elemental"],
+		"inimigos": ["Veterano Selvagem", "Elemental", "F. H."],
 		"título": "Aquário",
 		"descrição": "Uma sala aconchegante com uma boa vista e uma atmosfera de foco e concentração",
 		"opcoes": {
@@ -827,7 +862,7 @@
 		}
 	},
 	"corredor aquarios 1-5": {
-		"inimigos": ["Ayres", "Elemental"],
+		"inimigos": ["Veterano Selvagem", "Elemental", "F. H."],
 		"título": "Bolhas de concentração",
 		"descrição": "Tem 7 aquários, alguns ocupados",
 		"opcoes": {
@@ -836,7 +871,7 @@
 		}
 	},
 	"aquario 1-5": {
-		"inimigos": ["Ayres", "Elemental"],
+		"inimigos": ["Veterano Selvagem", "Elemental", "F. H."],
 		"título": "Aquário",
 		"descrição": "Uma sala aconchegante com uma boa vista e uma atmosfera de foco e concentração",
 		"opcoes": {
@@ -844,7 +879,7 @@
 		}
 	},
 	"andar 0-1": {
-		"inimigos": ["Ayres", "Elemental"],
+		"inimigos": ["Veterano Selvagem", "Elemental", "F. H."],
 		"título": "Primeiro andar do prédio antigo",
 		"descrição": "Corredor amplo",
 		"opcoes": {
@@ -859,11 +894,12 @@
 			"sala olavo setubal": "Sala Olavo Setubal",
 			"sala jorge paulo lemann": "Sala Jorge Paulo Lemann",
 			"estudo individual": "Área de estudo individual",
-			"comprar algo" : "Tem uma maquina de snacks ali.."
+			"comprar algo" : "Tem uma maquina de snacks ali..",
+			"aluno" : "que tal bater um papo?"
 		}
 	},
 	"andar 0-2": {
-		"inimigos": ["Ayres", "Elemental"],
+		"inimigos": ["Veterano Selvagem", "Elemental", "F. H."],
 		"título": "Segundo andar do prédio antigo",
 		"descrição": "Corredor amplo",
 		"opcoes": {
@@ -890,11 +926,12 @@
 			"balcao de impressao": "Balcão de Impressão",
 			"estudo grupal 0-2-1": "Sala de Estudo em grupo 01",
 			"armarios 0-2": "Armários",
-			"comprar algo" : "Tem uma maquina de snacks ali.."
+			"comprar algo" : "Tem uma maquina de snacks ali..",
+			"aluno" : "que tal bater um papo?"
 		}
 	},
 	"andar 0-3": {
-		"inimigos": ["Ayres", "Elemental"],
+		"inimigos": ["Veterano Selvagem", "Elemental", "F. H."],
 		"título": "Terceiro andar do prédio antigo",
 		"descrição": "Corredor amplo",
 		"opcoes": {
@@ -918,11 +955,12 @@
 			"sala francisca": "Sala Francisca JPA Moraes",
 			"sala 308": "Sala 308",
 			"sala 302": "Sala 302",
-			"comprar algo" : "Tem uma maquina de snacks ali.."
+			"comprar algo" : "Tem uma maquina de snacks ali..",
+			"aluno" : "que tal bater um papo?"
 		}
 	},
 	"andar 0-4": {
-		"inimigos": ["Ayres", "Elemental"],
+		"inimigos": ["Veterano Selvagem", "Elemental", "F. H."],
         "título": "Quarto andar do prédio antigo",
         "descrição": "Corredor amplo",
         "opcoes": {
@@ -951,7 +989,7 @@
         }
     },
     "sala do Smash": {
-    	"inimigos": ["Ayres", "Elemental"],
+    	"inimigos": ["Veterano Selvagem", "Elemental", "F. H."],
         "título": "Coliseu dos Desocupados",
         "descrição": "Uma sala com uma grande variedade de jogos de tabuleiro e videogames, com veteranos de todos os cursos e semestres competindo",
         "opcoes": {
@@ -961,7 +999,7 @@
         }
     },
     "andar 0-5": {
-    	"inimigos": ["Ayres", "Elemental"],
+    	"inimigos": ["Veterano Selvagem", "Elemental", "F. H."],
         "título": "Quinto andar do prédio antigo",
         "descrição": "Tem um restaurante, uma quadra externa e a área das entidades",
         "opcoes": {
@@ -974,11 +1012,12 @@
             "restaurante": "Comprar alguma coisa",
             "area de lazer 0-5": "Área de lazer",
             "quadra": "Quadra externa",
-            "comprar algo" : "Tem uma maquina de snacks ali.."
+            "comprar algo" : "Tem uma maquina de snacks ali..",
+			"aluno" : "que tal bater um papo?"
         }
     },
     "atendimento ao aluno": {
-    	"inimigos": ["Ayres", "Elemental"],
+    	"inimigos": ["Veterano Selvagem", "Elemental", "F. H."],
         "título": "Balcão de Informações",
         "descrição": "É um lugar cheio de gente prestativa disposta a ajudar alunos confusos",
         "opcoes": {
@@ -986,7 +1025,7 @@
         }
     },
     "sala amador aguiar": {
-    	"inimigos": ["Ayres", "Elemental"],
+    	"inimigos": ["Veterano Selvagem", "Elemental", "F. H."],
         "título": "Sala Amador Aguiar",
         "descrição": "É uma sala de aula grande e espaçosa",
         "opcoes": {
@@ -994,7 +1033,7 @@
         }
     },
     "sala sebastiao camargo": {
-    	"inimigos": ["Ayres", "Elemental"],
+    	"inimigos": ["Veterano Selvagem", "Elemental", "F. H."],
         "título": "Sala Sebastião Camargo",
         "descrição": "É uma sala de aula grande e espaçosa",
         "opcoes": {
@@ -1002,7 +1041,7 @@
         }
     },
     "sala walther moreira sales": {
-    	"inimigos": ["Ayres", "Elemental"],
+    	"inimigos": ["Veterano Selvagem", "Elemental", "F. H."],
         "título": "Sala Walther Moreira Sales",
         "descrição": "É uma sala de aula grande e espaçosa",
         "opcoes": {
@@ -1010,7 +1049,7 @@
         }
     },
     "sala jose ermirio de moraes": {
-    	"inimigos": ["Ayres", "Elemental"],
+    	"inimigos": ["Veterano Selvagem", "Elemental", "F. H."],
         "título": "Sala José Ermírio de Moraes Filho",
         "descrição": "É uma sala de aula grande e espaçosa",
         "opcoes": {
@@ -1018,15 +1057,16 @@
         }
     },
     "sala olavo setubal": {
-    	"inimigos": ["Ayres", "Elemental"],
+    	"inimigos": ["Veterano Selvagem", "Elemental", "F. H."],
         "título": "Sala Olavo Setúbal",
         "descrição": "É uma sala de aula grande e espaçosa",
         "opcoes": {
-            "andar 0-1": "voltar"
+            "andar 0-1": "voltar",
+			"aluno" : "que tal bater um papo?"
         }
     },
     "sala jorge paulo lemann": {
-    	"inimigos": ["Ayres", "Elemental"],
+    	"inimigos": ["Veterano Selvagem", "Elemental", "F. H."],
         "título": "Sala Jorge Paulo Lemann",
         "descrição": "É uma sala de aula grande e espaçosa",
         "opcoes": {
@@ -1034,7 +1074,7 @@
         }
     },
     "sala luiz martins de souza dantas": {
-    	"inimigos": ["Ayres", "Elemental"],
+    	"inimigos": ["Veterano Selvagem", "Elemental", "F. H."],
         "título": "Sala Luiz Martins de Souza Dantas",
         "descrição": "É uma sala de aula grande e espaçosa",
         "opcoes": {
@@ -1042,7 +1082,7 @@
         }
     },
     "sala paulo renato souza": {
-    	"inimigos": ["Ayres", "Elemental"],
+    	"inimigos": ["Veterano Selvagem", "Elemental", "F. H."],
         "título": "Sala Paulo Renato Souza",
         "descrição": "É uma sala de aula grande e espaçosa",
         "opcoes": {
@@ -1050,15 +1090,16 @@
         }
     },
     "sala marcos lopes": {
-    	"inimigos": ["Ayres", "Elemental"],
+    	"inimigos": ["Veterano Selvagem", "Elemental", "F. H."],
         "título": "Sala Marcos Lopes",
         "descrição": "É uma sala de aula grande e espaçosa",
         "opcoes": {
-            "andar 0-2": "voltar"
+            "andar 0-2": "voltar",
+			"aluno" : "que tal bater um papo?"
         }
     },
     "sala 205": {
-    	"inimigos": ["Ayres", "Elemental"],
+    	"inimigos": ["Veterano Selvagem", "Elemental", "F. H."],
         "título": "Sala 205",
         "descrição": "É uma sala de aula grande e espaçosa",
         "opcoes": {
@@ -1066,7 +1107,7 @@
         }
     },
     "sala 206": {
-    	"inimigos": ["Ayres", "Elemental"],
+    	"inimigos": ["Veterano Selvagem", "Elemental", "F. H."],
         "título": "Sala 206",
         "descrição": "É uma sala de aula grande e espaçosa",
         "opcoes": {
@@ -1074,7 +1115,7 @@
         }
     },
     "sala graber": {
-    	"inimigos": ["Ayres", "Elemental"],
+    	"inimigos": ["Veterano Selvagem", "Elemental", "F. H."],
         "título": "Sala Graber",
         "descrição": "É uma sala de aula grande e espaçosa",
         "opcoes": {
@@ -1082,7 +1123,7 @@
         }
     },
     "sala alberto bandeira de queiroz": {
-    	"inimigos": ["Ayres", "Elemental"],
+    	"inimigos": ["Veterano Selvagem", "Elemental", "F. H."],
         "título": "Sala Alberto Bandeira de Queiroz",
         "descrição": "É uma sala de aula grande e espaçosa",
         "opcoes": {
@@ -1090,15 +1131,16 @@
         }
     },
     "sala 204": {
-    	"inimigos": ["Ayres", "Elemental"],
+    	"inimigos": ["Veterano Selvagem", "Elemental", "F. H."],
         "título": "Sala 204",
         "descrição": "É uma sala de aula grande e espaçosa",
         "opcoes": {
-            "andar 0-2": "voltar"
+            "andar 0-2": "voltar",
+			"aluno" : "que tal bater um papo?"
         }
     },
     "sala 203": {
-    	"inimigos": ["Ayres", "Elemental"],
+    	"inimigos": ["Veterano Selvagem", "Elemental", "F. H."],
         "título": "Sala 203",
         "descrição": "É uma sala de aula grande e espaçosa",
         "opcoes": {
@@ -1106,7 +1148,7 @@
         }
     },
     "sala octavio gouvea de bulhoes": {
-    	"inimigos": ["Ayres", "Elemental"],
+    	"inimigos": ["Veterano Selvagem", "Elemental", "F. H."],
         "título": "Sala Octávio Gouvea de Bulhões",
         "descrição": "É uma sala de aula grande e espaçosa",
         "opcoes": {
@@ -1114,7 +1156,7 @@
         }
     },
     "sala ottolara resende": {
-    	"inimigos": ["Ayres", "Elemental"],
+    	"inimigos": ["Veterano Selvagem", "Elemental", "F. H."],
         "título": "Sala Ottolara Resende",
         "descrição": "É uma sala de aula grande e espaçosa",
         "opcoes": {
@@ -1122,7 +1164,7 @@
         }
     },
     "sala peter drucker": {
-    	"inimigos": ["Ayres", "Elemental"],
+    	"inimigos": ["Veterano Selvagem", "Elemental", "F. H."],
         "título": "Sala Peter Drucker",
         "descrição": "É uma sala de aula grande e espaçosa",
         "opcoes": {
@@ -1130,7 +1172,7 @@
         }
     },
     "sala mario haberfeld": {
-    	"inimigos": ["Ayres", "Elemental"],
+    	"inimigos": ["Veterano Selvagem", "Elemental", "F. H."],
         "título": "Sala Mario Haberfeld",
         "descrição": "É uma sala de aula grande e espaçosa",
         "opcoes": {
@@ -1138,7 +1180,7 @@
         }
     },
     "sala 201": {
-    	"inimigos": ["Ayres", "Elemental"],
+    	"inimigos": ["Veterano Selvagem", "Elemental", "F. H."],
         "título": "Sala 201",
         "descrição": "É uma sala de aula grande e espaçosa",
         "opcoes": {
@@ -1146,15 +1188,16 @@
         }
     },
     "sala 202": {
-    	"inimigos": ["Ayres", "Elemental"],
+    	"inimigos": ["Veterano Selvagem", "Elemental", "F. H."],
         "título": "Sala 202",
         "descrição": "É uma sala de aula grande e espaçosa",
         "opcoes": {
-            "andar 0-2": "voltar"
+            "andar 0-2": "voltar",
+			"aluno" : "que tal bater um papo?"
         }
     },
     "sala bovespa 1": {
-    	"inimigos": ["Ayres", "Elemental"],
+    	"inimigos": ["Veterano Selvagem", "Elemental", "F. H."],
         "título": "Sala BM&F Bovespa 1",
         "descrição": "É uma sala de aula grande e espaçosa",
         "opcoes": {
@@ -1162,7 +1205,7 @@
         }
     },
     "sala bovespa 2": {
-    	"inimigos": ["Ayres", "Elemental"],
+    	"inimigos": ["Veterano Selvagem", "Elemental", "F. H."],
         "título": "Sala BM&F Bovespa 2",
         "descrição": "É uma sala de aula grande e espaçosa",
         "opcoes": {
@@ -1170,7 +1213,7 @@
         }
     },
     "sala vicente falconi campos": {
-    	"inimigos": ["Ayres", "Elemental"],
+    	"inimigos": ["Veterano Selvagem", "Elemental", "F. H."],
         "título": "Sala Vicente Falconi Campos",
         "descrição": "É uma sala de aula grande e espaçosa",
         "opcoes": {
@@ -1178,7 +1221,7 @@
         }
     },
     "sala joao gerdau": {
-    	"inimigos": ["Ayres", "Elemental"],
+    	"inimigos": ["Veterano Selvagem", "Elemental", "F. H."],
         "título": "Sala João Gerdau",
         "descrição": "É uma sala de aula grande e espaçosa",
         "opcoes": {
@@ -1186,7 +1229,7 @@
         }
     },
     "sala victor civita": {
-    	"inimigos": ["Ayres", "Elemental"],
+    	"inimigos": ["Veterano Selvagem", "Elemental", "F. H."],
         "título": "Sala Victor Civita",
         "descrição": "É uma sala de aula grande e espaçosa",
         "opcoes": {
@@ -1194,7 +1237,7 @@
         }
     },
     "sala max feffer": {
-    	"inimigos": ["Ayres", "Elemental"],
+    	"inimigos": ["Veterano Selvagem", "Elemental", "F. H."],
         "título": "Sala Max Feffer",
         "descrição": "É uma sala de aula grande e espaçosa",
         "opcoes": {
@@ -1202,7 +1245,7 @@
         }
     },
     "sala roberto cochrane simonsen": {
-    	"inimigos": ["Ayres", "Elemental"],
+    	"inimigos": ["Veterano Selvagem", "Elemental", "F. H."],
         "título": "Sala Roberto Cochrane Simonsen",
         "descrição": "É uma sala de aula grande e espaçosa",
         "opcoes": {
@@ -1210,15 +1253,16 @@
         }
     },
     "sala eugenio gudin": {
-    	"inimigos": ["Ayres", "Elemental"],
+    	"inimigos": ["Veterano Selvagem", "Elemental", "F. H."],
         "título": "Sala Eugênio Gudin",
         "descrição": "É uma sala de aula grande e espaçosa",
         "opcoes": {
-            "andar 0-3": "voltar"
+            "andar 0-3": "voltar",
+			"aluno" : "que tal bater um papo?"
         }
     },
     "sala eudoro villela": {
-    	"inimigos": ["Ayres", "Elemental"],
+    	"inimigos": ["Veterano Selvagem", "Elemental", "F. H."],
         "título": "Sala Eudoro Villela",
         "descrição": "É uma sala de aula grande e espaçosa",
         "opcoes": {
@@ -1226,7 +1270,7 @@
         }
     },
     "sala francisca": {
-    	"inimigos": ["Ayres", "Elemental"],
+    	"inimigos": ["Veterano Selvagem", "Elemental", "F. H."],
         "título": "Sala Francisca JPA Moraes",
         "descrição": "É uma sala de aula grande e espaçosa",
         "opcoes": {
@@ -1234,7 +1278,7 @@
         }
     },
     "sala 302": {
-    	"inimigos": ["Ayres", "Elemental"],
+    	"inimigos": ["Veterano Selvagem", "Elemental", "F. H."],
         "título": "Sala 302",
         "descrição": "É uma sala de aula grande e espaçosa",
         "opcoes": {
@@ -1242,7 +1286,7 @@
         }
     },
     "sala 308": {
-    	"inimigos": ["Ayres", "Elemental"],
+    	"inimigos": ["Veterano Selvagem", "Elemental", "F. H."],
         "título": "Sala 308",
         "descrição": "É uma sala de aula grande e espaçosa",
         "opcoes": {
@@ -1250,7 +1294,7 @@
         }
     },
     "sala 406": {
-    	"inimigos": ["Ayres", "Elemental"],
+    	"inimigos": ["Veterano Selvagem", "Elemental", "F. H."],
         "título": "Sala 406",
         "descrição": "É uma sala de aula grande e espaçosa",
         "opcoes": {
@@ -1258,7 +1302,7 @@
         }
     },
     "sala 405": {
-    	"inimigos": ["Ayres", "Elemental"],
+    	"inimigos": ["Veterano Selvagem", "Elemental", "F. H."],
         "título": "Sala 405",
         "descrição": "É uma sala de aula grande e espaçosa",
         "opcoes": {
@@ -1266,7 +1310,7 @@
         }
     },
     "sala 407": {
-    	"inimigos": ["Ayres", "Elemental"],
+    	"inimigos": ["Veterano Selvagem", "Elemental", "F. H."],
         "título": "Sala 407",
         "descrição": "É uma sala de aula grande e espaçosa",
         "opcoes": {
@@ -1274,7 +1318,7 @@
         }
     },
     "sala 408": {
-    	"inimigos": ["Ayres", "Elemental"],
+    	"inimigos": ["Veterano Selvagem", "Elemental", "F. H."],
         "título": "Sala 408",
         "descrição": "É uma sala de aula grande e espaçosa",
         "opcoes": {
@@ -1282,7 +1326,7 @@
         }
     },
     "sala 409": {
-    	"inimigos": ["Ayres", "Elemental"],
+    	"inimigos": ["Veterano Selvagem", "Elemental", "F. H."],
         "título": "Sala 409",
         "descrição": "É uma sala de aula grande e espaçosa",
         "opcoes": {
@@ -1290,15 +1334,16 @@
         }
     },
     "sala 410": {
-    	"inimigos": ["Ayres", "Elemental"],
+    	"inimigos": ["Veterano Selvagem", "Elemental", "F. H."],
         "título": "Sala 410",
         "descrição": "É uma sala de aula grande e espaçosa",
         "opcoes": {
-            "andar 0-4": "voltar"
+            "andar 0-4": "voltar",
+			"aluno" : "que tal bater um papo?"
         }
     },
     "estudo individual": {
-    	"inimigos": ["Ayres", "Elemental"],
+    	"inimigos": ["Veterano Selvagem", "Elemental", "F. H."],
         "título": "Área de estudo individual",
         "descrição": "Espaço amplo com diversos cubículos de estudo, quase todos ocupados por alunos compenetrados",
         "opcoes": {
@@ -1306,7 +1351,7 @@
         }
     },
     "estudo grupal 0-2-1": {
-    	"inimigos": ["Ayres", "Elemental"],
+    	"inimigos": ["Veterano Selvagem", "Elemental", "F. H."],
         "título": "Sala de estudo em grupo 01",
         "descrição": "Sala de reuniões",
         "opcoes": {
@@ -1314,7 +1359,7 @@
         }
     },
     "estudo grupal 0-3-1": {
-    	"inimigos": ["Ayres", "Elemental"],
+    	"inimigos": ["Veterano Selvagem", "Elemental", "F. H."],
         "título": "Sala de estudo em grupo 01",
         "descrição": "Sala de reuniões",
         "opcoes": {
@@ -1322,7 +1367,7 @@
         }
     },
     "estudo grupal 0-3-2": {
-    	"inimigos": ["Ayres", "Elemental"],
+    	"inimigos": ["Veterano Selvagem", "Elemental", "F. H."],
         "título": "Sala de estudo em grupo 02",
         "descrição": "Sala de reuniões",
         "opcoes": {
@@ -1330,7 +1375,7 @@
         }
     },
     "lab multidisc": {
-        "inimigos": ["Ayres", "Elemental"],
+        "inimigos": ["Veterano Selvagem", "Elemental", "F. H."],
         "título": "Laboratório Multidisciplinar",
         "descrição": "É um contâiner com mesas e equipamentos. Não tem ninguém aqui",
         "opcoes": {
@@ -1338,7 +1383,7 @@
         }
     },
     "lab informatica": {
-        "inimigos": ["Ayres", "Elemental"],
+        "inimigos": ["Veterano Selvagem", "Elemental", "F. H."],
         "título": "Laboratório de Informática",
         "descrição": "É uma sala grande com diversos equipamentos. Não tem ninguém aqui",
         "opcoes": {
@@ -1346,7 +1391,7 @@
         }
     },
     "lab sist mecat": {
-        "inimigos": ["Ayres", "Elemental"],
+        "inimigos": ["Veterano Selvagem", "Elemental", "F. H."],
         "título": "Laboratório de Sistemas Mecatrônicos",
         "descrição": "É uma sala com diversos equipamentos. Não tem ninguém aqui",
         "opcoes": {
@@ -1354,7 +1399,7 @@
         }
     },
     "lab materiais": {
-        "inimigos": ["Ayres", "Elemental"],
+        "inimigos": ["Veterano Selvagem", "Elemental", "F. H."],
         "título": "Laboratório de Materiais",
         "descrição": "É uma sala com diversos equipamentos. Não tem ninguém aqui",
         "opcoes": {
@@ -1362,7 +1407,7 @@
         }
     },
     "lab química": {
-        "inimigos": ["Ayres", "Elemental"],
+        "inimigos": ["Veterano Selvagem", "Elemental", "F. H."],
         "título": "Laboratório Multidisciplinar",
         "descrição": "É um contâiner com mesas e equipamentos. Não tem ninguém aqui",
         "opcoes": {
@@ -1370,7 +1415,7 @@
         }
     },
     "lab ciencias termicas": {
-        "inimigos": ["Ayres", "Elemental"],
+        "inimigos": ["Veterano Selvagem", "Elemental", "F. H."],
         "título": "Laboratório de Ciências Térmicas",
         "descrição": "É uma sala com um monte de apetrechos enormes. Não tem ninguém aqui",
         "opcoes": {
@@ -1378,7 +1423,7 @@
         }
     },
     "lab fis inst": {
-        "inimigos": ["Ayres", "Elemental"],
+        "inimigos": ["Veterano Selvagem", "Elemental", "F. H."],
         "título": "Laboratório de Física e Instrumentação",
         "descrição": "É uma sala com mesas e equipamentos.",
         "opcoes": {
@@ -1386,7 +1431,7 @@
         }
     },
     "CEMP": {
-        "inimigos": ["Ayres", "Elemental"],
+        "inimigos": ["Veterano Selvagem", "Elemental", "F. H."],
         "título": "Centro de Empreendedorismo do prédio antigo",
         "descrição": "É uma sala pequena e trancada",
         "opcoes": {
@@ -1394,7 +1439,7 @@
         }
     },
     "restaurante": {
-        "inimigos": ["Ayres", "Elemental"],
+        "inimigos": ["Veterano Selvagem", "Elemental", "F. H."],
         "título": "Restaurante do prédio antigo",
         "descrição": "É um lugar agradável e aconchegante... o cheiro de comida é praticamente irresistível",
         "opcoes": {
@@ -1403,7 +1448,7 @@
         }
     },
     "entidades": {
-        "inimigos": ["Ayres", "Elemental"],
+        "inimigos": ["Veterano Selvagem", "Elemental", "F. H."],
         "título": "Área das entidades",
         "descrição": "É um lugar agradável e aconchegante... os veternaos dormem nos sofás",
         "opcoes": {
@@ -1412,7 +1457,7 @@
         }
     },
     "multi insper": {
-        "inimigos": ["Ayres", "Elemental"],
+        "inimigos": ["Veterano Selvagem", "Elemental", "F. H."],
         "título": "Quartel-General da Sanidade",
         "descrição": "É um espaço incrível feito para auxiliar alunos no que eles precisarem",
         "opcoes": {
@@ -1420,7 +1465,7 @@
         }
     },
     "quadra": {
-        "inimigos": ["Ayres", "Elemental"],
+        "inimigos": ["Veterano Selvagem", "Elemental", "F. H."],
         "título": "Quadra Esportiva",
         "descrição": "É uma quadra comum ao ar livre... a vista é ótima",
         "opcoes": {
@@ -1429,30 +1474,33 @@
         }
     },
     "area de lazer 0-3": {
-        "inimigos": ["Ayres", "Elemental"],
+        "inimigos": ["Veterano Selvagem", "Elemental", "F. H."],
         "título": "Abrigo confortável",
         "descrição": "Um espaço seguro com poltronas",
         "opcoes": {
             "andar 0-3": "voltar",
-            "descansar 0-3": "Descansar"
+            "descansar 0-3": "Descansar",
+			"aluno" : "que tal bater um papo?"
         }
     },
     "area de lazer 0-4": {
-        "inimigos": ["Ayres", "Elemental"],
+        "inimigos": ["Veterano Selvagem", "Elemental", "F. H."],
         "título": "Abrigo confortável",
         "descrição": "Um espaço seguro com poltronas",
         "opcoes": {
             "andar 0-4": "voltar",
-            "descansar 0-4": "Descansar"
+            "descansar 0-4": "Descansar",
+			"aluno" : "que tal bater um papo?"
         }
     },
     "area de lazer 0-5": {
-        "inimigos": ["Ayres", "Elemental"],
+        "inimigos": ["Veterano Selvagem", "Elemental", "F. H."],
         "título": "Abrigo confortável",
         "descrição": "Um espaço seguro com poltronas",
         "opcoes": {
             "andar 0-5": "voltar",
-            "descansar 0-5": "Descansar"
+            "descansar 0-5": "Descansar",
+			"aluno" : "que tal bater um papo?"
         }
     }
 }

@@ -8,21 +8,19 @@
      "F_DEF" : 10,
      "P_DEF" : 15,
      "AGI" : 9,
-     "Habilidades" : ["Choque"],
      "Premios" : {"Poção de Cura" : 1, "Dinheiro" : 10}
      },
- "Ayres" :
-    {"Descrição" : "",
-    "Tipo" : ["Ayres"],
-     "HP_Max" : 30,
-     "PP_Max" : 30,
-     "F_ATK" : 10,
-     "P_ATK" : 20,
-     "F_DEF" : 10,
-     "P_DEF" : 15,
-     "AGI" : 9,
-     "Habilidades" : ["Chamada"],
-     "Premios" : {"Poção de Cura" : 1, "Dinheiro" : 10}
+ "Fabio Ayres" :
+    {"Descrição" : "Embodiment of Chaos",
+    "Tipo" : ["Professor", "Boss"],
+     "HP_Max" : 133700,
+     "PP_Max" : 500,
+     "F_ATK" : 250,
+     "P_ATK" : 200,
+     "F_DEF" : 135,
+     "P_DEF" : 175,
+     "AGI" : 8000,
+     "Premios" : {"1337 h4x0r" : 1, "Dinheiro" : 8008135}
      },
  "Veterano Selvagem" : 
      {"Descrição" : "",
@@ -34,8 +32,7 @@
      "F_DEF" : 10,
      "P_DEF" : 3,
      "AGI" : 9,
-     "Habilidades" : [],
-     "Premios" : {"Poção de Cura" : 1, "Dinheiro" : 10}
+     "Premios" : {"Poção de Cura" : 1, "Dinheiro" : 50}
      },
  "Alan-Tron 3000" :
       {"Descrição" : "",
@@ -47,7 +44,78 @@
      "F_DEF" : 100,
      "P_DEF" : 150,
      "AGI" : 9,
-     "Habilidades" : [],
+     "Premios" : {"Poção de Cura" : 8, "Dinheiro" : 5}
+     },
+ "Piano Possuído" :
+      {"Descrição" : "The Hills are alive with the sound of music!",
+      "Tipo" : ["Piano", "Instrumento"],
+      "HP_Max" : 50,
+     "PP_Max" : 70,
+     "F_ATK" : 30,
+     "P_ATK" : 35,
+     "F_DEF" : 50,
+     "P_DEF" : 20,
+     "AGI" : 3,
+     "Premios" : {"Poção de Cura" : 3}
+     },
+ "Cantora de Ópera" :
+      {"Descrição" : "The PHAAAAAAAAAAAAAAAA....",
+      "Tipo" : ["Humano", "Cantora"],
+      "HP_Max" : 30,
+     "PP_Max" : 50,
+     "F_ATK" : 10,
+     "P_ATK" : 40,
+     "F_DEF" : 10,
+     "P_DEF" : 30,
+     "AGI" : 5,
+     "Premios" : {"Poção de Cura" : 2, "Dinheiro" : 200}
+     },
+ "Fragmento do Universo" :
+      {"Descrição" : "The Colour from Outer Space",
+      "Tipo" : ["Terror Cósmico", "Boss"],
+      "HP_Max" : 1e30,
+     "PP_Max" : 1e30,
+     "F_ATK" : 1e30,
+     "P_ATK" : 1e30,
+     "F_DEF" : 1e30,
+     "P_DEF" : 1e30,
+     "AGI" : 1e30,
+     "Premios" : {"Onipotência" : 1}
+     },
+ "Supercomputador" :
+      {"Descrição" : "SkyNet",
+      "Tipo" : ["I'll be", "Back", "Boss"],
+      "HP_Max" : 101,
+     "PP_Max" : 123,
+     "F_ATK" : 16,
+     "P_ATK" : 34,
+     "F_DEF" : 4,
+     "P_DEF" : 50,
+     "AGI" : 0,
+     "Premios" : {"Poção de Cura" : 8}
+     },
+ "Privada Entupida" :
+      {"Descrição" : "A água está subindo...",
+      "Tipo" : ["Porcelana", "Objeto"],
+      "HP_Max" : 10,
+     "PP_Max" : 0,
+     "F_ATK" : 6,
+     "P_ATK" : 0,
+     "F_DEF" : 10,
+     "P_DEF" : 0,
+     "AGI" : 0,
+     "Premios" : {"Papel Higiênico (Usado?)" : 1}
+     },
+ "F. H." :
+      {"Descrição" : "#TamoJunto",
+      "Tipo" : ["Hipócrita", "Ferramenta"],
+      "HP_Max" : 50,
+     "PP_Max" : 40,
+     "F_ATK" : 36,
+     "P_ATK" : 10,
+     "F_DEF" : 10,
+     "P_DEF" : 10,
+     "AGI" : 10,
      "Premios" : {"Poção de Cura" : 1, "Dinheiro" : 10}
      }
 }
