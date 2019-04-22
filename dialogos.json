@@ -1,4 +1,4 @@
 {
     "daniel guzzo": ["Ah, olá, {}! Tudo certo? Escuta, eu tava com uma ideia... eu pensei em armas inovadoras, segundo o método do Dym, mas estou sem tempo... se você quiser, é assim: primeiro, vá ao FabLab e fale com o guru; imprima na Impressora 3D o punho da espada, depois corte na Cortadora o formato da lâmina e do escudo; a seguir, use a Solda para tornar ambos metálicos, e use a Fresadora para aperfeiçoar o fio da espada; por fim, vá à Marcenaria e junte a lâmina e o punho, e pronto. O projeto já está nos computadores. Boa sorte!".format(nome)]
-    "guru tech": "Olá... estou meio ocupado, tome isto e vá" #adicionar algo ao inventário
+    "guru tech": ["Olá... estou meio ocupado, tome isto e vá"] #adicionar algo ao inventário
 }
