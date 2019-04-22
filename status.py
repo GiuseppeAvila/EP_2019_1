@@ -4,9 +4,10 @@ import json
 from pprint import pprint
 
 def cria_personagem_inicial():
-    with open("Dialogo inicial narrador.txt","r",encoding = "utf8") as dialogo:
-        texto = dialogo.read()
-    print (texto)
+    print("Mas antes de iniciar... quem é você?")
+    print("Eu, narrador, não me lembro de conhecer alguém tão preguiçoso!")
+    print()
+    print("----------------")
     nome = input("...seu Nome é?  ").capitalize()
     print()
     print("----------------")
