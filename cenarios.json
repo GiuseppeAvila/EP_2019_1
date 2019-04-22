@@ -40,12 +40,7 @@
 		"inimigos": ["Fabio Ayres"],
 		"título": "O monstro do Python",
 		"descrição": "Voce foi pedir para o professor adiar o EP. Mas o professor é um monstro!! WOOOOOOOOOWW!!! Plot Twist!!",
-		"opcoes": {"chorar" : "chora bebê"},
-	"chorar": {
-		"inimigos": [],
-		"título": "Você aceitou sua derrota",
-		"descrição": "Você aceitou sua derrota",
-		"opcoes": {}
+		"opcoes": {"chorar": "Apenas chorar"}
 	},
 	"biblioteca": {
 		"inimigos": ["Veterano Selvagem", "Elemental", "F. H."],
@@ -1503,5 +1498,4 @@
 			"aluno" : "que tal bater um papo?"
         }
     }
-}
 }

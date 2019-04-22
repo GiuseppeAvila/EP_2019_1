@@ -122,7 +122,7 @@ def main():
             print("====================")
             escolha = input("O que deseja fazer? ")
             
-            #  Se a escolha estiver dentre as disponíveis e for um local == ir para lá
+           #  Se a escolha estiver dentre as disponíveis e for um local == ir para lá
             if escolha in opcoes:
                 if escolha == "comprar algo":
                     personagem = carregar_cenarios.compra(personagem, opcoes)
@@ -139,7 +139,6 @@ def main():
                     print()
                     print("--------------------")
                     print()
-                    
                 else:
                     nome_cenario_atual = escolha
                     print()
