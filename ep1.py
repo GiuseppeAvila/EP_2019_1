@@ -13,7 +13,6 @@ import status
 import carregar_cenarios
 import random
 import combate
-from pprint import pprint
 #import supreme_weapons as sw
 
 def main():
@@ -79,113 +78,20 @@ def main():
             monstro_vivo = True
 
             escolha = ""
+            i = 0
             
             #  Enquanto o monstro não morrer
             while monstro_vivo:
                 
-                # Escolha de batalha
-                print("[L]utar / [F]ugir ")
-                escolha_bat = input()
-                escolha_bat = escolha_bat.upper()
+                monstro_vivo = combate.discucao_fisica(personagem,monstro_atual,opcoes,i)
+                print("====================")  
+                print()
+                n_morreu = combate.monstrengo(monstro_atual,personagem)
+                print("====================")  
+                print()
                 
-                #  Personagem Lutando!
-                if escolha_bat == "L":
-                    
-                    #em_batalha = combate.lutar(personagem) 
-                    print()
-                    print("Take your time:")
-                    print("[A]tacar / [P]sy / [D]efender / [I]tem / [G]un / [S]tatus")
-                    
-                    acao = input()
-                    acao = acao.upper()
-                    acoes_possiveis = ["A","P","D","I","G","S"]
-                    print()
-                    
-                    menu_atk = True
-                    while menu_atk:
-                        
-                        if acao in acoes_possiveis:
-                            if acao == "A":
-                                monstro_vivo = combate.A(personagem,monstro_atual,opcoes)
-                                menu_atk = False
-
-                            elif acao == "S":
-                                pprint(personagem)
-                                print()
-                                print("Take your time:")
-                                print("[A]tacar / [P]sy / [D]efender / [I]tem / [G]un / [S]tatus")
-                    
-                                acao = input()
-                                acao = acao.upper()
-                                print()
-                                menu_atk = True
-                                
-                            elif acao == "P":
-                                
-                                if personagem["Status"]["PP_Atual"] >= 5:
-                                    monstro_vivo = combate.P(personagem,monstro_atual,opcoes)
-                                    menu_atk = False
-                                
-                                else:
-                                    print("Seu PP está baixo, precisa-se de 5PP para realizar um PP ATK!")
-                                    print()
-                                    print("Take your time:")
-                                    print("[A]tacar / [P]sy / [D]efender / [I]tem / [G]un / [S]tatus")
-                    
-                                    acao = input()
-                                    acao = acao.upper()
-                                    print()
-                                    menu_atk = True
-
-                            elif acao == "D":
-                                #F_guard = 0.5*personagem["Status"]["F_DEF"]
-                                #P_guard = 0.5*personagem["Status"]["P_DEF"]
-                                menu_atk = False
-                            
-                            elif acao == "I":
-                                menu_atk = combate.I(personagem)
-                                
-                            elif acao == "G":
-                                print("Essa ação ainda não foi implementada - volte a escolher")
-                                print()
-                                print("Take your time:")
-                                print("[A]tacar / [P]sy / [D]efender / [I]tem / [G]un / [S]tatus")
-                    
-                                acao = input()
-                                acao = acao.upper()
-                                print()
-                                menu_atk = True
-                        else:
-                            print("Você ataca com {}! É super efetivo!".format(acao))
-                            print()
-                            print()
-                            print("Com isso você causa fenomenais 0 de dano, já que {} não é uma opção válida".format(acao))
-                            print("Para de bancar o espertinho e aprenda a jogar")
-                            print()
-                            print("Escolha uma opção abaixo.. e lembre-se, tome o tempo que precisar!")
-                            print()
-                            print("Take your time:")
-                            print("[A]tacar / [P]sy / [D]efender / [I]tem / [G]un / [S]tatus")
-                    
-                            acao = input()
-                            acao = acao.upper()
-                            print()
-                            menu_atk = True
-                        
-                #  Fuga da personagem quando em batalha
-                elif escolha_bat == "F":
-                    i += 1
-                    monstro_vivo = combate.fugir(personagem, opcoes)
-                    if i == 1:
-                        print("Você já tentou fugir e não deu, agora se vira, acaba com ele")
-                        
-                        
-                elif monstro_atual["HP_atual"] <= 0:
-                    monstro_vivo = False
-                
-                else:
-                    print("Não seja covarde!")
-                    monstro_vivo = True
+                if n_morreu == False:
+                    game_over = True
                 
         #  Se escolher um local e não estiver em batalha
         else:
