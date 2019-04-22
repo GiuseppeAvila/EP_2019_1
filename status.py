@@ -45,9 +45,10 @@ def escolha_classe():
         print("Quero ser um [M]ago")
         print("Quero ser um [L]adino")
         print("Quero ser um L[u]tador")
+        print("Quero ser um [D]ruida")
         print("Quero [s]aber mais...")
         escolha1 = input()
-        opcoes = ["M", "L", "U"]
+        opcoes = ["M", "L", "U", "D"]
         if escolha1.upper() in opcoes:
             print()
             print("{0} - Essa é a sua escolha? [S]im / [N]ão".format(b[opcoes.index(escolha1.upper())]))
@@ -93,9 +94,11 @@ def escolha_background():
         print("Quero ser um [A]ristocrata")
         print("Quero ser um [E]sportista")
         print("Quero ser um [G]amer")
+        print("Quero ser um [D]ependente")
+        print("Quero ser um G[r]ingo")
         print("Quero [s]aber mais...")
         escolha1 = input()
-        opcoes = ["A", "E", "G"]
+        opcoes = ["A", "E", "G", "D", "R"]
         if escolha1.upper() in opcoes:
             print()
             print("{0} - Essa é a sua escolha? [S]im / [N]ão".format(d[opcoes.index(escolha1.upper())]))
@@ -151,7 +154,7 @@ def personagem_protagonista():
     atualiza_status = personagem["Status"]
     
     atualiza_status["HP_Max"] += atributos1["HP_Max"]
-    atualiza_status["HP_Atual"] += atributos1["HP_Max"] - 10
+    atualiza_status["HP_Atual"] += atributos1["HP_Max"]
     atualiza_status["PP_Max"] += atributos1["PP_Max"]
     atualiza_status["PP_Atual"] += atributos1["PP_Max"]
     atualiza_status["F_ATK"] += atributos1["F_ATK"]
