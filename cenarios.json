@@ -17,7 +17,8 @@
 		"opcoes": {
 			"rua em frente ao Insper": "Sair do saguão",
 			"andar 0-S1": "Ir ao subsolo 1",
-			"andar 0-0": "Entrar no Insper"
+			"andar 0-0": "Entrar no Insper",
+			"comprar algo" : "Tem uma maquina de snacks ali.."
 		}
 	},
 	"andar 0-6": {
@@ -26,13 +27,14 @@
 		"descrição": "Voce chegou ao andar da sala do seu professor",
 		"opcoes": {
 			"elevador A": "Tomar o elevador para o saguao de entrada",
-			"professor": "Falar com o professor",
+			"sala do professor": "Falar com o professor",
 			"insper jr.": "Visitar o Insper Jr. ou o Endeavor",
-			"banheiro": "Ir ao banheiro"
+			"banheiro": "Ir ao banheiro",
+			"comprar algo" : "Tem uma maquina de snacks ali.."
 		}
 	},
-	"professor": {
-		"inimigos": ["Ayres", "Elemental"],
+	"sala do professor": {
+		"inimigos": ["Ayres"],
 		"título": "O monstro do Python",
 		"descrição": "Voce foi pedir para o professor adiar o EP. O professor revelou que é um monstro disfarçado e devorou sua alma.",
 		"opcoes": {}
@@ -57,7 +59,8 @@
 			"predio velho": "voltar para o terreo",
 			"Uberabinha": "Seguir a rua para a rua Uberabinha",
 			"bicicletario": "Entrar no bicicletário",
-			"banheiro": "Ir ao banheiro"
+			"banheiro": "Ir ao banheiro",
+			"comprar algo" : "Tem uma maquina de snacks ali.."
 		}
 	},
 	"rua em frente ao Insper": {
@@ -88,7 +91,8 @@
 		"descrição": "O prédio novo do Insper, majoritariamente ocupado por alunos e laboratórios exclusivos da Engenharia",
 		"opcoes": {
 			"andar 1-0": "entrar no prédio novo",
-			"rua na frente do Insper": "sair do prédio novo"
+			"rua na frente do Insper": "sair do prédio novo",
+			"comprar algo" : "Tem uma maquina de snacks ali.."
 		}
 	},
 	"elevador": {
@@ -130,7 +134,8 @@
 			"andar 0-S1": "subir um andar",
 			"andar 0-S3": "descer um andar",
 			"elevador A": "pegar o elevador",
-			"banheiro": "Ir ao banheiro"
+			"banheiro": "Ir ao banheiro",
+			"comprar algo" : "Tem uma maquina de snacks ali.."
 		}
 	},
 	"andar 0-S3": {
@@ -140,7 +145,8 @@
 		"opcoes": {
 			"andar 0-S2": "subir um andar",
 			"elevador A": "Pegar o elevador e sair dali",
-			"banheiro": "Ir ao banheiro"
+			"banheiro": "Ir ao banheiro",
+			"comprar algo" : "Tem uma maquina de snacks ali.."
 		}
 	},
 	"andar 0-0": {
@@ -156,7 +162,8 @@
 			"salas de reunião": "Salas para fazer reuniões",
 			"antessala": "Antessala do auditório",
 			"biblioteca": "Biblioteca Telles",
-			"atendimento ao aluno": "Balcão de atendimento"
+			"atendimento ao aluno": "Balcão de atendimento",
+			"comprar algo" : "Tem uma maquina de snacks ali.."
 		}
 	},
 	"fundo": {
@@ -355,7 +362,8 @@
 			"rua em frente ao Insper": "sair do prédio novo",
 			"banheiro": "Ir ao banheiro",
 			"novo subsolo": "Descer um andar",
-			"cemp": "Centro de Empreendedorismo do prédio novo"
+			"cemp": "Centro de Empreendedorismo do prédio novo",
+			"comprar algo" : "Tem uma maquina de snacks ali.."
 		}
 	},
 	"novo subsolo": {
@@ -393,7 +401,8 @@
 			"corredor esquerdo 1-1": "Ir para a esquerda",
 			"corredor direito 1-1": "Ir para a direita",
 			"corredor aquarios 1-1": "Aquários",
-			"banheiro": "Ir ao banheiro"
+			"banheiro": "Ir ao banheiro",
+			"comprar algo" : "Tem uma maquina de snacks ali.."
 		}
 	},
 	"andar 1-2": {
@@ -408,7 +417,8 @@
 			"corredor esquerdo 1-2": "Ir para a esquerda",
 			"corredor direito 1-2": "Ir para a direita",
 			"corredor aquarios 1-2": "Aquários",
-			"banheiro": "Ir ao banheiro"
+			"banheiro": "Ir ao banheiro",
+			"comprar algo" : "Tem uma maquina de snacks ali.."
 		}
 	},
 	"andar 1-3": {
@@ -422,7 +432,8 @@
 			"corredor esquerdo 1-3": "Ir para a esquerda",
 			"corredor direito 1-3": "Ir para a direita",
 			"corredor aquarios 1-3": "Aquários",
-			"banheiro": "Ir ao banheiro"
+			"banheiro": "Ir ao banheiro",
+			"comprar algo" : "Tem uma maquina de snacks ali.."
 		}
 	},
 	"andar 1-4": {
@@ -437,7 +448,8 @@
 			"corredor direito 1-4": "Ir para a direita",
 			"sala 411": "Entrar na sala",
 			"máquinas de vendas 1-4": "comprar alguma coisa",
-			"banheiro": "Ir ao banheiro"
+			"banheiro": "Ir ao banheiro",
+			"comprar algo" : "Tem uma maquina de snacks ali.."
 		}
 	},
 	"andar 1-5": {
@@ -451,7 +463,8 @@
 			"corredor esquerdo 1-5": "Ir para a esquerda",
 			"corredor direito 1-5": "Ir para a direita",
 			"corredor aquarios 1-5": "Aquários",
-			"banheiro": "Ir ao banheiro"
+			"banheiro": "Ir ao banheiro",
+			"comprar algo" : "Tem uma maquina de snacks ali.."
 		}
 	},
 	"andar 1-6": {
@@ -463,7 +476,8 @@
 			"andar 1-5": "descer as escadas",
 			"copa": "entrar na copa",
 			"varanda": "ir para o lado externo",
-			"banheiro": "Ir ao banheiro"
+			"banheiro": "Ir ao banheiro",
+			"comprar algo" : "Tem uma maquina de snacks ali.."
 		}
 	},
 	"corredor direito 1-1": {
@@ -473,7 +487,6 @@
 		"opcoes": {
 			"sala 111": "Sala 111",
 			"sala 112": "Sala 112",
-			"maquina de vendas 1-1": "comprar algo",
 			"andar 1-1": "voltar"
 		}
 	},
@@ -484,7 +497,6 @@
 		"opcoes": {
 			"sala 211": "Sala 211",
 			"sala 212": "Sala 212",
-			"maquina de vendas 1-2": "comprar algo",
 			"andar 1-2": "voltar"
 		}
 	},
@@ -495,7 +507,6 @@
 		"opcoes": {
 			"sala 311": "Sala 311",
 			"sala 312": "Sala 312",
-			"maquina de vendas 1-3": "comprar algo",
 			"andar 1-3": "voltar"
 		}
 	},
@@ -847,8 +858,8 @@
 			"sala jose ermirio de moraes": "Sala José Ermírio de Moraes Filho",
 			"sala olavo setubal": "Sala Olavo Setubal",
 			"sala jorge paulo lemann": "Sala Jorge Paulo Lemann",
-			"maquina de vendas 0-1": "Máquina de vendas",
-			"estudo individual": "Área de estudo individual"
+			"estudo individual": "Área de estudo individual",
+			"comprar algo" : "Tem uma maquina de snacks ali.."
 		}
 	},
 	"andar 0-2": {
@@ -876,10 +887,10 @@
 			"sala mario haberfeld": "Sala Mario Haberfeld",
 			"sala 201": "Sala 201",
 			"sala 202": "Sala 202",
-			"maquina de vendas 0-2": "Máquina de vendas",
 			"balcao de impressao": "Balcão de Impressão",
 			"estudo grupal 0-2-1": "Sala de Estudo em grupo 01",
-			"armarios 0-2": "Armários"
+			"armarios 0-2": "Armários",
+			"comprar algo" : "Tem uma maquina de snacks ali.."
 		}
 	},
 	"andar 0-3": {
@@ -899,7 +910,6 @@
 			"sala victor civita": "Sala Victor Civita",
 			"sala max feffer": "Sala Max Feffer",
 			"sala roberto cochrane simonsen": "Sala Roberto Cochrane Simonsen",
-			"maquina de vendas 0-3": "Máquina de vendas",
 			"estudo grupal 0-3-1": "Sala de Estudo em grupo 01",
 			"estudo grupal 0-3-2": "Sala de Estudo em grupo 02",
 			"area de lazer 0-3": "Área de lazer",
@@ -907,7 +917,8 @@
 			"sala eudoro villela": "Sala Eudoro Villela",
 			"sala francisca": "Sala Francisca JPA Moraes",
 			"sala 308": "Sala 308",
-			"sala 302": "Sala 302"
+			"sala 302": "Sala 302",
+			"comprar algo" : "Tem uma maquina de snacks ali.."
 		}
 	},
 	"andar 0-4": {
@@ -933,10 +944,10 @@
             "sala 408": "Sala 408",
             "sala 409": "Sala 409",
             "sala 410": "Sala 410",
-            "maquina de vendas 0-4": "Máquina de vendas",
             "area de lazer 0-4": "Área de lazer",
             "canto dos projetos": "Ver os projetos da Engenharia",
-            "armarios 0-4": "Armários"
+            "armarios 0-4": "Armários",
+            "comprar algo" : "Tem uma maquina de snacks ali.."
         }
     },
     "sala do Smash": {
@@ -962,7 +973,8 @@
             "multi insper": "Multi Insper",
             "restaurante": "Comprar alguma coisa",
             "area de lazer 0-5": "Área de lazer",
-            "quadra": "Quadra externa"
+            "quadra": "Quadra externa",
+            "comprar algo" : "Tem uma maquina de snacks ali.."
         }
     },
     "atendimento ao aluno": {
@@ -1315,42 +1327,6 @@
         "descrição": "Sala de reuniões",
         "opcoes": {
             "andar 0-3": "voltar"
-        }
-    },
-    "maquina de vendas 0-1": {
-    	"inimigos": ["Ayres", "Elemental"],
-        "título": "Máquina de Vendas",
-        "descrição": "É uma máquina com itens úteis",
-        "opcoes": {
-            "comprar": "Comprar alguma coisa",
-            "andar 0-1": "voltar"
-        }
-    },
-    "maquina de vendas 0-2": {
-    	"inimigos": ["Ayres", "Elemental"],
-        "título": "Máquina de Vendas",
-        "descrição": "É uma máquina com itens úteis",
-        "opcoes": {
-            "comprar": "Comprar alguma coisa",
-            "andar 0-2": "voltar"
-        }
-    },
-    "maquina de vendas 0-3": {
-    	"inimigos": ["Ayres", "Elemental"],
-        "título": "Máquina de Vendas",
-        "descrição": "É uma máquina com itens úteis",
-        "opcoes": {
-            "comprar": "Comprar alguma coisa",
-            "andar 0-3": "voltar"
-        }
-    },
-    "maquina de vendas 0-4": {
-    	"inimigos": ["Ayres", "Elemental"],
-        "título": "Máquina de Vendas",
-        "descrição": "É uma máquina com itens úteis",
-        "opcoes": {
-            "comprar": "Comprar alguma coisa",
-            "andar 0-4": "voltar"
         }
     },
     "lab multidisc": {
