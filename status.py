@@ -151,7 +151,7 @@ def personagem_protagonista():
     atualiza_status = personagem["Status"]
     
     atualiza_status["HP_Max"] += atributos1["HP_Max"]
-    atualiza_status["HP_Atual"] += atributos1["HP_Max"]
+    atualiza_status["HP_Atual"] += atributos1["HP_Max"] - 10
     atualiza_status["PP_Max"] += atributos1["PP_Max"]
     atualiza_status["PP_Atual"] += atributos1["PP_Max"]
     atualiza_status["F_ATK"] += atributos1["F_ATK"]

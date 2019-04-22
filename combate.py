@@ -89,3 +89,22 @@ def monstro_cenario(monstro):
             
         pprint(monstro_atual)
         return monstro_atual
+    
+def usar(personagem, item_escolhido):
+    
+    if item_escolhido == "Poção de Cura":
+        personagem["Inventario"]["Poção de Cura"] -= 1
+        cura = 5
+        personagem["Status"]["HP_Atual"] += cura
+        if personagem["Status"]["HP_Atual"] > personagem["Status"]["HP_Max"]:
+            personagem["Status"]["HP_Atual"] = personagem["Status"]["HP_Max"]
+        print()
+        print("Você se sente revitalizado... como se {}HP tivessem sido restaurados!".format(cura))
+        print("Sua vida neste momento é {}".format(personagem["Status"]["HP_Atual"]))
+        print()
+            
+    return personagem
+'''                                              
+    elif item_escolhido == "Coisa":
+        personagem["Inventario"]["Coisa"] -= 1
+'''

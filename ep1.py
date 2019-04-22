@@ -36,13 +36,14 @@ def main():
             cenarios_conhecidos.append(nome_cenario_atual)
             
         # Ocorrencia de monstro
+        em_batalha = False
         lista_monstro_atual = cenario_atual["inimigos"]
         n = random.randint(0,(len(lista_monstro_atual)-1))
         monstro = lista_monstro_atual[n]
         
-        chance_monstro = random.randint(0,1)
+        #chance_monstro = random.randint(0,1)
         #  Para testar batalha:
-        #chance_monstro = 0
+        chance_monstro = 0
             
         if chance_monstro == 0:
             em_batalha = True
@@ -221,12 +222,24 @@ def main():
                                 escolhendo_item = True
                                 while escolhendo_item:
                                     print()
+                                    print("voltar = Voltar para as escolhas de combate")
+                                    print()
                                     print("Dê o Nome do Item que deseja usar:")
                                     item_escolhido = input()
                                     if item_escolhido in personagem["Inventario"]:
-                                        #combate.usar()
+                                        personagem = combate.usar(personagem, item_escolhido)
                                         escolhendo_item = False
                                         menu_atk = False
+                                    elif item_escolhido == "voltar":
+                                        print()
+                                        print("Take your time:")
+                                        print("[A]tacar / [P]sy / [D]efender / [I]tem / [G]un / [S]tatus")
+                    
+                                        acao = input()
+                                        acao = acao.upper()
+                                        print()
+                                        escolhendo_item = False
+                                        menu_atk = True
                                     else:
                                         print("Você não possui esse item")
                                         print()
@@ -259,27 +272,27 @@ def main():
                     print("Não seja covarde!")
                     escolha_bat = input("[L]utar / [F]ugir ")
                 
-            #  Se escolher um local e não estiver em batalha
-            else:
-                print()
-                print("====================")
-                escolha = input("O que deseja fazer? ")
+        #  Se escolher um local e não estiver em batalha
+        else:
+            print()
+            print("====================")
+            escolha = input("O que deseja fazer? ")
             
-                #  Se a escolha estiver dentre as disponíveis e for um local == ir para lá
-                if escolha in opcoes:
-                    if escolha == "comprar algo":
-                        personagem = carregar_cenarios.compra(personagem, opcoes)
-                    else:
-                        nome_cenario_atual = escolha
-                        print()
-                        print("====================")
-            
-                #  Se a escolha não estiver dentre as disponíveis == perguntar novamente
+            #  Se a escolha estiver dentre as disponíveis e for um local == ir para lá
+            if escolha in opcoes:
+                if escolha == "comprar algo":
+                    personagem = carregar_cenarios.compra(personagem, opcoes)
                 else:
-                    print("<suspiro> Eu preciso te explicar tudo? O que você escolheu não é uma opção válida, atenha-se às opções apresentadas! Ou o quê, você acha que consegue atravessar paredes?")
+                    nome_cenario_atual = escolha
                     print()
                     print("====================")
-                    continue
+            
+            #  Se a escolha não estiver dentre as disponíveis == perguntar novamente
+            else:
+                print("<suspiro> Eu preciso te explicar tudo? O que você escolheu não é uma opção válida, atenha-se às opções apresentadas! Ou o quê, você acha que consegue atravessar paredes?")
+                print()
+                print("====================")
+                continue
 
     print("Você morreu!")
 
