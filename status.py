@@ -68,7 +68,8 @@ def escolha_classe():
                 print("Escolha inválida")
         elif escolha1.upper() == "S":
             print()
-            print("O Mago tem...")
+            pprint(classes_disponiveis)
+            print()
         else:
             print("Escolha inválida")
 
@@ -118,7 +119,8 @@ def escolha_background():
                 print("Escolha inválida")
         elif escolha1.upper() == "S":
             print()
-            print("O Aristocrata tem...")
+            pprint(backgrounds_disponiveis)
+            print()
         else:
             print("Escolha inválida")
             

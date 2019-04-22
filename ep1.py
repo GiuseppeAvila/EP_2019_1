@@ -13,6 +13,7 @@ import status
 import carregar_cenarios
 import random
 import combate
+import json
 #import supreme_weapons as sw
 
 def main():
@@ -24,6 +25,7 @@ def main():
     personagem = status.personagem_protagonista()
     
     #  Funcionando o jogo
+    venceu_jogo = False
     game_over = False
     while not game_over:
         #  Carrega o dicionario do cenario atual
@@ -40,12 +42,27 @@ def main():
         n = random.randint(0,(len(lista_monstro_atual)-1))
         monstro = lista_monstro_atual[n]
         
-        #chance_monstro = random.randint(0,1)
+        chance_monstro = random.randint(0,15)
         #  Para testar batalha:
-        chance_monstro = 0
+        #chance_monstro = 0
             
         if chance_monstro == 0:
             em_batalha = True
+            if monstro == "Mega Ayres":
+                combate.final_boss()
+            if monstro == "Alan-Tron 3000":
+                print()
+                print("Você vê o Alan olhando pela janela da sala")
+                print()
+                print("Há algo errado...")
+                print("Cabos e circuitos elétricos cobrem o corpo dele")
+                print()
+                print("Ele se vira pra você e diz:")
+                print("I NEED TO KILL SARAH CONNOR")
+                print()
+                print("Ele foi possuído por um elemental!")
+                print()
+                    
         else:
             em_batalha = False
         
@@ -95,7 +112,10 @@ def main():
                 if n_morreu == False:
                     game_over = True
                     break
-                
+                if monstro == "Mega Ayres" and (not monstro_vivo):
+                   game_over = True
+                   venceu_jogo = True
+                   break
         #  Se escolher um local e não estiver em batalha
         else:
             print()
@@ -106,6 +126,20 @@ def main():
             if escolha in opcoes:
                 if escolha == "comprar algo":
                     personagem = carregar_cenarios.compra(personagem, opcoes)
+                elif escolha == "aluno":
+                    print()
+                    with open("dialogos_genericos.json", "r", encoding="utf8") as conversa:
+                        falas = json.load(conversa)
+                    num_falas = falas.values()
+                    num_falas = list(num_falas)
+                    lista_falas = num_falas[0]
+                    
+                    n = random.randint(0, len(lista_falas)-1)
+                    print(lista_falas[n])
+                    print()
+                    print("--------------------")
+                    print()
+                    
                 else:
                     nome_cenario_atual = escolha
                     print()
@@ -118,7 +152,19 @@ def main():
                 print("====================")
                 continue
 
-    print("Você morreu!")
+    if venceu_jogo:
+        print("Parabéns você venceu, o seu professor evaporou no éter")
+        print("Você não precisa mais entregar o EP!")
+        print()
+        print("Você foi preso por atomizar o seu professor!")
+        print()
+        print("PARABÉNS!!!")
+        print()
+        print("OBS: se você tivesse feito o EP em vez de embarcar em uma Odisséia....")
+        print()
+        print("----------------------------------THE END----------------------------------")
+    else:
+        print("Você morreu!")
 
 #  Programa principal.
 if __name__ == "__main__":

@@ -438,3 +438,35 @@ def monstrengo(monstro_atual,personagem):
                 
     return n_morreu  
 
+def final_boss():
+    print("Você tenta se explicar e pedir uma extensão para a entrega do trabalho")
+    print("...")
+    print("O professor está te encarando...")
+    print("....profundamente....")
+    print()
+    escolha_decisiva = input("[P]rofessor? / [S]air correndo").upper()
+    x = True
+    while x:
+        if escolha_decisiva == "P":
+            print()
+            print("De repente o professor se transforma, revelando sua verdadeira forma!")
+            print()
+            print("-----===== F4B10 AYR35 =====-----")
+            print()
+            print("        Embodiment of Chaos       ")
+            print()
+            print("NO MERCY FOR THE WEAK!!!")
+            x = False
+        elif escolha_decisiva == "S":
+            print()
+            print("Você tenta fugir...")
+            print("Que nem um covarde")
+            print()
+            print("Mas ao olhar pra tràs você vê que a porta NUNCA EXISTIU WHAAAAATTTTT PLOT TTWIST OMG!!!!11!!!1!")
+            print()
+            escolha_decisiva = "P"
+        else:
+            print()
+            print("Você acha que fazer uma escolha errada vai te salvar agora?")
+            print()
+            escolha_decisiva = "P"
