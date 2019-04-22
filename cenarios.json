@@ -995,7 +995,7 @@
         "opcoes": {
             "andar 0-4": "sair",
             "sala 405": "Entrar na sala 405",
-            "Smash": "Enfrentar veteranos por dinheiro"
+			"aluno" : "que tal bater um papo?"
         }
     },
     "andar 0-5": {
@@ -1423,7 +1423,7 @@
         }
     },
     "lab fis inst": {
-        "inimigos": ["Veterano Selvagem", "Elemental", "F. H."],
+        "inimigos": ["Alan-Tron 3000"],
         "título": "Laboratório de Física e Instrumentação",
         "descrição": "É uma sala com mesas e equipamentos.",
         "opcoes": {

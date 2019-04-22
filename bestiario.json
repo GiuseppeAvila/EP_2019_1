@@ -23,7 +23,7 @@
      "Premios" : {"1337 h4x0r" : 1, "Dinheiro" : 8008135}
      },
  "Veterano Selvagem" : 
-     {"Descrição" : "",
+     {"Descrição" : "A Tequilada deixou ele louco!",
      "Tipo" : ["Veterano", "Humano"],
      "HP_Max" : 10,
      "PP_Max" : 5,
@@ -35,7 +35,7 @@
      "Premios" : {"Poção de Cura" : 1, "Dinheiro" : 50}
      },
  "Alan-Tron 3000" :
-      {"Descrição" : "",
+      {"Descrição" : "GET TO THE CHOPPA!",
       "Tipo" : ["Ciborgue", "Boss"],
       "HP_Max" : 1000,
      "PP_Max" : 300,
