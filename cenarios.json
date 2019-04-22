@@ -989,7 +989,7 @@
         }
     },
     "sala do Smash": {
-    	"inimigos": ["Veterano Selvagem", "Elemental", "F. H."],
+    	"inimigos": ["Mascote do Insper"],
         "título": "Coliseu dos Desocupados",
         "descrição": "Uma sala com uma grande variedade de jogos de tabuleiro e videogames, com veteranos de todos os cursos e semestres competindo",
         "opcoes": {

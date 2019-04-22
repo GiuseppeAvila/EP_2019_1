@@ -1,5 +1,5 @@
 {"Elemental" :
-    {"Descrição" : "",
+    {"Descrição" : "Meu caro Whatson",
     "Tipo" : ["Elemental"],
      "HP_Max" : 30,
      "PP_Max" : 30,
@@ -117,5 +117,17 @@
      "P_DEF" : 10,
      "AGI" : 10,
      "Premios" : {"Poção de Cura" : 1, "Dinheiro" : 10}
+     },
+ "Mascote do Insper" :
+      {"Descrição" : "Peraí, isso é um F..???",
+      "Tipo" : ["Mascote", "F...?"],
+      "HP_Max" : 50,
+     "PP_Max" : 40,
+     "F_ATK" : 50,
+     "P_ATK" : 10,
+     "F_DEF" : 25,
+     "P_DEF" : 10,
+     "AGI" : 10,
+     "Premios" : {"Poção de Cura" : 1, "Roupa de Mascote" : 1}
      }
 }
