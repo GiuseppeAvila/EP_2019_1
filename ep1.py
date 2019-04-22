@@ -215,38 +215,7 @@ def main():
                                 menu_atk = False
                             
                             elif acao == "I":
-                                print("Itens em seu inventario, escolha um deles!")
-                                for f,g in personagem["Inventario"].items():
-                                    print()
-                                    print(f,"=",g)
-                                escolhendo_item = True
-                                while escolhendo_item:
-                                    print()
-                                    print("voltar = Voltar para as escolhas de combate")
-                                    print()
-                                    print("Dê o Nome do Item que deseja usar:")
-                                    item_escolhido = input()
-                                    if item_escolhido in personagem["Inventario"]:
-                                        personagem = combate.usar(personagem, item_escolhido)
-                                        escolhendo_item = False
-                                        menu_atk = False
-                                    elif item_escolhido == "voltar":
-                                        print()
-                                        print("Take your time:")
-                                        print("[A]tacar / [P]sy / [D]efender / [I]tem / [G]un / [S]tatus")
-                    
-                                        acao = input()
-                                        acao = acao.upper()
-                                        print()
-                                        escolhendo_item = False
-                                        menu_atk = True
-                                    else:
-                                        print("Você não possui esse item")
-                                        print()
-                                        print("Itens em seu inventario, escolha um deles!")
-                                        for f,g in personagem["Inventario"].items():
-                                            print()
-                                            print(f,"=",g)
+                                menu_atk = combate.I(personagem)
                                 
                             elif acao == "G":
                                 print("Essa ação ainda não foi implementada - volte a escolher")
