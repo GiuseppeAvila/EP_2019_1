@@ -23,7 +23,7 @@ def cria_personagem_inicial():
     return classe_jogador,background_jogador,nome
 
 def escolha_classe():
-    with open("classes.json") as classes:
+    with open("classes.json", "r", encoding="utf8") as classes:
         classes_disponiveis = json.load(classes)
     a = str(classes_disponiveis.keys())
     a = a[11:]
@@ -72,7 +72,7 @@ def escolha_classe():
             print("Escolha inválida")
 
 def escolha_background():
-    with open("backgrounds.json") as backgrounds:
+    with open("backgrounds.json", "r", encoding="utf8") as backgrounds:
         backgrounds_disponiveis = json.load(backgrounds)
     c = str(backgrounds_disponiveis.keys())
     c = c[11:]
@@ -143,7 +143,7 @@ def personagem_protagonista():
     personagem["Nome"] = nome
     
     # Adicionando atributos de classe:
-    with open("classes.json", encoding="utf8") as classes:
+    with open("classes.json", "r", encoding="utf8") as classes:
         classe_disponiveis = json.load(classes)
     
     atributos1 = classe_disponiveis[classe_jogador]
