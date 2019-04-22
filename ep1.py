@@ -89,9 +89,12 @@ def main():
                 n_morreu = combate.monstrengo(monstro_atual,personagem)
                 print("====================")  
                 print()
-                
+                if personagem["Status"]["HP_Atual"] <= 0:
+                    game_over = True
+                    break
                 if n_morreu == False:
                     game_over = True
+                    break
                 
         #  Se escolher um local e não estiver em batalha
         else:
