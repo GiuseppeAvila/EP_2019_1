@@ -57,7 +57,7 @@ def main():
         
         print()
         print("=======================")
-       
+        
         #  Opções aparecer na tela 
         opcoes = cenario_atual['opcoes']
         if not em_batalha:
@@ -83,10 +83,11 @@ def main():
             #  Enquanto o monstro não morrer
             while monstro_vivo:
                 
+                # Escolha de batalha
                 print("[L]utar / [F]ugir ")
                 escolha_bat = input()
                 escolha_bat = escolha_bat.upper()
-    
+                
                 #  Personagem Lutando!
                 if escolha_bat == "L":
                     
@@ -105,44 +106,9 @@ def main():
                         
                         if acao in acoes_possiveis:
                             if acao == "A":
-                    
-                                F_ATK_personagem = personagem["Status"]["F_ATK"]
-                                F_DEF_monstro = monstro_atual["F_DEF"]
-                                dano_recebido = F_ATK_personagem - F_DEF_monstro*0.3
-                                if dano_recebido < 0:
-                                    dano_recebido = 0
-                                monstro_atual["HP_atual"] -= dano_recebido
-                                if monstro_atual["HP_atual"] < 0:
-                                    monstro_atual["HP_atual"] = 0
-                                    print("Monstrengo eliminado!")
-                                    
-                                    premios = monstro_atual["Premios"]
-                                    
-                                    for chave,valor in premios.items():
-        
-                                        if chave in personagem["Inventario"]:
-                                            personagem["Inventario"][chave] += valor
-        
-                                        elif chave not in personagem["Inventario"]:
-                                            personagem["Inventario"][chave] = valor
-                                            
-                                    print("Você encontrou em sua carcaça.. {}".format(premios))
-                                    print()
-                                    monstro_vivo = False
-                                
-                                print("Você deu incríveis {} de dano!".format(dano_recebido))
-                                if monstro_atual["HP_atual"] > 0:
-                                    print("A vida do monstro atualmente é: {}".format(monstro_atual["HP_atual"]))
-                                
-                                if not monstro_vivo:
-                                    print()
-                                    print("=======================")
-                                    for i,j in opcoes.items():
-                                        print()
-                                        print(i,"=",j)
-                    
+                                monstro_vivo = combate.A(personagem,monstro_atual,opcoes)
                                 menu_atk = False
-                            
+
                             elif acao == "S":
                                 pprint(personagem)
                                 print()
@@ -174,10 +140,10 @@ def main():
                                         premios = monstro_atual["Premios"]
                                     
                                         for chave,valor in premios.items():
-        
+                
                                             if chave in personagem["Inventario"]:
                                                 personagem["Inventario"][chave] += valor
-        
+                
                                             elif chave not in personagem["Inventario"]:
                                                 personagem["Inventario"][chave] = valor
                                             
@@ -240,6 +206,7 @@ def main():
                 else:
                     print("Não seja covarde!")
                     escolha_bat = input("[L]utar / [F]ugir ")
+                    monstro_vivo = True
                 
         #  Se escolher um local e não estiver em batalha
         else:
