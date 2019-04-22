@@ -7,7 +7,7 @@ def cria_personagem_inicial():
     with open("Dialogo inicial narrador.txt","r",encoding = "utf8") as dialogo:
         texto = dialogo.read()
     print (texto)
-    nome = input("...seu Nome é?  ")
+    nome = input("...seu Nome é?  ").capitalize()
     print()
     print("----------------")
     print()

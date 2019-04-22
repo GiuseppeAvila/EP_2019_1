@@ -197,7 +197,63 @@ def A(personagem,monstro_atual,opcoes):
         for i,j in opcoes.items():
             print()
             print(i,"=",j)
+        print()
             
     return monstro_vivo 
+
+def P(personagem,monstro_atual,opcoes):
     
-                   
+    P_ATK_personagem = personagem["Status"]["P_ATK"]
+        
+    P_DEF_monstro = monstro_atual["P_DEF"]
+        
+    dano_recebido = P_ATK_personagem - P_DEF_monstro*0.3
+        
+    if dano_recebido < 0:
+        dano_recebido = 0
+            
+    personagem["Status"]["PP_Atual"] -= 5
+        
+    if personagem["Status"]["PP_Atual"] < 0:
+        personagem["Status"]["PP_Atual"] = 0
+            
+    monstro_atual["HP_atual"] -= dano_recebido
+        
+    if monstro_atual["HP_atual"] <= 0:
+        monstro_atual["HP_atual"] = 0
+        
+        monstro_vivo = False
+            
+        print("Monstrengo eliminado!")
+                                    
+        premios = monstro_atual["Premios"]
+            
+        print("Você encontrou em sua carcaça.. {}".format(premios))
+        print()
+                                    
+        for chave,valor in premios.items():
+                
+            if chave in personagem["Inventario"]:
+                personagem["Inventario"][chave] += valor
+                
+            elif chave not in personagem["Inventario"]:
+                personagem["Inventario"][chave] = valor
+                
+    elif monstro_atual["HP_atual"] > 0:
+        monstro_vivo = True
+                                            
+    print("Você deu incríveis {} de dano!".format(dano_recebido))
+            
+    if monstro_atual["HP_atual"] > 0:
+        print("A vida do monstro atualmente é: {}".format(monstro_atual["HP_atual"]))
+                                
+    if not monstro_vivo:
+        print()
+        print("=======================")
+        for i,j in opcoes.items():
+            print()
+            print(i,"=",j)
+        print()
+                    
+    return monstro_vivo
+                       

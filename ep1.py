@@ -123,45 +123,7 @@ def main():
                             elif acao == "P":
                                 
                                 if personagem["Status"]["PP_Atual"] >= 5:
-                                    
-                                    P_ATK_personagem = personagem["Status"]["P_ATK"]
-                                    P_DEF_monstro = monstro_atual["P_DEF"]
-                                    dano_recebido = P_ATK_personagem - P_DEF_monstro*0.3
-                                    if dano_recebido < 0:
-                                        dano_recebido = 0
-                                    personagem["Status"]["PP_Atual"] -= 5
-                                    if personagem["Status"]["PP_Atual"] < 0:
-                                        personagem["Status"]["PP_Atual"] = 0
-                                    monstro_atual["HP_atual"] -= dano_recebido
-                                    if monstro_atual["HP_atual"] < 0:
-                                        monstro_atual["HP_atual"] = 0
-                                        print("Monstrengo eliminado!")
-                                    
-                                        premios = monstro_atual["Premios"]
-                                    
-                                        for chave,valor in premios.items():
-                
-                                            if chave in personagem["Inventario"]:
-                                                personagem["Inventario"][chave] += valor
-                
-                                            elif chave not in personagem["Inventario"]:
-                                                personagem["Inventario"][chave] = valor
-                                            
-                                        print("Você encontrou em sua carcaça.. {}".format(premios))
-                                        print()
-                                        monstro_vivo = False
-                                
-                                    print("Você deu incríveis {} de dano!".format(dano_recebido))
-                                    if monstro_atual["HP_atual"] > 0:
-                                        print("A vida do monstro atualmente é: {}".format(monstro_atual["HP_atual"]))
-                                
-                                    if not monstro_vivo:
-                                        print()
-                                        print("=======================")
-                                        for i,j in opcoes.items():
-                                            print()
-                                            print(i,"=",j)
-                    
+                                    monstro_vivo = combate.P(personagem,monstro_atual,opcoes)
                                     menu_atk = False
                                 
                                 else:
@@ -194,7 +156,21 @@ def main():
                                 print()
                                 menu_atk = True
                         else:
-                            print("Que ataque é esse?! Magic punch?")
+                            print("Você ataca com {}! É super efetivo!".format(acao))
+                            print()
+                            print()
+                            print("Com isso você causa fenomenais 0 de dano, já que {} não é uma opção válida".format(acao))
+                            print("Para de bancar o espertinho e aprenda a jogar")
+                            print()
+                            print("Escolha uma opção abaixo.. e lembre-se, tome o tempo que precisar!")
+                            print()
+                            print("Take your time:")
+                            print("[A]tacar / [P]sy / [D]efender / [I]tem / [G]un / [S]tatus")
+                    
+                            acao = input()
+                            acao = acao.upper()
+                            print()
+                            menu_atk = True
                         
                 #  Fuga da personagem quando em batalha
                 elif escolha_bat == "F":
