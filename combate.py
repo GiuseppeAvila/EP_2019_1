@@ -390,6 +390,9 @@ def monstrengo(monstro_atual,personagem):
     
         if personagem["Status"]["HP_Atual"] > 0:
             print("A sua vida atualmente é: {}, cuidado...".format(personagem["Status"]["HP_Atual"]))
+            
+        if personagem["HP_atual"] <= 0:
+            n_morreu = False
                 
     # ESCOLHA P
     elif acao == "P":
@@ -422,6 +425,9 @@ def monstrengo(monstro_atual,personagem):
             if personagem["Status"]["HP_Atual"] > 0:
                 print("A sua vida atualmente é: {}, cuidado...".format(personagem["Status"]["HP_Atual"]))
                 print()
+            
+            if personagem["HP_atual"] <= 0:
+                n_morreu = False
                                 
         else:
             print("O monstro não conseguiu atacar... que sem graça!")
