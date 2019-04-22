@@ -11,7 +11,8 @@ def fugir(personagem, opcoes):
     print("Só corre!")
     
     AGI = personagem["Status"]["AGI"]
-    numero = random.randint(0, 100)
+    #numero = random.randint(0, 100)
+    numero = 1
     
     if numero >= (20 - AGI):
         print("Toma essa monstrengo! Você escapou!")

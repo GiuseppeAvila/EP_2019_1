@@ -79,6 +79,7 @@ def main():
             monstro_vivo = True
 
             escolha = ""
+            i = 0
             
             #  Enquanto o monstro não morrer
             while monstro_vivo:
@@ -174,10 +175,13 @@ def main():
                         
                 #  Fuga da personagem quando em batalha
                 elif escolha_bat == "F":
-                    i += 1
-                    monstro_vivo = combate.fugir(personagem, opcoes)
-                    if i == 1:
+                    if i > 0:
                         print("Você já tentou fugir e não deu, agora se vira, acaba com ele")
+                        continue
+                    else:
+                        monstro_vivo = combate.fugir(personagem, opcoes)
+                        i+=1
+
                         
                         
                 elif monstro_atual["HP_atual"] <= 0:
