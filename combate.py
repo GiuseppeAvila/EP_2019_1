@@ -3,6 +3,17 @@ import random
 import json
 from pprint import pprint
 
+def TP(cenarios_conhecidos):
+    local_desejado = input("Escolha um local que deseja derivar: ")
+    escolhendo = True
+    while escolhendo:
+        if local_desejado in cenarios_conhecidos:
+            return local_desejado
+            escolhendo = False
+        else:
+            print("Você não conhece esse local, não faço mágica, isso é matemática!")
+            local_desejado = input("Escolha um local que deseja derivar: ")
+
 def fugir(personagem, opcoes):
     print("Só corre!")
     
