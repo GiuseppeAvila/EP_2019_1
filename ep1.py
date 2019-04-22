@@ -198,14 +198,17 @@ def main():
                         
                 #  Fuga da personagem quando em batalha
                 elif escolha_bat == "F":
+                    i += 1
                     monstro_vivo = combate.fugir(personagem, opcoes)
+                    if i == 1:
+                        print("Você já tentou fugir e não deu, agora se vira, acaba com ele")
+                        
                         
                 elif monstro_atual["HP_atual"] <= 0:
                     monstro_vivo = False
                 
                 else:
                     print("Não seja covarde!")
-                    escolha_bat = input("[L]utar / [F]ugir ")
                     monstro_vivo = True
                 
         #  Se escolher um local e não estiver em batalha

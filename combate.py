@@ -51,7 +51,6 @@ def monstro_cenario(monstro):
                  
                  "AGI" : 0,
                  
-                 "Habilidades" : [],
                  "Premios" : {}
                  }
                 }
@@ -74,10 +73,6 @@ def monstro_cenario(monstro):
             
         monstro_atual[monstro]["AGI"] = bestas[monstro]["AGI"]
             
-        lista_hab_monstro = bestas[monstro]["Habilidades"]
-        for m in range(len(lista_hab_monstro)):
-            monstro_atual[monstro]["Habilidades"].append(lista_hab_monstro[m])
-            
         dicionario_premios_monstro = bestas[monstro]["Premios"]
         for chave,valor in dicionario_premios_monstro.items():
         
@@ -87,6 +82,9 @@ def monstro_cenario(monstro):
             elif chave not in monstro_atual[monstro]["Premios"]:
                 monstro_atual[monstro]["Premios"][chave] = valor
             
+        print()
+        print(bestas[monstro]["Descrição"])
+        print()
         pprint(monstro_atual)
         return monstro_atual
     
