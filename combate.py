@@ -70,7 +70,7 @@ def monstro_cenario(monstro):
         monstro_atual[monstro]["HP_atual"] = bestas[monstro]["HP_Max"]
             
         monstro_atual[monstro]["PP_Max"] = bestas[monstro]["PP_Max"]
-        monstro_atual[monstro]["PP_Atual"] = bestas[monstro]["HP_Max"]
+        monstro_atual[monstro]["PP_Atual"] = bestas[monstro]["PP_Max"]
             
         monstro_atual[monstro]["F_ATK"] = bestas[monstro]["F_ATK"]
         monstro_atual[monstro]["P_ATK"] = bestas[monstro]["P_ATK"]
