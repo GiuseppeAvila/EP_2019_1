@@ -92,7 +92,6 @@ def monstro_cenario(monstro):
         print()
         print(bestas[monstro]["Descrição"])
         print()
-        pprint(monstro_atual)
         return monstro_atual
     
 def usar(personagem, item_escolhido):
@@ -102,7 +101,7 @@ def usar(personagem, item_escolhido):
     if item_escolhido in itens_usaveis:
         if item_escolhido == "Poção de Cura":
             personagem["Inventario"]["Poção de Cura"] -= 1
-            cura = 5
+            cura = 2000
             personagem["Status"]["HP_Atual"] += cura
             if personagem["Status"]["HP_Atual"] > personagem["Status"]["HP_Max"]:
                 personagem["Status"]["HP_Atual"] = personagem["Status"]["HP_Max"]
@@ -117,10 +116,7 @@ def usar(personagem, item_escolhido):
         
     return personagem
     
-'''                                              
-    elif item_escolhido == "Coisa":
-        personagem["Inventario"]["Coisa"] -= 1
-'''
+
 def I(personagem):
     print("Itens em seu inventario, escolha um deles!")
     for f,g in personagem["Inventario"].items():
@@ -200,13 +196,7 @@ def A(personagem,monstro_atual,opcoes):
         print("A vida do monstro atualmente é: {}".format(monstro_atual["HP_atual"]))
         print()
                                 
-    if not monstro_vivo:
-        print()
-        print("=======================")
-        for i,j in opcoes.items():
-            print()
-            print(i,"=",j)
-        print()
+
             
     return monstro_vivo 
 
@@ -258,13 +248,7 @@ def P(personagem,monstro_atual,opcoes):
         print("A vida do monstro atualmente é: {}".format(monstro_atual["HP_atual"]))
         print()
                                 
-    if not monstro_vivo:
-        print()
-        print("=======================")
-        for i,j in opcoes.items():
-            print()
-            print(i,"=",j)
-        print()
+
                     
     return monstro_vivo
                      
@@ -474,7 +458,9 @@ def final_boss():
             print("Que nem um covarde")
             print()
             print("Mas ao olhar pra tràs você vê que a porta NUNCA EXISTIU WHAAAAATTTTT PLOT TTWIST OMG!!!!11!!!1!")
+            print("Voce foi pedir para o professor adiar o EP. Mas o professor é um monstro!! WOOOOOOOOOWW!!! Plot Twist!!")
             print()
+            print("Você sente a presença de M. Night Shyamalan por perto..")
             escolha_decisiva = "P"
         else:
             print()

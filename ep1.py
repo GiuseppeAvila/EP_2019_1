@@ -27,6 +27,7 @@ def main():
     #  Funcionando o jogo
     venceu_jogo = False
     game_over = False
+    defeated = []
     while not game_over:
         #  Carrega o dicionario do cenario atual
         cenario_atual = cenario[nome_cenario_atual]
@@ -42,9 +43,17 @@ def main():
         n = random.randint(0,(len(lista_monstro_atual)-1))
         monstro = lista_monstro_atual[n]
         
-        chance_monstro = random.randint(0,15)
-        #  Para testar batalha:
-        #chance_monstro = 0
+        with open("bestiario.json", "r", encoding="utf8") as bestas:
+            bestas = json.load(bestas)
+        if "Boss" in bestas[monstro]["Tipo"]:
+            if monstro not in defeated:
+                defeated.append(monstro)
+                chance_monstro = 0
+            else:
+                chance_monstro = 1
+                print("O local parece sereno e seguro")
+        else:
+            chance_monstro = random.randint(0,10)
             
         if chance_monstro == 0:
             em_batalha = True
@@ -58,7 +67,7 @@ def main():
                 print("Cabos e circuitos elétricos cobrem o corpo dele")
                 print()
                 print("Ele se vira pra você e diz:")
-                print("I NEED TO KILL SARAH CONNOR")
+                print("I HAVE TO KILL SARAH CONNOR")
                 print()
                 print("Ele foi possuído por um elemental!")
                 print()

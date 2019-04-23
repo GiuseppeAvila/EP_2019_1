@@ -37,9 +37,9 @@
 		}
 	},
 	"sala do professor": {
-		"inimigos": ["Fabio Ayres"],
-		"título": "O monstro do Python",
-		"descrição": "Voce foi pedir para o professor adiar o EP. Mas o professor é um monstro!! WOOOOOOOOOWW!!! Plot Twist!!",
+		"inimigos": ["Mega Ayres"],
+		"título": "Python center",
+		"descrição": "Quem dera poder usar Pygames ;P",
 		"opcoes": {"chorar": "Apenas chorar"}
 	},
 	"biblioteca": {
@@ -85,9 +85,6 @@
 		"título": "Flavoroso",
 		"descrição": "Você está no restaurante da esquina",
 		"opcoes": {
-			"comer": "Gastar R$19.9999999999999999... e recuperar X de HP!",
-			"beber agua": "Retornar sua adrenalina em X%! Apenas R$3!",
-			"daniel guzzo": "Conversar com Daniel Guzzo",
 			"rua em frente ao Insper": "sair do Flavoroso",
 			"aluno" : "que tal bater um papo?"
 		}

@@ -13,12 +13,12 @@
  "Mega Ayres" :
     {"Descrição" : "Embodiment of Chaos",
     "Tipo" : ["Professor", "Boss"],
-     "HP_Max" : 133700,
+     "HP_Max" : 1337,
      "PP_Max" : 500,
-     "F_ATK" : 250,
+     "F_ATK" : 180,
      "P_ATK" : 200,
-     "F_DEF" : 135,
-     "P_DEF" : 175,
+     "F_DEF" : 30,
+     "P_DEF" : 20,
      "AGI" : 8000,
      "Premios" : {"1337 h4x0r" : 1, "Dinheiro" : 8008135}
      },
@@ -37,12 +37,12 @@
  "Alan-Tron 3000" :
       {"Descrição" : "GET TO THE CHOPPA!",
       "Tipo" : ["Ciborgue", "Boss"],
-      "HP_Max" : 1000,
-     "PP_Max" : 300,
+      "HP_Max" : 500,
+     "PP_Max" : 150,
      "F_ATK" : 100,
-     "P_ATK" : 200,
+     "P_ATK" : 100,
      "F_DEF" : 100,
-     "P_DEF" : 150,
+     "P_DEF" : 100,
      "AGI" : 9,
      "Premios" : {"Poção de Cura" : 8, "Dinheiro" : 5}
      },

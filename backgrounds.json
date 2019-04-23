@@ -1,6 +1,6 @@
 {"Aristocrata" :
     {"LUCK" : 18,
-     "Inventario": {"Poção de Cura" : 1,"Dinheiro" : 100, "Chaveiro do DA": 1},
+     "Inventario": {"Poção de Cura" : 4,"Dinheiro" : 10, "Chaveiro do DA": 1},
      "Habilidades" : ["Ego Superinflado"]
      },
  "Esportista" : 
