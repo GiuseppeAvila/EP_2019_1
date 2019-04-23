@@ -1,28 +1,19 @@
 {"Esquiva" :
-    {"Descrição" : "Aumenta a agilidade em x",
-    "Efeito" : {"AGI": 10}},
+    {"Descrição" : "Uau! Você é ágil!"},
 "Proeza Psíquica" : 
-    {"Descrição" : "Aumenta o seu dano psíquico em x",
-    "Efeito" : {"P_ATK": 10}},
+    {"Descrição" : "Sua mente é superior"},
 "Proeza Física" : 
-    {"Descrição" : "Aumenta o seu dano físico em x",
-    "Efeito" : {"F_ATK": 10}},
+    {"Descrição" : "Mas que corpão!"},
 "Defesa Natural" : 
-    {"Descrição" : "Aumenta a sua defesa física em x",
-    "Efeito" : {"F_DEF": 10}},
+    {"Descrição" : "A natureza te protege"},
 "Ego Superinflado" : 
-    {"Descrição" : "A sua superioridade é impossível de esconder",
-    "Efeito" : "Opções diferentes em diálogo"},
+    {"Descrição" : "A sua superioridade é impossível de esconder"},
 "Buff Body" : 
-    {"Descrição" : "A sua camiseta mal consegue conter seus músculos",
-    "Efeito" : "Opções diferentes em diálogo"},
+    {"Descrição" : "A sua camiseta mal consegue conter seus músculos"},
 "Nerdice" : 
-    {"Descrição" : "Seus pensamentos são em quotes de animê",
-    "Efeito" : "Opções diferentes em diálogo"},
+    {"Descrição" : "Seus pensamentos são em quotes de animê"},
 "Rede de Contatos" : 
-    {"Descrição" : "Você conhece todos os dependentes do Insper",
-    "Efeito" : "Opções diferentes em diálogo"},
+    {"Descrição" : "Você conhece todos os dependentes do Insper"},
 "Sotaque Estrangeiro" : 
-    {"Descrição" : "O seu sotaque encanta qualquer um",
-    "Efeito" : "Opções diferentes em diálogo"},
+    {"Descrição" : "O seu sotaque encanta qualquer um"}
 }
