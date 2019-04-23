@@ -23,6 +23,15 @@ def main():
     carregar_cenarios.situacao()
     cenario, nome_cenario_atual = carregar_cenarios.carregar_cenarios()
     personagem = status.personagem_protagonista()
+    habilidade1 = personagem["Status"]["Habilidades"][0]
+    habilidade2 = personagem["Status"]["Habilidades"][1]
+    print("Suas habilidades são {0} e {1}".format(habilidade1, habilidade2))
+    print()
+    with open("habilidades.json","r", encoding="utf8") as habs:
+        habs = json.load(habs)
+    print(habilidade1 , " : " , habs[habilidade1]["Descrição"])
+    print(habilidade2 , " : " , habs[habilidade2]["Descrição"])
+    print()
     
     #  Funcionando o jogo
     venceu_jogo = False
